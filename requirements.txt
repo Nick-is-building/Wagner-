@@ -1,0 +1,4 @@
+# Die meisten Skripte brauchen nur Python 3.10+ ohne Zusatzpakete.
+numpy
+scikit-learn      # sbir_follow.py (Textabgleich)
+anthropic         # Batch-Läufe mit Haiku, Sonnet, Opus

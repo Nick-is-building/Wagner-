@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "deny": [
+      "Read(./.env)",
+      "Edit(./.env)",
+      "Bash(cat .env)",
+      "Bash(cat ./.env)",
+      "Bash(sudo *)",
+      "Bash(gcloud *)",
+      "Bash(git push --force *)",
+      "Bash(git push -f *)",
+      "Bash(git push --force-with-lease *)",
+      "Bash(git reset --hard *)",
+      "Bash(git config --global *)"
+    ],
+    "ask": [
+      "Bash(python3 scripts/bezahlt/*)",
+      "Bash(python scripts/bezahlt/*)",
+      "Bash(nohup python3 scripts/bezahlt/*)"
+    ],
+    "blockReadsOutsideWorkingDirectories": true
+  }
+}

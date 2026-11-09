@@ -1,0 +1,23 @@
+# Geheimnisse und lokale Umgebung
+.env
+.venv/
+.claude/settings.local.json
+# Rohdaten und Zwischenstände (per scripts/daten_laden.sh reproduzierbar)
+data/roh/*
+data/zwischen/*
+!data/roh/.gitkeep
+!data/zwischen/.gitkeep
+# große Ergebnisdateien und Logs bleiben lokal
+ergebnisse/*.jsonl
+ergebnisse/*.pkl
+ergebnisse/*.npy
+!ergebnisse/.gitkeep
+logs/*
+!logs/.gitkeep
+scratch/
+# Python und Editor
+__pycache__/
+*.pyc
+*.tmp
+*.bak
+*.swp
