@@ -4,6 +4,7 @@ Was Nick entschieden hat, neueste oben. Budgetfreigaben stehen hier, bevor ein b
 
 | Datum | Entscheidung | Folge |
 |---|---|---|
+| 2026-11-10 | A06 Haltepunkt Phase 3: weiter mit Phase 4 wie gebaut (Option 1); durchgekommene Ergebnis-Texte vor Sonnet nach H1–H3, Rechenanteil, erster Schritt sortieren; Antrags-Regel erst für Häppchen 2 prüfen; Fable-Freigabe A06e auf 12 $, davon mindestens 1,50 $ für die freie Suche (Vorrang), Tiefenprüfung: 2 messen, dann so viele wie in den Rest passen, höchstens 3 Websuchen je Kandidat; keine weiteren Rückfragen bis Phase 8 | `scripts/auswahl_v03.py`, `OFFENE_PUNKTE.md` |
 | 2026-11-10 | A06 erteilt: Kriterien K11–K14, Haiku v0.3, Häppchen 1 (poc, sme2, cep_fail, fwf_obst) mit Haiku, Sonnet, OpenAlex und Fable 5.2; Sitzungsbudget Claude Code für A06 10 $; ersetzt A05 ab Phase 3; Prüfset-Übernahme der 55 A05-Einträge | `auftraege/A06_haeppchen1.md` |
 | 2026-11-10 | A05 erteilt: Claude Code übernimmt auch die Rolle des Planungs-Chats (planen, bauen, auswerten, bewerten); Haltepunkte und Freigaben bleiben; Prüfset-Erweiterung ausdrücklich beauftragt | `auftraege/A05_luecken_schliessen.md`, `CLAUDE.md` (Haltepunkte, Sitzungsbudget 5 $) |
 | 2026-11-10 | A03-Nachtrag: RIV Code O nicht mehr ohne Prüfung weiter; offener Schritt = ja, dazu Rechenanteil mittel/hoch oder Hindernis ja/unklar | `scripts/weiter_regel.py` |
@@ -33,4 +34,4 @@ Ein bezahltes Skript startet nur, wenn seine Freigabe-ID hier steht.
 | 2026-11-10-A06b | Haiku v0.3 auf Häppchen 1, rund 2.738 Einträge (A06 Phase 4) | offen | 2,00 $ | 2026-11-10 | – |
 | 2026-11-10-A06c | Sonnet am Prüfset (A06 Phase 5) | offen | 2,00 $ | 2026-11-10 | – |
 | 2026-11-10-A06d | Sonnet auf die Auswahl aus Häppchen 1 (A06 Phase 5) | offen | 5,00 $ | 2026-11-10 | – |
-| 2026-11-10-A06e | Fable 5.2 (claude-fable-5-2): Tiefenprüfung obere 30 und freie Suche obere 100, inkl. Websuche (A06 Phase 7) | offen | 8,00 $ | 2026-11-10 | – |
+| 2026-11-10-A06e | Fable 5.2 (claude-fable-5-2): Tiefenprüfung obere 30 und freie Suche obere 100, inkl. Websuche (A06 Phase 7) | offen | 12,00 $ (erhöht von 8,00 $ am 2026-11-10) | 2026-11-10 | – |

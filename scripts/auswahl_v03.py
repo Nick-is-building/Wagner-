@@ -7,7 +7,8 @@ Ergebnis-Texte: weiter, wenn mindestens eines gilt
   "unklar" ohne irgendein Zitat in der Antwort zählt als "nein" (wie v0.2).
 Antrags-Texte: Rangliste nach (H1–H3 im Kernrisiko, Rechenanteil, erster Schritt).
 Labor, Reinraum, Zulassung als erster Schritt: nach hinten (nicht gelöscht).
-Rang für alle (Sortierung vor Sonnet): Schlüssel `rang` (größer = weiter oben).
+Rang für alle (Sortierung vor Sonnet): Schlüssel `rang` (größer = weiter oben); für Ergebnis-Texte dieselbe Rangfolge
+wie für Anträge (H1–H3, Rechenanteil, erster Schritt), Gleichstände nach Hindernis aus dem Ausgang, Kern offen usw.
 
 Aufruf: python3 scripts/auswahl_v03.py SATZ   (pruefset | zufall | haeppchen1)
 Schreibt ergebnisse/auswahl_v03_<satz>.tsv und ergebnisse/zitat_check_v03_<satz>.jsonl, druckt Zusammenfassung.
@@ -48,8 +49,11 @@ def bewerte(a, texttyp):
         g.append(f'grund {grund}')
     if w('offener_schritt') in POS:
         g.append(f"offener schritt {w('offener_schritt')}")
-    rang = basis + 8 * (q == 'ergebnis' and w('hindernis') == 'ja') + 4 * (w('kern_offen') == 'ja') \
-        + 3 * (w('offener_schritt') == 'ja') + 3 * (grund in GRUND_AUSSEN) - (100 if hinten else 0)
+    # Entscheidung Nick (A06, Haltepunkt Phase 3): gleiche Rangfolge wie Antrags-Texte (basis); die übrigen Signale
+    # brechen nur Gleichstände (je höchstens 0,9 Punkte zusammen, kleiner als jeder Schritt in basis)
+    neben = 0.4 * (q == 'ergebnis' and w('hindernis') == 'ja') + 0.2 * (w('kern_offen') == 'ja') \
+        + 0.15 * (w('offener_schritt') == 'ja') + 0.15 * (grund in GRUND_AUSSEN)
+    rang = basis + neben - (100 if hinten else 0)
     return {'weiter': bool(g), 'gruende': g or ['nichts'], 'rang': rang, 'hinten': hinten}
 
 

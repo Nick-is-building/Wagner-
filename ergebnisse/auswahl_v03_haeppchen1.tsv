@@ -1,0 +1,2739 @@
+id	pool	texttyp	klasse	weiter	antrag_pos	oberes_viertel	rang	hinten	zitat	gruende
+1ET310330507	cep_fail	ergebnis		True			-105.4	True	ok	hindernis ja/ergebnis; grund Technik
+1F52I/115/520	cep_fail	ergebnis		False			15.0	False	ok	nichts
+2A-1TP1/081	cep_fail	ergebnis		True			-106.0	True	ok	hindernis unklar/unklar
+2A-3TP1/080	cep_fail	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; grund Geld
+7D19004	cep_fail	ergebnis		False			4.0	False	ok	nichts
+AACBUAI	cep_fail	ergebnis		True			22.6	False	ok	hindernis ja/ergebnis; grund Technik
+ABCBU55-07	cep_fail	ergebnis		False			12.0	False	ok	nichts
+ABCBU60-08	cep_fail	ergebnis		True			-105.4	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt unklar
+ABCBU62-08	cep_fail	ergebnis		False			2.0	False	ok	nichts
+CA104330701	cep_fail	ergebnis		True			2.6	False	ok	hindernis ja/ergebnis; offener schritt unklar
+CE802110103	cep_fail	ergebnis		True			15.75	False	ok	hindernis ja/ergebnis; grund Organisation
+EE2.3.30.0051	cep_fail	ergebnis		False			2.0	False	ok	nichts
+EE2.4.31.0013	cep_fail	ergebnis		True			2.4	False	ok	hindernis ja/ergebnis
+EH22_010/0002552	cep_fail	ergebnis		False			5.0	False	ok	nichts
+EH22_010/0005725	cep_fail	ergebnis		False			11.0	False	ok	nichts
+EH22_010/0008114	cep_fail	ergebnis		False			5.0	False	ok	nichts
+EP0960986282	cep_fail	ergebnis		True			2.4	False	ok	hindernis ja/ergebnis; grund Technik
+FA-E2/051	cep_fail	ergebnis		True			4.0	False	ok	offener schritt unklar
+FA-E2/062	cep_fail	ergebnis		True			4.35	False	ok	grund Geld
+FA-E2/137	cep_fail	ergebnis		True			14.75	False	ok	hindernis ja/ergebnis; grund Geld
+FA-E3/060	cep_fail	ergebnis		True			-105.4	True	ok	hindernis ja/ergebnis
+FA-E3/072	cep_fail	ergebnis		True			2.15	False	ok	grund Organisation
+FA-EV/129	cep_fail	ergebnis		False			5.0	False	ok	nichts
+FB-C2/97	cep_fail	ergebnis		True			4.75	False	ok	hindernis ja/ergebnis; grund Organisation
+FC-M/42	cep_fail	ergebnis		True			2.75	False	ok	hindernis ja/ergebnis; grund Geld
+FC-M2/08	cep_fail	ergebnis		True			2.15	False	ok	grund Organisation
+FC-M2/09	cep_fail	ergebnis		True			-105.85	True	ok	grund Organisation
+FC-M2/22	cep_fail	ergebnis		True			-105.85	True	ok	grund Geld
+FC-M2/29	cep_fail	ergebnis		True			4.75	False	ok	hindernis ja/ergebnis; grund Organisation
+FD-K/079	cep_fail	ergebnis		True			2.75	False	ok	hindernis ja/ergebnis; grund Geld
+FF-P/060	cep_fail	ergebnis		True			4.75	False	ok	hindernis ja/ergebnis; grund Geld
+FF-P2/058	cep_fail	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; grund Geld
+FI-IM/058	cep_fail	ergebnis		True			4.75	False	ok	hindernis ja/ergebnis; grund Organisation
+FI-IM/068	cep_fail	ergebnis		True			4.15	False	ok	offener schritt ja
+FI-IM/104	cep_fail	ergebnis		True			4.75	False	ok	hindernis ja/ergebnis; grund Organisation
+FI-IM/114	cep_fail	ergebnis		True			-105.4	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt unklar
+FI-IM/198	cep_fail	ergebnis		True			2.35	False	ok	grund Organisation
+FI-IM/206	cep_fail	ergebnis		True			10.9	False	ok	hindernis ja/ergebnis; grund Organisation; offener schritt ja
+FI-IM2/036	cep_fail	ergebnis		False			4.0	False	ok	nichts
+FI-IM3/014	cep_fail	ergebnis		True			2.15	False	ok	grund Organisation; offener schritt unklar
+FI-IM3/165	cep_fail	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+FI-IM3/224	cep_fail	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; grund Geld
+FI-IM4/080	cep_fail	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; grund Geld
+FI-IM4/113	cep_fail	ergebnis		True			4.75	False	ok	hindernis ja/ergebnis; offener schritt ja
+FI-IM4/152	cep_fail	ergebnis		False			4.0	False	ok	nichts
+FI-IM4/194	cep_fail	ergebnis		False			10.0	False	ok	nichts
+FR-TI1/281	cep_fail	ergebnis		True			5.15	False	ok	hindernis unklar/unklar; grund Geld
+FR-TI1/605	cep_fail	ergebnis		False			2.0	False	ok	nichts
+FR-TI3/018	cep_fail	ergebnis		True			20.75	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+FR-TI4/193	cep_fail	ergebnis		True			4.35	False	ok	grund Personal; offener schritt unklar
+FR-TI4/296	cep_fail	ergebnis		True			-105.85	True	ok	offener schritt ja
+FV10260	cep_fail	ergebnis		True			-105.8	True	ok	hindernis unklar/unklar; offener schritt unklar
+FV10342	cep_fail	ergebnis		True			4.6	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt unklar
+FV10462	cep_fail	ergebnis		True			4.35	False	ok	grund Geld; offener schritt unklar
+FV10605	cep_fail	ergebnis		False			-106.0	True	ok	nichts
+FV20104	cep_fail	ergebnis		True			-106.0	True	ok	offener schritt unklar
+FV30059	cep_fail	ergebnis		True			-105.65	True	ok	grund Organisation
+FV30147	cep_fail	ergebnis		True			2.15	False	ok	grund Geld
+FV30300	cep_fail	ergebnis		True			-106.0	True	ok	hindernis unklar/unklar; offener schritt unklar
+FV30533	cep_fail	ergebnis		False			10.2	False	ok	nichts
+FV40047	cep_fail	ergebnis		False			10.0	False	ok	nichts
+FV40234	cep_fail	ergebnis		True			4.0	False	ok	hindernis unklar/ergebnis
+FV40252	cep_fail	ergebnis		True			-105.8	True	ok	offener schritt unklar
+FW01010098	cep_fail	ergebnis		True			12.0	False	ok	offener schritt unklar
+FW01010119	cep_fail	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; offener schritt ja
+FW01010335	cep_fail	ergebnis		False			-106.0	True	ok	nichts
+FW02020169	cep_fail	ergebnis		False			15.0	False	ok	nichts
+FW03010480	cep_fail	ergebnis		False			8.0	False	ok	nichts
+FW03010509	cep_fail	ergebnis		True			-105.6	True	ok	hindernis ja/ergebnis; offener schritt unklar
+FW03010626	cep_fail	ergebnis		True			2.6	False	ok	hindernis ja/ergebnis; offener schritt unklar
+FW03010656	cep_fail	ergebnis		True			15.6	False	ok	hindernis ja/ergebnis; grund Technik
+FW06010706	cep_fail	ergebnis		True			4.75	False	ok	hindernis ja/ergebnis; grund Organisation; offener schritt unklar
+FW12010532	cep_fail	ergebnis		True			4.35	False	ok	hindernis unklar/unklar; offener schritt ja
+FX02030030	cep_fail	ergebnis		False			15.0	False	ok	nichts
+FX03030104	cep_fail	ergebnis		True			2.6	False	ok	hindernis ja/ergebnis
+FX03030196	cep_fail	ergebnis		True			-95.4	True	ok	hindernis ja/ergebnis; grund Technik
+FX04030005_3025	cep_fail	ergebnis		False			2.0	False	ok	nichts
+FX04030018_3212	cep_fail	ergebnis		False			-105.8	True	ok	nichts
+FX05030016_7789	cep_fail	ergebnis		False			2.0	False	ok	nichts
+FX05030115_7890	cep_fail	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; offener schritt ja
+FX0503185_7961	cep_fail	ergebnis		True			2.15	False	ok	grund Organisation
+GA101/00/D009	cep_fail	ergebnis		True			15.75	False	ok	hindernis ja/ergebnis; grund Personal
+GA101/02/0175	cep_fail	ergebnis		False			10.0	False	ok	nichts
+GA101/98/0336	cep_fail	ergebnis		False			15.0	False	ok	nichts
+GA101/98/P271	cep_fail	ergebnis		False			15.0	False	ok	nichts
+GA101/99/D077	cep_fail	ergebnis		True			15.15	False	ok	grund Personal
+GA102/00/D006	cep_fail	ergebnis		False			12.0	False	ok	nichts
+GA102/00/P083	cep_fail	ergebnis		True			15.15	False	ok	grund Personal; offener schritt unklar
+GA102/09/1986	cep_fail	ergebnis		True			18.6	False	ok	hindernis ja/ergebnis
+GA102/98/0745	cep_fail	ergebnis		True			-95.4	True	ok	hindernis ja/ergebnis
+GA102/98/P059	cep_fail	ergebnis		True			15.4	False	ok	hindernis ja/ergebnis; offener schritt unklar
+GA102/99/0600	cep_fail	ergebnis		True			12.2	False	ok	offener schritt unklar
+GA102/99/D033	cep_fail	ergebnis		True			15.15	False	ok	grund Personal; offener schritt unklar
+GA103/97/P106	cep_fail	ergebnis		True			15.15	False	ok	grund Personal
+GA103/99/D045	cep_fail	ergebnis		True			2.2	False	ok	hindernis unklar/unklar; offener schritt unklar
+GA103/99/D076	cep_fail	ergebnis		True			15.75	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+GA104/07/1637	cep_fail	ergebnis		True			-105.4	True	ok	hindernis ja/ergebnis
+GA104/97/P025	cep_fail	ergebnis		False			-106.0	True	ok	nichts
+GA105/01/0207	cep_fail	ergebnis		True			2.6	False	ok	hindernis ja/ergebnis; offener schritt unklar
+GA105/03/1385	cep_fail	ergebnis		False			12.0	False	ok	nichts
+GA105/05/0994	cep_fail	ergebnis		False			2.0	False	ok	nichts
+GA105/07/1031	cep_fail	ergebnis		True			-105.85	True	ok	hindernis unklar/unklar; offener schritt ja
+GA105/08/1072	cep_fail	ergebnis		True			12.0	False	ok	hindernis unklar/unklar
+GA105/98/P028	cep_fail	ergebnis		True			8.15	False	ok	grund Personal
+GA106/03/1590	cep_fail	ergebnis		False			2.0	False	ok	nichts
+GA106/04/1458	cep_fail	ergebnis		True			-105.6	True	ok	hindernis ja/ergebnis; offener schritt unklar
+GA106/04/1558	cep_fail	ergebnis		True			-105.6	True	ok	hindernis ja/ergebnis; offener schritt unklar
+GA106/08/1241	cep_fail	ergebnis		False			-106.0	True	ok	nichts
+GA106/08/1580	cep_fail	ergebnis		False			-100.0	True	ok	nichts
+GA106/09/0712	cep_fail	ergebnis		True			-95.4	True	ok	hindernis ja/ergebnis; grund Technik
+GA106/09/0814	cep_fail	ergebnis		True			-105.4	True	ok	hindernis ja/ergebnis; grund Technik
+GA106/98/P090	cep_fail	ergebnis		False			-100.0	True	ok	nichts
+GA13-02476S	cep_fail	ergebnis		True			-100.0	True	ok	offener schritt unklar
+GA13-09967S	cep_fail	ergebnis		True			-106.0	True	ok	hindernis unklar/unklar
+GA13-10527S	cep_fail	ergebnis		True			22.6	False	ok	hindernis ja/ergebnis; offener schritt unklar
+GA13-18219S	cep_fail	ergebnis		True			12.75	False	ok	hindernis ja/ergebnis; offener schritt ja
+GA13-19947S	cep_fail	ergebnis		True			-105.6	True	ok	hindernis ja/ergebnis; offener schritt unklar
+GA13-28462S	cep_fail	ergebnis		True			15.4	False	ok	hindernis ja/ergebnis
+GA13-34632S	cep_fail	ergebnis		True			15.0	False	ok	hindernis unklar/unklar; offener schritt unklar
+GA13-39100S	cep_fail	ergebnis		False			15.0	False	ok	nichts
+GA14-19655S	cep_fail	ergebnis		False			-106.0	True	ok	nichts
+GA14-30062S	cep_fail	ergebnis		True			-105.6	True	ok	hindernis ja/ergebnis
+GA15-04790S	cep_fail	ergebnis		True			12.6	False	ok	hindernis ja/ergebnis
+GA15-05534S	cep_fail	ergebnis		True			25.6	False	ok	hindernis ja/ergebnis
+GA15-15467S	cep_fail	ergebnis		True			22.75	False	ok	hindernis ja/ergebnis; offener schritt ja
+GA15-15728S	cep_fail	ergebnis		True			15.4	False	ok	hindernis ja/ergebnis
+GA16-01312S	cep_fail	ergebnis		True			11.0	False	ok	hindernis unklar/unklar
+GA16-02261S	cep_fail	ergebnis		True			12.4	False	ok	hindernis ja/ergebnis; offener schritt unklar
+GA16-25747S	cep_fail	ergebnis		True			-105.4	True	ok	hindernis ja/ergebnis; grund Technik
+GA17-01440S	cep_fail	ergebnis		False			-100.0	True	ok	nichts
+GA17-04393S	cep_fail	ergebnis		True			-95.1	True	ok	hindernis ja/ergebnis; grund Personal; offener schritt ja
+GA17-26162S	cep_fail	ergebnis		True			25.6	False	ok	hindernis ja/ergebnis; grund Technik
+GA18-25383S	cep_fail	ergebnis		False			15.2	False	ok	nichts
+GA19-20759S	cep_fail	ergebnis		True			15.6	False	ok	hindernis ja/ergebnis
+GA19-23165S	cep_fail	ergebnis		True			15.6	False	ok	hindernis ja/ergebnis
+GA201/03/0937	cep_fail	ergebnis		False			2.0	False	ok	nichts
+GA201/05/0284	cep_fail	ergebnis		False			15.0	False	ok	nichts
+GA201/08/0472	cep_fail	ergebnis		False			15.0	False	ok	nichts
+GA201/09/1316	cep_fail	ergebnis		True			15.6	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt unklar
+GA201/99/D026	cep_fail	ergebnis		True			11.15	False	ok	grund Personal
+GA201/99/D081	cep_fail	ergebnis		False			15.0	False	ok	nichts
+GA202/00/0142	cep_fail	ergebnis		False			15.0	False	ok	nichts
+GA202/00/0765	cep_fail	ergebnis		True			2.15	False	ok	offener schritt ja
+GA202/00/D115	cep_fail	ergebnis		True			-105.85	True	ok	hindernis unklar/unklar; grund Personal
+GA202/00/P069	cep_fail	ergebnis		False			-106.0	True	ok	nichts
+GA202/06/0862	cep_fail	ergebnis		False			15.0	False	ok	nichts
+GA202/97/0448	cep_fail	ergebnis		True			2.6	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt unklar
+GA202/97/P076	cep_fail	ergebnis		True			15.15	False	ok	grund Personal
+GA202/98/P149	cep_fail	ergebnis		True			8.35	False	ok	hindernis unklar/unklar; grund Personal; offener schritt unklar
+GA202/98/P254	cep_fail	ergebnis		True			-105.45	True	ok	hindernis ja/ergebnis; grund Personal; offener schritt unklar
+GA202/99/0623	cep_fail	ergebnis		True			-106.0	True	ok	offener schritt unklar
+GA202/99/P003	cep_fail	ergebnis		True			-105.85	True	ok	grund Personal; offener schritt unklar
+GA202/99/P064	cep_fail	ergebnis		True			-99.85	True	ok	grund Personal
+GA203/00/P007	cep_fail	ergebnis		True			2.15	False	ok	grund Personal
+GA203/00/P038	cep_fail	ergebnis		True			-105.85	True	ok	grund Personal; offener schritt unklar
+GA203/03/0496	cep_fail	ergebnis		True			-89.4	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt unklar
+GA203/04/0488	cep_fail	ergebnis		True			-106.0	True	ok	hindernis unklar/unklar; grund Technik
+GA203/05/0961	cep_fail	ergebnis		False			-106.0	True	ok	nichts
+GA203/07/1320	cep_fail	ergebnis		True			22.6	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt unklar
+GA203/07/1391	cep_fail	ergebnis		False			-106.0	True	ok	nichts
+GA203/07/1619	cep_fail	ergebnis		True			-105.6	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt unklar
+GA203/07/1657	cep_fail	ergebnis		True			-106.0	True	ok	hindernis unklar/unklar
+GA203/09/0460	cep_fail	ergebnis		False			8.0	False	ok	nichts
+GA203/97/P103	cep_fail	ergebnis		True			-105.85	True	ok	grund Personal
+GA203/98/0597	cep_fail	ergebnis		False			-106.0	True	ok	nichts
+GA203/98/P080	cep_fail	ergebnis		True			-105.45	True	ok	hindernis ja/ergebnis; offener schritt ja
+GA203/98/P221	cep_fail	ergebnis		False			-106.0	True	ok	nichts
+GA203/99/P017	cep_fail	ergebnis		True			15.15	False	ok	grund Personal
+GA205/00/0218	cep_fail	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; offener schritt ja
+GA205/00/D040	cep_fail	ergebnis		True			2.15	False	ok	grund Personal; offener schritt unklar
+GA205/02/0171	cep_fail	ergebnis		False			2.0	False	ok	nichts
+GA205/04/0942	cep_fail	ergebnis		False			-106.0	True	ok	nichts
+GA205/06/1680	cep_fail	ergebnis		True			-105.25	True	nachpruefen	hindernis ja/ergebnis; grund Personal
+GA205/07/1211	cep_fail	ergebnis		False			12.0	False	ok	nichts
+GA205/08/0209	cep_fail	ergebnis		False			2.0	False	ok	nichts
+GA22-27726S	cep_fail	ergebnis		True			-105.85	True	ok	grund Personal
+GA23-07931S	cep_fail	ergebnis		False			2.0	False	ok	nichts
+GA25-18408S	cep_fail	ergebnis		True			-105.8	True	ok	hindernis unklar/unklar; offener schritt unklar
+GA303/09/1321	cep_fail	ergebnis		True			-95.4	True	ok	hindernis ja/ergebnis; grund Technik
+GA521/04/0971	cep_fail	ergebnis		False			-106.0	True	ok	nichts
+GA525/01/0239	cep_fail	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; grund Personal; offener schritt unklar
+GA525/05/2546	cep_fail	ergebnis		False			-106.0	True	ok	nichts
+GA525/06/1757	cep_fail	ergebnis		False			-106.0	True	ok	nichts
+GA525/96/1398	cep_fail	ergebnis		True			-106.0	True	ok	hindernis unklar/unklar; offener schritt unklar
+GAP101/10/1428	cep_fail	ergebnis		False			12.0	False	ok	nichts
+GAP101/11/2110	cep_fail	ergebnis		True			15.0	False	ok	hindernis unklar/unklar
+GAP102/12/0723	cep_fail	ergebnis		True			-99.4	True	ok	hindernis ja/ergebnis
+GAP103/12/1578	cep_fail	ergebnis		True			25.4	False	ok	hindernis ja/ergebnis; offener schritt unklar
+GAP104/12/0913	cep_fail	ergebnis		True			-99.6	True	ok	hindernis ja/ergebnis; offener schritt unklar
+GAP105/11/2342	cep_fail	ergebnis		True			-106.0	True	ok	hindernis unklar/unklar; offener schritt unklar
+GAP106/11/1865	cep_fail	ergebnis		True			-105.4	True	ok	hindernis ja/ergebnis; grund Technik
+GAP108/11/2151	cep_fail	ergebnis		False			-106.0	True	ok	nichts
+GAP108/12/1629	cep_fail	ergebnis		True			-105.6	True	ok	hindernis ja/ergebnis; offener schritt unklar
+GAP108/12/1889	cep_fail	ergebnis		True			-105.4	True	ok	hindernis ja/ergebnis
+GAP201/12/0291	cep_fail	ergebnis		True			11.0	False	ok	offener schritt unklar
+GAP204/12/0595	cep_fail	ergebnis		True			-106.0	True	ok	hindernis unklar/unklar
+GAP207/10/1040	cep_fail	ergebnis		True			-106.0	True	ok	hindernis unklar/unklar; offener schritt unklar
+GAP207/12/0846	cep_fail	ergebnis		True			-106.0	True	ok	offener schritt unklar
+GAP210/12/2114	cep_fail	ergebnis		False			-106.0	True	ok	nichts
+GC102/08/J055	cep_fail	ergebnis		False			8.0	False	ok	nichts
+GC21-19073J	cep_fail	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; grund Organisation
+GD103/09/H078	cep_fail	ergebnis		False			8.0	False	ok	nichts
+GD105/09/H014	cep_fail	ergebnis		True			-105.4	True	ok	hindernis ja/ergebnis; grund Technik
+GJ16-21151Y	cep_fail	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; grund Personal; offener schritt unklar
+GJ17-06524Y	cep_fail	ergebnis		True			-105.4	True	ok	hindernis ja/ergebnis; offener schritt unklar
+GJ17-16928Y	cep_fail	ergebnis		True			-105.65	True	ok	grund Personal
+GJ17-17593Y	cep_fail	ergebnis		False			5.0	False	ok	nichts
+GJ17-27338Y	cep_fail	ergebnis		True			-105.4	True	ok	hindernis ja/ergebnis; grund Technik
+GN24-11088O	cep_fail	ergebnis		False			2.0	False	ok	nichts
+GN25-16632I	cep_fail	ergebnis		True			-105.4	True	ok	hindernis ja/ergebnis
+GP101/06/P299	cep_fail	ergebnis		False			4.0	False	ok	nichts
+GP101/08/P356	cep_fail	ergebnis		False			12.0	False	ok	nichts
+GP101/09/P577	cep_fail	ergebnis		True			15.6	False	ok	hindernis ja/ergebnis
+GP102/01/P003	cep_fail	ergebnis		True			15.15	False	ok	grund Personal
+GP102/02/D064	cep_fail	ergebnis		True			-105.85	True	nachpruefen	grund Geld; offener schritt unklar
+GP102/09/P175	cep_fail	ergebnis		True			15.0	False	ok	hindernis unklar/unklar; offener schritt unklar
+GP102/09/P283	cep_fail	ergebnis		True			15.4	False	ok	hindernis ja/ergebnis; offener schritt unklar
+GP102/09/P618	cep_fail	ergebnis		False			15.0	False	ok	nichts
+GP103/01/P057	cep_fail	ergebnis		True			-89.4	True	ok	hindernis ja/ergebnis; grund Technik
+GP104/06/P129	cep_fail	ergebnis		False			-106.0	True	ok	nichts
+GP104/09/P366	cep_fail	ergebnis		False			-106.0	True	ok	nichts
+GP106/01/P088	cep_fail	ergebnis		True			-105.85	True	ok	grund Personal
+GP106/02/D147	cep_fail	ergebnis		True			-99.85	True	ok	grund Personal; offener schritt unklar
+GP14-15272P	cep_fail	ergebnis		True			12.2	False	ok	hindernis unklar/ergebnis; offener schritt unklar
+GP14-16370P	cep_fail	ergebnis		False			15.0	False	ok	nichts
+GP14-25354P	cep_fail	ergebnis		True			-95.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+GP14-33400P	cep_fail	ergebnis		True			-95.4	True	ok	hindernis ja/ergebnis; grund Technik
+GP14-35225P	cep_fail	ergebnis		True			15.2	False	ok	hindernis unklar/ergebnis
+GP201/01/D047	cep_fail	ergebnis		True			11.55	False	nachpruefen	hindernis ja/ergebnis; grund Personal
+GP201/02/D111	cep_fail	ergebnis		False			2.0	False	ok	nichts
+GP201/03/D113	cep_fail	ergebnis		False			15.0	False	ok	nichts
+GP201/03/P137	cep_fail	ergebnis		False			2.0	False	ok	nichts
+GP201/03/P138	cep_fail	ergebnis		False			11.0	False	ok	nichts
+GP201/03/P139	cep_fail	ergebnis		True			11.4	False	ok	hindernis ja/ergebnis
+GP201/03/P149	cep_fail	ergebnis		False			2.0	False	ok	nichts
+GP201/03/P163	cep_fail	ergebnis		True			15.0	False	ok	hindernis unklar/unklar; offener schritt unklar
+GP202/01/P102	cep_fail	ergebnis		True			-105.25	True	nachpruefen	hindernis ja/ergebnis; grund Personal; offener schritt unklar
+GP202/03/P135	cep_fail	ergebnis		False			15.0	False	ok	nichts
+GP202/03/P136	cep_fail	ergebnis		False			8.0	False	ok	nichts
+GP202/03/P158	cep_fail	ergebnis		False			-106.0	True	ok	nichts
+GP202/04/P013	cep_fail	ergebnis		True			15.6	False	ok	hindernis ja/ergebnis
+GP202/04/P014	cep_fail	ergebnis		True			2.15	False	ok	grund Personal
+GP202/05/P288	cep_fail	ergebnis		False			-106.0	True	ok	nichts
+GP202/06/P198	cep_fail	ergebnis		True			2.0	False	nachpruefen	hindernis unklar/unklar
+GP202/06/P461	cep_fail	ergebnis		True			-105.85	True	ok	hindernis unklar/unklar; offener schritt ja
+GP202/09/P410	cep_fail	ergebnis		True			12.6	False	ok	hindernis ja/ergebnis
+GP203/01/D051	cep_fail	ergebnis		True			-106.0	True	ok	hindernis unklar/unklar; offener schritt unklar
+GP203/01/D145	cep_fail	ergebnis		True			-105.45	True	nachpruefen	hindernis ja/ergebnis; grund Personal; offener schritt unklar
+GP203/01/P006	cep_fail	ergebnis		True			-106.0	True	ok	hindernis unklar/unklar; offener schritt unklar
+GP203/02/P028	cep_fail	ergebnis		True			-105.1	True	nachpruefen	hindernis ja/ergebnis; grund Personal; offener schritt ja
+GP203/03/D134	cep_fail	ergebnis		False			-106.0	True	ok	nichts
+GP203/03/D165	cep_fail	ergebnis		False			-96.0	True	ok	nichts
+GP203/05/P104	cep_fail	ergebnis		True			-106.0	True	nachpruefen	hindernis unklar/unklar; offener schritt unklar
+GP203/06/P362	cep_fail	ergebnis		False			-106.0	True	ok	nichts
+GP203/08/P284	cep_fail	ergebnis		True			-95.25	True	ok	hindernis ja/ergebnis; grund Personal; offener schritt unklar
+GP203/08/P412	cep_fail	ergebnis		True			-95.6	True	ok	hindernis ja/ergebnis; offener schritt unklar
+GP203/08/P430	cep_fail	ergebnis		False			-106.0	True	ok	nichts
+GP205/02/P014	cep_fail	ergebnis		False			-106.0	True	ok	nichts
+GP303/02/D010	cep_fail	ergebnis		False			-106.0	True	ok	nichts
+GP402/08/P164	cep_fail	ergebnis		True			15.6	False	ok	hindernis ja/ergebnis; offener schritt unklar
+GP402/08/P418	cep_fail	ergebnis		True			15.15	False	ok	offener schritt ja
+GP522/05/P276	cep_fail	ergebnis		False			2.0	False	ok	nichts
+GP525/03/P007	cep_fail	ergebnis		True			-105.4	True	ok	hindernis ja/ergebnis; grund Technik
+GP525/09/P647	cep_fail	ergebnis		False			12.0	False	ok	nichts
+GPP101/11/P538	cep_fail	ergebnis		True			-89.4	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt unklar
+GPP102/11/P824	cep_fail	ergebnis		True			-105.4	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt unklar
+GPP103/10/P401	cep_fail	ergebnis		True			15.15	False	ok	hindernis unklar/unklar; grund Personal; offener schritt unklar
+GPP104/12/P477	cep_fail	ergebnis		True			-105.6	True	ok	hindernis ja/ergebnis
+GPP105/10/P515	cep_fail	ergebnis		False			-106.0	True	ok	nichts
+GPP108/10/P446	cep_fail	ergebnis		True			-106.0	True	ok	hindernis unklar/ergebnis
+GPP108/12/P111	cep_fail	ergebnis		True			14.6	False	ok	hindernis ja/ergebnis
+GPP202/12/P180	cep_fail	ergebnis		True			15.35	False	ok	grund Personal
+GPP204/10/P331	cep_fail	ergebnis		True			15.15	False	ok	grund Personal
+GPP207/11/P121	cep_fail	ergebnis		True			-105.4	True	ok	hindernis ja/ergebnis
+GPP207/11/P185	cep_fail	ergebnis		True			-100.0	True	ok	hindernis unklar/unklar; offener schritt unklar
+GPP208/10/P466	cep_fail	ergebnis		True			-106.0	True	ok	hindernis unklar/unklar
+GPP210/10/P475	cep_fail	ergebnis		True			2.4	False	ok	hindernis ja/ergebnis
+GPP210/12/P631	cep_fail	ergebnis		False			8.0	False	ok	nichts
+GPP402/12/P635	cep_fail	ergebnis		True			25.6	False	ok	hindernis ja/ergebnis; offener schritt unklar
+GPP501/12/P521	cep_fail	ergebnis		False			-106.0	True	ok	nichts
+IAA100100718	cep_fail	ergebnis		True			-89.4	True	ok	hindernis ja/ergebnis
+IAA1010605	cep_fail	ergebnis		False			-100.0	True	ok	nichts
+IAA1010832	cep_fail	ergebnis		False			2.0	False	ok	nichts
+IAA101120805	cep_fail	ergebnis		False			12.0	False	ok	nichts
+IAA101210801	cep_fail	ergebnis		False			15.0	False	ok	nichts
+IAA1019801	cep_fail	ergebnis		False			11.0	False	ok	nichts
+IAA1019807	cep_fail	ergebnis		False			2.0	False	ok	nichts
+IAA1112301	cep_fail	ergebnis		True			2.0	False	ok	offener schritt unklar
+IAA3003403	cep_fail	ergebnis		False			15.0	False	ok	nichts
+IAA400400908	cep_fail	ergebnis		False			15.0	False	ok	nichts
+IAA400550614	cep_fail	ergebnis		False			-106.0	True	ok	nichts
+IAA400550919	cep_fail	ergebnis		True			-105.4	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt unklar
+IAA4048301	cep_fail	ergebnis		False			-106.0	True	ok	nichts
+IAA4050306	cep_fail	ergebnis		False			8.0	False	ok	nichts
+IAA4072807	cep_fail	ergebnis		False			-106.0	True	ok	nichts
+IAA4072914	cep_fail	ergebnis		True			11.0	False	ok	hindernis unklar/unklar; offener schritt unklar
+IAAX01220701	cep_fail	ergebnis		True			8.4	False	ok	hindernis ja/ergebnis; offener schritt unklar
+IBS1048301	cep_fail	ergebnis		True			-105.85	True	ok	offener schritt ja
+KJB100300804	cep_fail	ergebnis		True			15.0	False	ok	offener schritt unklar
+KJB101470701	cep_fail	ergebnis		False			15.0	False	ok	nichts
+KJB200760804	cep_fail	ergebnis		True			4.75	False	ok	hindernis ja/ergebnis; grund Personal
+KJB2065405	cep_fail	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; grund Personal
+KJB2813305	cep_fail	ergebnis		False			-106.0	True	ok	nichts
+KJB400310710	cep_fail	ergebnis		True			-106.0	True	ok	hindernis unklar/unklar; offener schritt unklar
+KJB400310903	cep_fail	ergebnis		True			4.15	False	ok	grund Personal
+KJB400500602	cep_fail	ergebnis		False			15.0	False	ok	nichts
+KJB600200514	cep_fail	ergebnis		True			-105.85	True	ok	grund Personal
+LD13069	cep_fail	ergebnis		False			-106.0	True	ok	nichts
+LE14006	cep_fail	ergebnis		False			2.0	False	ok	nichts
+LF13015	cep_fail	ergebnis		True			4.75	False	ok	hindernis ja/ergebnis; grund Organisation; offener schritt unklar
+LG14039	cep_fail	ergebnis		False			2.0	False	ok	nichts
+LH11073	cep_fail	ergebnis		True			15.0	False	ok	hindernis unklar/unklar; offener schritt unklar
+LJ10005	cep_fail	ergebnis		True			-105.4	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt unklar
+LJ14003	cep_fail	ergebnis		True			-105.8	True	ok	hindernis unklar/unklar; offener schritt unklar
+LTAIN19006	cep_fail	ergebnis		False			-106.0	True	ok	nichts
+LTE218002	cep_fail	ergebnis		True			4.15	False	ok	offener schritt ja
+LTE220014	cep_fail	ergebnis		False			15.0	False	ok	nichts
+LUABA22048	cep_fail	ergebnis		True			2.15	False	ok	offener schritt ja
+ME 911	cep_fail	ergebnis		True			15.15	False	ok	grund Organisation; offener schritt unklar
+MEB020914	cep_fail	ergebnis		True			-105.1	True	ok	hindernis ja/ergebnis; grund Geld; offener schritt ja
+MEB020933	cep_fail	ergebnis		True			4.15	False	ok	grund Geld
+MEB020940	cep_fail	ergebnis		True			-105.85	True	ok	grund Geld; offener schritt unklar
+MEB021024	cep_fail	ergebnis		True			15.15	False	ok	hindernis unklar/unklar; grund Geld; offener schritt unklar
+MO03051100480	cep_fail	ergebnis		False			5.0	False	ok	nichts
+MO03241100009	cep_fail	ergebnis		False			2.0	False	ok	nichts
+MO03321100003	cep_fail	ergebnis		True			15.4	False	ok	hindernis ja/ergebnis; offener schritt unklar
+MO45190999102	cep_fail	ergebnis		False			2.0	False	ok	nichts
+MO83051099127	cep_fail	ergebnis		True			2.0	False	ok	hindernis unklar/unklar; offener schritt unklar
+NU21-08-00286	cep_fail	ergebnis		False			-100.0	True	ok	nichts
+NU22-08-00543	cep_fail	ergebnis		True			-105.4	True	ok	hindernis ja/ergebnis; grund Technik
+OE90	cep_fail	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; grund Organisation; offener schritt unklar
+OFVTUV2016001	cep_fail	ergebnis		True			4.75	False	ok	hindernis ja/ergebnis; grund Geld; offener schritt unklar
+OSUVN20090001	cep_fail	ergebnis		False			2.0	False	ok	nichts
+OT03031100007	cep_fail	ergebnis		False			8.0	False	ok	nichts
+OT03211100005	cep_fail	ergebnis		True			15.0	False	ok	hindernis unklar/unklar; offener schritt unklar
+OT03211100006	cep_fail	ergebnis		True			5.0	False	ok	hindernis unklar/unklar; offener schritt unklar
+OT03211100008	cep_fail	ergebnis		True			5.0	False	ok	hindernis unklar/unklar; offener schritt unklar
+OVTIETO201001	cep_fail	ergebnis		False			15.0	False	ok	nichts
+OVUOFEM200802	cep_fail	ergebnis		False			4.0	False	ok	nichts
+OVUOFEM200803	cep_fail	ergebnis		False			4.0	False	ok	nichts
+OWVVU20170005	cep_fail	ergebnis		True			12.6	False	ok	hindernis ja/ergebnis; grund Technik
+OYSTRAT202201	cep_fail	ergebnis		True			2.6	False	ok	hindernis ja/ergebnis
+PP-D1/09	cep_fail	ergebnis		True			-105.1	True	ok	hindernis ja/ergebnis; grund Geld; offener schritt ja
+PZ-D2/06	cep_fail	ergebnis		True			2.35	False	ok	grund Personal
+PZ-CH/08	cep_fail	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+PZ-CH/28	cep_fail	ergebnis		True			5.75	False	ok	hindernis ja/ergebnis; grund Organisation
+PZ-CH/32	cep_fail	ergebnis		True			-105.1	True	ok	hindernis ja/ergebnis; grund Personal; offener schritt ja
+PZ-Z2/01	cep_fail	ergebnis		True			-105.85	True	nachpruefen	offener schritt ja
+QH81265	cep_fail	ergebnis		False			-106.0	True	ok	nichts
+QI91B226	cep_fail	ergebnis		False			-106.0	True	ok	nichts
+SP/2F1/57/08	cep_fail	ergebnis		True			2.6	False	ok	hindernis ja/ergebnis
+ST20022003004	cep_fail	ergebnis		True			10.75	False	ok	hindernis ja/ergebnis; grund Organisation
+TA01010088	cep_fail	ergebnis		False			-106.0	True	ok	nichts
+TA01030464	cep_fail	ergebnis		True			15.15	False	ok	offener schritt ja
+TA02010375	cep_fail	ergebnis		True			-105.4	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt unklar
+TA02010434	cep_fail	ergebnis		True			4.35	False	ok	grund Geld
+TA02010760	cep_fail	ergebnis		True			-105.4	True	ok	hindernis ja/ergebnis; offener schritt unklar
+TA02010784	cep_fail	ergebnis		True			22.6	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt unklar
+TA02020005	cep_fail	ergebnis		True			4.5	False	ok	hindernis unklar/unklar; grund Organisation; offener schritt ja
+TA02020169	cep_fail	ergebnis		True			2.6	False	ok	hindernis ja/ergebnis; offener schritt unklar
+TA02020998	cep_fail	ergebnis		True			4.35	False	ok	grund Organisation
+TA03010490	cep_fail	ergebnis		True			-105.4	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt unklar
+TA03010852	cep_fail	ergebnis		False			10.2	False	ok	nichts
+TA03020512	cep_fail	ergebnis		True			14.6	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt unklar
+TA03020907	cep_fail	ergebnis		False			4.0	False	ok	nichts
+TA04010165	cep_fail	ergebnis		True			22.6	False	ok	hindernis ja/ergebnis; grund Technik
+TA04010776	cep_fail	ergebnis		False			4.2	False	ok	nichts
+TB0500MD006	cep_fail	ergebnis		True			-105.4	True	ok	hindernis ja/ergebnis
+TB95TACR999MT08	cep_fail	ergebnis		True			2.2	False	ok	hindernis unklar/unklar
+TC3-102	cep_fail	ergebnis		True			-105.85	True	ok	grund Geld
+TC3-133	cep_fail	ergebnis		True			15.75	False	ok	hindernis ja/ergebnis; grund Geld
+TC4-013	cep_fail	ergebnis		True			-95.4	True	ok	hindernis ja/ergebnis; grund Technik
+TC4-043	cep_fail	ergebnis		True			22.6	False	ok	hindernis ja/ergebnis; grund Technik
+TC4-071	cep_fail	ergebnis		True			5.0	False	ok	hindernis unklar/unklar; offener schritt unklar
+TC5-032	cep_fail	ergebnis		True			4.3	False	ok	grund Geld; offener schritt ja
+TC6-041	cep_fail	ergebnis		True			2.75	False	ok	hindernis ja/ergebnis; grund Organisation; offener schritt unklar
+TC6-079	cep_fail	ergebnis		True			-105.4	True	ok	hindernis ja/ergebnis; grund Technik
+TF01000093	cep_fail	ergebnis		True			-105.1	True	nachpruefen	hindernis ja/ergebnis; grund Organisation; offener schritt ja
+TF02000031	cep_fail	ergebnis		True			-105.65	True	ok	grund Organisation
+TH01031379	cep_fail	ergebnis		False			2.0	False	ok	nichts
+TJ01000218	cep_fail	ergebnis		True			-105.4	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt unklar
+TJ02000262	cep_fail	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+TK03020079	cep_fail	ergebnis		True			10.75	False	ok	hindernis ja/ergebnis; grund Aufwand
+TK05020194	cep_fail	ergebnis		False			12.0	False	ok	nichts
+TM04000021	cep_fail	ergebnis		False			4.0	False	ok	nichts
+TQ02000004	cep_fail	ergebnis		False			5.2	False	ok	nichts
+TQ04000045	cep_fail	ergebnis		True			4.6	False	ok	hindernis ja/ergebnis; grund Technik
+UDSKLI2016_06_01	cep_fail	ergebnis		True			14.6	False	ok	hindernis ja/ergebnis; grund Technik
+VB01000048	cep_fail	ergebnis		True			10.6	False	ok	hindernis ja/ergebnis; grund Technik
+VF20142015033	cep_fail	ergebnis		True			2.6	False	ok	hindernis ja/ergebnis
+VH20162017007	cep_fail	ergebnis		True			15.6	False	ok	hindernis ja/ergebnis; offener schritt unklar
+VH20172018013	cep_fail	ergebnis		False			15.0	False	ok	nichts
+VI20152019043	cep_fail	ergebnis		True			-105.8	True	ok	hindernis unklar/ergebnis; offener schritt unklar
+VI20172020075	cep_fail	ergebnis		True			22.6	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt unklar
+VI20172020109	cep_fail	ergebnis		True			-105.4	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt unklar
+VI20192022170	cep_fail	ergebnis		True			10.6	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt unklar
+YA632004001	cep_fail	ergebnis		True			2.0	False	ok	hindernis unklar/unklar; offener schritt unklar
+ZO/320/2/99	cep_fail	ergebnis		True			4.75	False	ok	hindernis ja/ergebnis; grund Organisation; offener schritt unklar
+10.55776/M3229	fwf_obst	ergebnis		True			-105.4	True	ok	hindernis ja/ergebnis; grund Technik
+10.55776/T1307	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/TAI483	fwf_obst	ergebnis		True			-105.85	True	ok	offener schritt ja
+10.55776/TAI470	fwf_obst	ergebnis		True			-95.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+10.55776/P34317	fwf_obst	ergebnis		True			15.15	False	ok	offener schritt ja
+10.55776/P34227	fwf_obst	ergebnis		False			2.0	False	ok	nichts
+10.55776/P33789	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/P34501	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/M3153	fwf_obst	ergebnis		True			15.9	False	nachpruefen	hindernis ja/ergebnis; grund Geld; offener schritt ja
+10.55776/P34783	fwf_obst	ergebnis		False			-106.0	True	ok	nichts
+10.55776/P34177	fwf_obst	ergebnis		False			8.0	False	ok	nichts
+10.55776/I5208	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/I5195	fwf_obst	ergebnis		True			15.35	False	ok	offener schritt ja
+10.55776/I5180	fwf_obst	ergebnis		True			15.15	False	ok	offener schritt ja
+10.55776/P33491	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/P33931	fwf_obst	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+10.55776/P33878	fwf_obst	ergebnis		False			11.0	False	ok	nichts
+10.55776/I4913	fwf_obst	ergebnis		True			-105.85	True	ok	offener schritt ja
+10.55776/I4923	fwf_obst	ergebnis		True			-105.85	True	ok	offener schritt ja
+10.55776/TAI340	fwf_obst	ergebnis		True			-99.1	True	ok	hindernis ja/ergebnis; grund Organisation; offener schritt ja
+10.55776/TAI183	fwf_obst	ergebnis		True			15.35	False	ok	offener schritt ja
+10.55776/J4463	fwf_obst	ergebnis		False			-106.0	True	ok	nichts
+10.55776/P33627	fwf_obst	ergebnis		True			-95.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+10.55776/P20216	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/P19892	fwf_obst	ergebnis		False			-106.0	True	ok	nichts
+10.55776/P20199	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/P19869	fwf_obst	ergebnis		True			-95.6	True	ok	hindernis ja/ergebnis
+10.55776/P20017	fwf_obst	ergebnis		True			11.35	False	ok	offener schritt ja
+10.55776/P19987	fwf_obst	ergebnis		False			2.0	False	ok	nichts
+10.55776/L420	fwf_obst	ergebnis		False			-106.0	True	ok	nichts
+10.55776/P19916	fwf_obst	ergebnis		True			25.75	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+10.55776/L354	fwf_obst	ergebnis		False			12.0	False	ok	nichts
+10.55776/P19411	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/P19414	fwf_obst	ergebnis		False			-106.0	True	ok	nichts
+10.55776/P18943	fwf_obst	ergebnis		False			-106.0	True	ok	nichts
+10.55776/P19199	fwf_obst	ergebnis		True			-105.4	True	ok	hindernis ja/ergebnis; grund Technik
+10.55776/P18829	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/P19257	fwf_obst	ergebnis		False			-106.0	True	ok	nichts
+10.55776/Y324	fwf_obst	ergebnis		False			-106.0	True	ok	nichts
+10.55776/P18974	fwf_obst	ergebnis		True			15.15	False	ok	offener schritt ja
+10.55776/M2608	fwf_obst	ergebnis		True			15.15	False	ok	offener schritt ja
+10.55776/P32080	fwf_obst	ergebnis		False			11.0	False	ok	nichts
+10.55776/P31952	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/P31956	fwf_obst	ergebnis		False			2.0	False	ok	nichts
+10.55776/P31801	fwf_obst	ergebnis		False			2.0	False	ok	nichts
+10.55776/P31873	fwf_obst	ergebnis		True			25.75	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+10.55776/I4130	fwf_obst	ergebnis		True			-95.4	True	ok	hindernis ja/ergebnis; grund Technik
+10.55776/J4253	fwf_obst	ergebnis		True			25.6	False	ok	hindernis ja/ergebnis; grund Technik
+10.55776/P31583	fwf_obst	ergebnis		True			-89.6	True	ok	hindernis ja/ergebnis; grund Technik
+10.55776/P31705	fwf_obst	ergebnis		True			2.35	False	ok	offener schritt ja
+10.55776/P31263	fwf_obst	ergebnis		True			-99.85	True	ok	offener schritt ja
+10.55776/I3871	fwf_obst	ergebnis		True			-95.6	True	ok	hindernis ja/ergebnis
+10.55776/M2441	fwf_obst	ergebnis		True			22.75	False	ok	hindernis ja/ergebnis; offener schritt ja
+10.55776/P30930	fwf_obst	ergebnis		True			15.15	False	ok	offener schritt ja
+10.55776/M2393	fwf_obst	ergebnis		True			15.9	False	ok	hindernis ja/ergebnis; grund Personal; offener schritt ja
+10.55776/P30904	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/I3760	fwf_obst	ergebnis		True			-105.4	True	ok	hindernis ja/ergebnis; grund Technik
+10.55776/T974	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/J4150	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/KLI657	fwf_obst	ergebnis		True			25.6	False	ok	hindernis ja/ergebnis; grund Technik
+10.55776/V603	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/P30709	fwf_obst	ergebnis		True			-105.6	True	ok	hindernis ja/ergebnis
+10.55776/P30673	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/J4114	fwf_obst	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+10.55776/I3431	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/I3437	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/P30205	fwf_obst	ergebnis		False			2.0	False	ok	nichts
+10.55776/I2760	fwf_obst	ergebnis		True			25.55	False	ok	hindernis ja/ergebnis; offener schritt ja
+10.55776/P28190	fwf_obst	ergebnis		True			-105.85	True	ok	offener schritt ja
+10.55776/P28338	fwf_obst	ergebnis		False			2.0	False	ok	nichts
+10.55776/Y879	fwf_obst	ergebnis		False			11.0	False	ok	nichts
+10.55776/P28099	fwf_obst	ergebnis		True			15.4	False	ok	hindernis ja/ergebnis
+10.55776/P27975	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/P27974	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/M1844	fwf_obst	ergebnis		True			-105.85	True	ok	offener schritt ja
+10.55776/P27738	fwf_obst	ergebnis		True			25.9	False	ok	hindernis ja/ergebnis; grund Personal; offener schritt ja
+10.55776/P27839	fwf_obst	ergebnis		False			2.0	False	ok	nichts
+10.55776/I2262	fwf_obst	ergebnis		True			-105.6	True	ok	hindernis ja/ergebnis; grund Technik
+10.55776/P27926	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/P27815	fwf_obst	ergebnis		False			2.0	False	ok	nichts
+10.55776/P27570	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/P27380	fwf_obst	ergebnis		True			25.75	False	ok	hindernis ja/ergebnis; offener schritt ja
+10.55776/P26968	fwf_obst	ergebnis		True			-95.6	True	ok	hindernis ja/ergebnis; offener schritt unklar
+10.55776/P27256	fwf_obst	ergebnis		True			25.4	False	ok	hindernis ja/ergebnis
+10.55776/P27351	fwf_obst	ergebnis		True			15.15	False	ok	offener schritt ja
+10.55776/T710	fwf_obst	ergebnis		False			12.0	False	ok	nichts
+10.55776/P27194	fwf_obst	ergebnis		False			-106.0	True	ok	nichts
+10.55776/M1729	fwf_obst	ergebnis		True			25.75	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+10.55776/Y757	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/P26658	fwf_obst	ergebnis		False			2.0	False	ok	nichts
+10.55776/P26494	fwf_obst	ergebnis		True			15.0	False	ok	offener schritt unklar
+10.55776/J3540	fwf_obst	ergebnis		False			2.0	False	ok	nichts
+10.55776/P15700	fwf_obst	ergebnis		True			21.6	False	ok	hindernis ja/ergebnis
+10.55776/P15464	fwf_obst	ergebnis		True			12.6	False	ok	hindernis ja/ergebnis; grund Technik
+10.55776/P15468	fwf_obst	ergebnis		False			2.0	False	ok	nichts
+10.55776/P15274	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/R12	fwf_obst	ergebnis		True			12.35	False	ok	offener schritt ja
+10.55776/P15425	fwf_obst	ergebnis		False			-106.0	True	ok	nichts
+10.55776/P15316	fwf_obst	ergebnis		True			12.75	False	ok	hindernis ja/ergebnis; offener schritt ja
+10.55776/P14884	fwf_obst	ergebnis		True			-95.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+10.55776/I1609	fwf_obst	ergebnis		True			-105.4	True	nachpruefen	hindernis ja/ergebnis; grund Technik; offener schritt unklar
+10.55776/P26366	fwf_obst	ergebnis		True			15.15	False	ok	offener schritt ja
+10.55776/P26417	fwf_obst	ergebnis		False			-106.0	True	ok	nichts
+10.55776/P26603	fwf_obst	ergebnis		True			-105.85	True	nachpruefen	offener schritt ja
+10.55776/P26435	fwf_obst	ergebnis		False			12.0	False	ok	nichts
+10.55776/J3507	fwf_obst	ergebnis		True			15.15	False	ok	offener schritt ja
+10.55776/J3503	fwf_obst	ergebnis		False			-106.0	True	ok	nichts
+10.55776/M1603	fwf_obst	ergebnis		True			15.15	False	ok	offener schritt ja
+10.55776/P26252	fwf_obst	ergebnis		True			25.4	False	ok	hindernis ja/ergebnis
+10.55776/P26304	fwf_obst	ergebnis		True			-99.6	True	nachpruefen	hindernis ja/ergebnis; grund Technik
+10.55776/P26164	fwf_obst	ergebnis		True			-95.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+10.55776/P26401	fwf_obst	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+10.55776/J3471	fwf_obst	ergebnis		False			-106.0	True	ok	nichts
+10.55776/P26066	fwf_obst	ergebnis		True			-95.6	True	ok	hindernis ja/ergebnis
+10.55776/P26130	fwf_obst	ergebnis		True			15.15	False	ok	offener schritt ja
+10.55776/P26124	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/Y660	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/Y729	fwf_obst	ergebnis		True			15.15	False	ok	offener schritt ja
+10.55776/Y698	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/P25593	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/P25504	fwf_obst	ergebnis		False			-106.0	True	ok	nichts
+10.55776/P26023	fwf_obst	ergebnis		True			-95.4	True	ok	hindernis ja/ergebnis; grund Technik
+10.55776/P25518	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/P25380	fwf_obst	ergebnis		False			11.0	False	ok	nichts
+10.55776/P25556	fwf_obst	ergebnis		False			-105.8	True	ok	nichts
+10.55776/P25587	fwf_obst	ergebnis		False			11.0	False	ok	nichts
+10.55776/P25628	fwf_obst	ergebnis		False			2.0	False	ok	nichts
+10.55776/I1309	fwf_obst	ergebnis		False			-106.0	True	ok	nichts
+10.55776/I1303	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/P25325	fwf_obst	ergebnis		False			-106.0	True	ok	nichts
+10.55776/P25449	fwf_obst	ergebnis		True			25.75	False	ok	hindernis ja/ergebnis; offener schritt ja
+10.55776/I1310	fwf_obst	ergebnis		True			15.15	False	ok	offener schritt ja
+10.55776/T623	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/P25529	fwf_obst	ergebnis		True			-105.85	True	ok	offener schritt ja
+10.55776/P25030	fwf_obst	ergebnis		False			-106.0	True	ok	nichts
+10.55776/TRP281	fwf_obst	ergebnis		False			-106.0	True	ok	nichts
+10.55776/J3361	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/V252	fwf_obst	ergebnis		True			-106.0	True	ok	offener schritt unklar
+10.55776/I986	fwf_obst	ergebnis		True			-95.85	True	ok	offener schritt ja
+10.55776/J3337	fwf_obst	ergebnis		True			2.6	False	ok	hindernis ja/ergebnis
+10.55776/P24589	fwf_obst	ergebnis		False			2.0	False	ok	nichts
+10.55776/P24676	fwf_obst	ergebnis		True			-95.4	True	ok	hindernis ja/ergebnis; grund Technik
+10.55776/I909	fwf_obst	ergebnis		False			2.0	False	ok	nichts
+10.55776/M1410	fwf_obst	ergebnis		False			2.0	False	ok	nichts
+10.55776/P24167	fwf_obst	ergebnis		True			15.15	False	ok	offener schritt ja
+10.55776/P24248	fwf_obst	ergebnis		True			25.6	False	ok	hindernis ja/ergebnis; grund Technik
+10.55776/P24187	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/P24096	fwf_obst	ergebnis		False			-106.0	True	ok	nichts
+10.55776/P24116	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/Y544	fwf_obst	ergebnis		False			11.0	False	ok	nichts
+10.55776/J3206	fwf_obst	ergebnis		True			25.75	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+10.55776/P23530	fwf_obst	ergebnis		False			-100.0	True	ok	nichts
+10.55776/P23376	fwf_obst	ergebnis		False			-106.0	True	ok	nichts
+10.55776/P23378	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/P23390	fwf_obst	ergebnis		True			25.4	False	ok	hindernis ja/ergebnis
+10.55776/TRP206	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/P23105	fwf_obst	ergebnis		True			18.4	False	ok	hindernis ja/ergebnis
+10.55776/P23115	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/V191	fwf_obst	ergebnis		True			-95.6	True	ok	hindernis ja/ergebnis
+10.55776/I669	fwf_obst	ergebnis		False			-106.0	True	ok	nichts
+10.55776/P23138	fwf_obst	ergebnis		False			2.0	False	ok	nichts
+10.55776/P22718	fwf_obst	ergebnis		False			4.0	False	ok	nichts
+10.55776/P22912	fwf_obst	ergebnis		False			8.0	False	ok	nichts
+10.55776/P22961	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/P22767	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/I549	fwf_obst	ergebnis		True			15.15	False	ok	offener schritt ja
+10.55776/P22648	fwf_obst	ergebnis		False			8.0	False	ok	nichts
+10.55776/P22587	fwf_obst	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+10.55776/M1230	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/TRP6	fwf_obst	ergebnis		False			8.0	False	ok	nichts
+10.55776/TRP77	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/P22223	fwf_obst	ergebnis		False			2.0	False	ok	nichts
+10.55776/I428	fwf_obst	ergebnis		False			-106.0	True	ok	nichts
+10.55776/P22180	fwf_obst	ergebnis		True			-105.4	True	ok	hindernis ja/ergebnis; grund Technik
+10.55776/P21968	fwf_obst	ergebnis		False			2.0	False	ok	nichts
+10.55776/P22178	fwf_obst	ergebnis		False			2.0	False	ok	nichts
+10.55776/P21546	fwf_obst	ergebnis		False			12.0	False	ok	nichts
+10.55776/P21836	fwf_obst	ergebnis		True			22.6	False	ok	hindernis ja/ergebnis; grund Technik
+10.55776/I338	fwf_obst	ergebnis		False			2.0	False	ok	nichts
+10.55776/P14222	fwf_obst	ergebnis		False			-106.0	True	ok	nichts
+10.55776/P14278	fwf_obst	ergebnis		True			6.15	False	ok	offener schritt ja
+10.55776/P14292	fwf_obst	ergebnis		False			-100.0	True	ok	nichts
+10.55776/P14004	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/P14095	fwf_obst	ergebnis		True			25.4	False	ok	hindernis ja/ergebnis; grund Technik
+10.55776/P13937	fwf_obst	ergebnis		True			10.55	False	nachpruefen	hindernis ja/ergebnis; offener schritt ja
+10.55776/P14060	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/P13592	fwf_obst	ergebnis		True			-105.6	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt unklar
+10.55776/P13593	fwf_obst	ergebnis		True			-95.4	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt unklar
+10.55776/P13502	fwf_obst	ergebnis		True			15.0	False	ok	offener schritt unklar
+10.55776/P30148	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/P30378	fwf_obst	ergebnis		False			12.0	False	ok	nichts
+10.55776/P30067	fwf_obst	ergebnis		True			-105.3	True	ok	hindernis ja/ergebnis; grund Organisation; offener schritt ja
+10.55776/ORD61	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/J4047	fwf_obst	ergebnis		True			15.15	False	ok	offener schritt ja
+10.55776/I3248	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/P29727	fwf_obst	ergebnis		False			8.0	False	ok	nichts
+10.55776/J4014	fwf_obst	ergebnis		False			-106.0	True	ok	nichts
+10.55776/P29783	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/P29517	fwf_obst	ergebnis		False			2.0	False	ok	nichts
+10.55776/P29688	fwf_obst	ergebnis		False			2.0	False	ok	nichts
+10.55776/P29641	fwf_obst	ergebnis		False			-106.0	True	ok	nichts
+10.55776/P29687	fwf_obst	ergebnis		True			-99.6	True	ok	hindernis ja/ergebnis
+10.55776/P29893	fwf_obst	ergebnis		True			15.15	False	ok	offener schritt ja
+10.55776/P29498	fwf_obst	ergebnis		True			15.55	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+10.55776/P29467	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/J3960	fwf_obst	ergebnis		True			-95.4	True	ok	hindernis ja/ergebnis; grund Technik
+10.55776/J3948	fwf_obst	ergebnis		True			11.15	False	ok	offener schritt ja
+10.55776/V541	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/I3010	fwf_obst	ergebnis		False			-106.0	True	ok	nichts
+10.55776/P29296	fwf_obst	ergebnis		True			2.15	False	ok	offener schritt ja
+10.55776/I2789	fwf_obst	ergebnis		True			-99.25	True	ok	hindernis ja/ergebnis; offener schritt ja
+10.55776/P29148	fwf_obst	ergebnis		False			-106.0	True	ok	nichts
+10.55776/J3884	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/P28764	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/M2009	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/P28858	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/P28892	fwf_obst	ergebnis		True			-105.85	True	ok	offener schritt ja
+10.55776/M1948	fwf_obst	ergebnis		False			-106.0	True	ok	nichts
+10.55776/I2703	fwf_obst	ergebnis		True			2.15	False	ok	offener schritt ja
+10.55776/I2257	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/P21611	fwf_obst	ergebnis		False			2.0	False	ok	nichts
+10.55776/I312	fwf_obst	ergebnis		True			-105.4	True	nachpruefen	hindernis ja/ergebnis; grund Technik
+10.55776/T420	fwf_obst	ergebnis		False			-106.0	True	ok	nichts
+10.55776/P21192	fwf_obst	ergebnis		False			-106.0	True	ok	nichts
+10.55776/L628	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/P21163	fwf_obst	ergebnis		True			15.75	False	ok	hindernis ja/ergebnis; offener schritt ja
+10.55776/P20900	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/P20981	fwf_obst	ergebnis		True			-105.4	True	ok	hindernis ja/ergebnis; grund Technik
+10.55776/P20526	fwf_obst	ergebnis		True			12.15	False	ok	offener schritt ja
+10.55776/P20271	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/P20631	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/P20342	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/P18820	fwf_obst	ergebnis		True			-105.65	True	ok	offener schritt ja
+10.55776/P18623	fwf_obst	ergebnis		True			-95.45	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+10.55776/P18125	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/P18321	fwf_obst	ergebnis		False			11.0	False	ok	nichts
+10.55776/P18320	fwf_obst	ergebnis		False			-106.0	True	ok	nichts
+10.55776/P18264	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/Y282	fwf_obst	ergebnis		False			12.0	False	ok	nichts
+10.55776/P18214	fwf_obst	ergebnis		False			2.0	False	ok	nichts
+10.55776/P17460	fwf_obst	ergebnis		False			2.0	False	ok	nichts
+10.55776/P17878	fwf_obst	ergebnis		False			-106.0	True	ok	nichts
+10.55776/P17378	fwf_obst	ergebnis		True			15.0	False	ok	offener schritt unklar
+10.55776/P17261	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/P17111	fwf_obst	ergebnis		False			2.0	False	ok	nichts
+10.55776/P13431	fwf_obst	ergebnis		True			2.75	False	ok	hindernis ja/ergebnis; grund Personal
+10.55776/P13436	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/P13144	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/P13249	fwf_obst	ergebnis		False			2.0	False	ok	nichts
+10.55776/P13076	fwf_obst	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+10.55776/P12761	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/P12775	fwf_obst	ergebnis		False			2.0	False	ok	nichts
+10.55776/P12768	fwf_obst	ergebnis		True			-96.0	True	ok	offener schritt unklar
+10.55776/P12702	fwf_obst	ergebnis		True			-95.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+10.55776/P12977	fwf_obst	ergebnis		True			2.75	False	ok	hindernis ja/ergebnis; offener schritt ja
+10.55776/P12756	fwf_obst	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; grund Organisation
+10.55776/P12099	fwf_obst	ergebnis		True			-105.45	True	ok	hindernis ja/ergebnis; grund Geld
+10.55776/P11931	fwf_obst	ergebnis		False			-106.0	True	ok	nichts
+10.55776/P11994	fwf_obst	ergebnis		False			-106.0	True	ok	nichts
+10.55776/P11672	fwf_obst	ergebnis		True			-106.0	True	ok	offener schritt unklar
+10.55776/I4729	fwf_obst	ergebnis		False			-106.0	True	ok	nichts
+10.55776/P33130	fwf_obst	ergebnis		True			-106.0	True	ok	offener schritt unklar
+10.55776/P33026	fwf_obst	ergebnis		True			11.15	False	ok	offener schritt ja
+10.55776/P33019	fwf_obst	ergebnis		False			12.0	False	ok	nichts
+10.55776/FG1	fwf_obst	ergebnis		False			11.0	False	ok	nichts
+10.55776/P32722	fwf_obst	ergebnis		True			2.15	False	ok	grund Technik; offener schritt ja
+10.55776/P32954	fwf_obst	ergebnis		True			25.75	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+10.55776/M2827	fwf_obst	ergebnis		True			15.15	False	ok	offener schritt ja
+10.55776/J4393	fwf_obst	ergebnis		False			-106.0	True	ok	nichts
+10.55776/M2750	fwf_obst	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+10.55776/P32830	fwf_obst	ergebnis		False			11.0	False	ok	nichts
+10.55776/I4280	fwf_obst	ergebnis		False			8.0	False	ok	nichts
+10.55776/I4367	fwf_obst	ergebnis		True			12.6	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt unklar
+10.55776/P32146	fwf_obst	ergebnis		True			-99.85	True	ok	offener schritt ja
+10.55776/P32379	fwf_obst	ergebnis		True			-105.85	True	ok	offener schritt ja
+10.55776/P32445	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/P32299	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/I4278	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/M2669	fwf_obst	ergebnis		False			11.0	False	ok	nichts
+10.55776/I4123	fwf_obst	ergebnis		True			-95.4	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt unklar
+10.55776/M2683	fwf_obst	ergebnis		True			-105.65	True	ok	offener schritt ja
+10.55776/P31825	fwf_obst	ergebnis		True			6.15	False	ok	offener schritt ja
+10.55776/P31631	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/J4292	fwf_obst	ergebnis		True			-105.4	True	ok	hindernis ja/ergebnis; grund Technik
+10.55776/P37074	fwf_obst	ergebnis		True			25.4	False	ok	hindernis ja/ergebnis
+10.55776/J4731	fwf_obst	ergebnis		True			15.15	False	ok	offener schritt ja
+10.55776/ESP335	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/P17392	fwf_obst	ergebnis		True			2.0	False	ok	offener schritt unklar
+10.55776/P17166	fwf_obst	ergebnis		False			-106.0	True	ok	nichts
+10.55776/P17185	fwf_obst	ergebnis		True			25.6	False	nachpruefen	hindernis ja/ergebnis; offener schritt unklar
+10.55776/P16957	fwf_obst	ergebnis		False			8.0	False	ok	nichts
+10.55776/P17222	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/P16919	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/P16969	fwf_obst	ergebnis		False			-96.0	True	ok	nichts
+10.55776/P16965	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/P16631	fwf_obst	ergebnis		False			-106.0	True	ok	nichts
+10.55776/P16596	fwf_obst	ergebnis		False			-105.8	True	ok	nichts
+10.55776/P16317	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/P16500	fwf_obst	ergebnis		False			-106.0	True	ok	nichts
+10.55776/P16315	fwf_obst	ergebnis		True			-105.85	True	ok	offener schritt ja
+10.55776/P16186	fwf_obst	ergebnis		False			-106.0	True	ok	nichts
+10.55776/P16095	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/P16182	fwf_obst	ergebnis		False			12.0	False	ok	nichts
+10.55776/P15947	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/P36577	fwf_obst	ergebnis		True			-105.65	True	ok	offener schritt ja
+10.55776/I5993	fwf_obst	ergebnis		False			2.0	False	ok	nichts
+10.55776/I6001	fwf_obst	ergebnis		False			8.0	False	ok	nichts
+10.55776/P35623	fwf_obst	ergebnis		False			-106.0	True	ok	nichts
+10.55776/ESP112	fwf_obst	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+10.55776/P35632	fwf_obst	ergebnis		True			15.15	False	ok	offener schritt ja
+10.55776/P35655	fwf_obst	ergebnis		False			2.0	False	ok	nichts
+10.55776/DFH5	fwf_obst	ergebnis		True			15.15	False	ok	offener schritt ja
+10.55776/I5721	fwf_obst	ergebnis		True			-95.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+10.55776/P35509	fwf_obst	ergebnis		False			11.0	False	ok	nichts
+10.55776/J4604	fwf_obst	ergebnis		True			12.6	False	ok	hindernis ja/ergebnis; grund Technik
+10.55776/J4624	fwf_obst	ergebnis		False			15.0	False	ok	nichts
+10.55776/M3374	fwf_obst	ergebnis		True			-96.45	True	ok	hindernis ja/ergebnis; offener schritt ja
+10.55776/M3319	fwf_obst	ergebnis		False			10.0	False	ok	nichts
+633888	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+639304	poc	ergebnis		False			4.0	False	ok	nichts
+639758	poc	ergebnis		False			4.0	False	ok	nichts
+639859	poc	ergebnis		True			4.35	False	ok	offener schritt ja
+640120	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+640389	poc	ergebnis		True			-105.45	True	ok	hindernis ja/ergebnis; grund Geld
+640492	poc	ergebnis		True			-105.6	True	ok	hindernis ja/ergebnis
+640567	poc	antrag			10/15	False	-106	True	ok	antrag
+640579	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+640652	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+640749	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+640849	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+640862	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+640887	poc	ergebnis		False			4.0	False	ok	nichts
+640892	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+640924	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+640926	poc	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; offener schritt ja
+640957	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+640982	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+640988	poc	ergebnis		True			4.35	False	ok	offener schritt ja
+640997	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+641000	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+641036	poc	ergebnis		True			-105.65	True	ok	offener schritt ja
+641171	poc	ergebnis		False			4.0	False	ok	nichts
+641182	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+641187	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+641211	poc	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+641222	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+641232	poc	ergebnis		True			-95.25	True	ok	hindernis ja/ergebnis; offener schritt ja
+641252	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+641280	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+641302	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+641322	poc	ergebnis		True			4.35	False	ok	offener schritt ja
+641342	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+641353	poc	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+641382	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+641384	poc	ergebnis		False			11.0	False	ok	nichts
+641392	poc	ergebnis		True			-95.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+641415	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+641416	poc	ergebnis		True			4.15	False	nachpruefen	offener schritt ja
+662486	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+664714	poc	ergebnis		True			2.15	False	ok	offener schritt ja
+664719	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+664738	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+664782	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+664910	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+664926	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+665020	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+665055	poc	ergebnis		True			10.75	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+665275	poc	ergebnis		True			-89.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+665482	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+665589	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+665672	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+665635	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+665674	poc	ergebnis		False			4.0	False	ok	nichts
+665317	poc	ergebnis		True			-105.65	True	ok	offener schritt ja
+665633	poc	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+665725	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+665696	poc	ergebnis		False			4.0	False	ok	nichts
+665619	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+665412	poc	ergebnis		True			-105.65	True	ok	offener schritt ja
+665477	poc	ergebnis		True			8.15	False	ok	offener schritt ja
+665522	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+665634	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+665651	poc	ergebnis		True			-95.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+665718	poc	ergebnis		False			4.0	False	ok	nichts
+665656	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+665630	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+665770	poc	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+665775	poc	antrag			11/15	False	-106	True	ok	antrag
+641388	poc	ergebnis		False			4.0	False	ok	nichts
+664800	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+665216	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+665456	poc	ergebnis		True			4.75	False	ok	hindernis ja/ergebnis; offener schritt ja
+665595	poc	ergebnis		False			4.0	False	ok	nichts
+640678	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+665349	poc	ergebnis		True			-105.65	True	ok	offener schritt ja
+665421	poc	ergebnis		False			15.0	False	ok	nichts
+665751	poc	ergebnis		True			4.35	False	ok	offener schritt ja
+665671	poc	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+680884	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+680894	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+665639	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+680901	poc	ergebnis		True			15.55	False	ok	hindernis ja/ergebnis; offener schritt ja
+665712	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+679417	poc	ergebnis		False			8.0	False	ok	nichts
+680898	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+680902	poc	ergebnis		True			4.35	False	ok	offener schritt ja
+680552	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+680559	poc	ergebnis		True			4.35	False	ok	offener schritt ja
+680873	poc	ergebnis		True			15.35	False	ok	offener schritt ja
+680879	poc	ergebnis		True			15.15	False	ok	hindernis unklar/unklar; offener schritt ja
+680895	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+665756	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+680574	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+680608	poc	ergebnis		False			15.0	False	ok	nichts
+680904	poc	ergebnis		True			15.35	False	ok	offener schritt ja
+680900	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+680766	poc	ergebnis		True			-105.65	True	ok	offener schritt ja
+680897	poc	ergebnis		True			-105.45	True	ok	hindernis ja/ergebnis; offener schritt ja
+693243	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+692804	poc	ergebnis		True			15.75	False	ok	hindernis ja/ergebnis; offener schritt ja
+693297	poc	ergebnis		True			2.35	False	ok	offener schritt ja
+693594	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+679942	poc	ergebnis		True			2.15	False	ok	offener schritt ja
+680375	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+692977	poc	ergebnis		True			-105.65	True	ok	offener schritt ja
+693604	poc	ergebnis		True			14.75	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+680875	poc	ergebnis		True			15.35	False	ok	offener schritt ja
+692939	poc	ergebnis		False			-106.0	True	ok	nichts
+693447	poc	ergebnis		False			2.0	False	ok	nichts
+693670	poc	ergebnis		True			-105.85	True	ok	hindernis unklar/unklar; offener schritt ja
+677677	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+693361	poc	ergebnis		True			4.55	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+665632	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+693144	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+693521	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+692653	poc	ergebnis		True			10.35	False	ok	offener schritt ja
+693779	poc	ergebnis		False			2.0	False	ok	nichts
+680132	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+692448	poc	ergebnis		True			4.15	False	ok	hindernis unklar/unklar; offener schritt ja
+693739	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+693907	poc	ergebnis		True			-105.65	True	ok	offener schritt ja
+665113	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+680882	poc	ergebnis		True			-105.65	True	ok	offener schritt ja
+680883	poc	ergebnis		False			15.0	False	ok	nichts
+680912	poc	ergebnis		False			15.0	False	ok	nichts
+693561	poc	ergebnis		True			-105.45	True	ok	hindernis ja/ergebnis; offener schritt ja
+693454	poc	ergebnis		True			4.9	False	ok	hindernis ja/ergebnis; grund Personal; offener schritt ja
+693426	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+693064	poc	ergebnis		True			10.15	False	ok	offener schritt ja
+680420	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+692924	poc	ergebnis		False			-106.0	True	ok	nichts
+680872	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+693455	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+692765	poc	ergebnis		True			-95.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+693227	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+713423	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+713619	poc	ergebnis		True			4.75	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+713627	poc	ergebnis		True			15.15	False	nachpruefen	offener schritt ja
+713742	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+692914	poc	ergebnis		False			15.0	False	ok	nichts
+704340	poc	ergebnis		False			-106.0	True	ok	nichts
+709590	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+713250	poc	ergebnis		True			4.75	False	ok	hindernis ja/ergebnis; offener schritt ja
+713486	poc	ergebnis		True			-105.85	True	nachpruefen	offener schritt ja
+713736	poc	ergebnis		True			2.0	False	ok	offener schritt unklar
+712738	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+713397	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+713474	poc	ergebnis		True			14.55	False	ok	hindernis ja/ergebnis; offener schritt ja
+713613	poc	ergebnis		False			15.0	False	ok	nichts
+713677	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+692952	poc	ergebnis		True			4.0	False	nachpruefen	offener schritt unklar
+692987	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+693680	poc	ergebnis		False			12.0	False	ok	nichts
+713251	poc	ergebnis		False			15.0	False	ok	nichts
+713537	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+713539	poc	ergebnis		False			4.0	False	ok	nichts
+713704	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+713709	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+693433	poc	ergebnis		True			14.75	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+712708	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+712718	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+712984	poc	ergebnis		True			6.15	False	ok	offener schritt ja
+713410	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+713533	poc	ergebnis		False			12.0	False	ok	nichts
+713738	poc	ergebnis		True			4.55	False	ok	hindernis ja/ergebnis; offener schritt ja
+680890	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+693579	poc	ergebnis		True			25.9	False	ok	hindernis ja/ergebnis; grund Aufwand; offener schritt ja
+693878	poc	ergebnis		True			-95.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+700812	poc	ergebnis		True			12.15	False	ok	offener schritt ja
+713445	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+713368	poc	ergebnis		True			-95.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+713697	poc	ergebnis		True			10.15	False	ok	offener schritt ja
+713651	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+713726	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+713239	poc	ergebnis		True			2.15	False	ok	offener schritt ja
+713608	poc	ergebnis		True			-105.45	True	ok	hindernis ja/ergebnis; offener schritt ja
+713641	poc	ergebnis		False			4.0	False	ok	nichts
+676835	poc	ergebnis		True			-96.85	True	ok	offener schritt ja
+713626	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+713732	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+727722	poc	ergebnis		True			14.75	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+727493	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+727420	poc	ergebnis		False			4.0	False	ok	nichts
+727651	poc	ergebnis		True			-105.45	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+727255	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+727246	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+727334	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+727416	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+727417	poc	ergebnis		True			-96.85	True	ok	offener schritt ja
+727626	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+737424	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+737439	poc	ergebnis		False			15.0	False	ok	nichts
+713601	poc	ergebnis		False			6.0	False	ok	nichts
+727296	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+713671	poc	ergebnis		True			15.75	False	ok	hindernis ja/ergebnis; offener schritt ja
+727264	poc	ergebnis		True			-99.25	True	ok	hindernis ja/ergebnis; offener schritt ja
+737620	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+713524	poc	ergebnis		True			-105.65	True	ok	offener schritt ja
+727666	poc	ergebnis		True			-105.65	True	ok	offener schritt ja
+727738	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+737616	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+737639	poc	ergebnis		True			4.35	False	ok	offener schritt ja
+737574	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+737543	poc	ergebnis		False			15.0	False	ok	nichts
+692694	poc	ergebnis		True			-106.0	True	ok	offener schritt unklar
+727541	poc	ergebnis		False			4.0	False	ok	nichts
+737447	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+727313	poc	ergebnis		True			-95.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+727359	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+727480	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+727595	poc	ergebnis		True			4.9	False	ok	hindernis ja/ergebnis; grund Geld; offener schritt ja
+737638	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+692945	poc	ergebnis		False			-106.0	True	ok	nichts
+693623	poc	ergebnis		True			-105.1	True	ok	hindernis ja/ergebnis; grund Organisation; offener schritt ja
+693184	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+713659	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+713682	poc	ergebnis		False			2.0	False	ok	nichts
+713689	poc	ergebnis		False			-106.0	True	ok	nichts
+713734	poc	ergebnis		False			-106.0	True	ok	nichts
+713743	poc	ergebnis		True			-105.65	True	ok	offener schritt ja
+727297	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+727305	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+727440	poc	ergebnis		False			15.0	False	ok	nichts
+727536	poc	ergebnis		False			4.0	False	ok	nichts
+727644	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+727641	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+737548	poc	ergebnis		False			15.0	False	ok	nichts
+727306	poc	ergebnis		True			-105.45	True	nachpruefen	hindernis ja/ergebnis; offener schritt ja
+737530	poc	ergebnis		True			4.35	False	ok	offener schritt ja
+737539	poc	ergebnis		True			10.75	False	ok	hindernis ja/ergebnis; offener schritt ja
+737558	poc	ergebnis		True			4.35	False	ok	offener schritt ja
+737621	poc	ergebnis		False			15.0	False	ok	nichts
+727611	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+755235	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+755301	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+754890	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+727283	poc	ergebnis		True			4.35	False	ok	offener schritt ja
+737545	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+737560	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+737634	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+755380	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+755161	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+737596	poc	ergebnis		True			-95.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+727261	poc	ergebnis		True			4.35	False	ok	offener schritt ja
+727292	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+727542	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+727575	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+727682	poc	ergebnis		False			10.0	False	ok	nichts
+727774	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+737600	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+737637	poc	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; offener schritt ja
+741728	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+754615	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+754795	poc	ergebnis		False			-106.0	True	ok	nichts
+737570	poc	ergebnis		False			15.0	False	ok	nichts
+737610	poc	ergebnis		False			15.0	False	ok	nichts
+754735	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+754916	poc	ergebnis		True			-105.65	True	ok	offener schritt ja
+755075	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+755251	poc	ergebnis		False			-106.0	True	ok	nichts
+737557	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+727227	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+727427	poc	ergebnis		False			4.0	False	ok	nichts
+727606	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+737566	poc	ergebnis		True			15.55	False	ok	hindernis ja/ergebnis; offener schritt ja
+754453	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+754467	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+755134	poc	ergebnis		False			15.0	False	ok	nichts
+755471	poc	ergebnis		True			4.75	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+754375	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+727578	poc	ergebnis		False			4.0	False	ok	nichts
+727579	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+727646	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+737552	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+737564	poc	ergebnis		True			4.35	False	ok	offener schritt ja
+754630	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+754695	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+754748	poc	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; offener schritt ja
+754760	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+754994	poc	ergebnis		True			-105.85	True	ok	hindernis unklar/unklar; offener schritt ja
+755154	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+755383	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+737627	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+755347	poc	ergebnis		True			-95.25	True	ok	hindernis ja/ergebnis; offener schritt ja
+755460	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+737472	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+737562	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+751106	poc	ergebnis		True			12.15	False	ok	offener schritt ja
+754308	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+754609	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+754654	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+754696	poc	ergebnis		False			15.0	False	ok	nichts
+754704	poc	ergebnis		False			-106.0	True	ok	nichts
+754745	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+755456	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+764203	poc	ergebnis		True			-105.65	True	ok	offener schritt ja
+766695	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+766820	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+767112	poc	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; offener schritt ja
+767173	poc	ergebnis		True			-95.6	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt unklar
+767176	poc	ergebnis		True			2.15	False	ok	offener schritt ja
+767372	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+767579	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+768101	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+768258	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+768565	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+768584	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+768598	poc	ergebnis		False			2.0	False	ok	nichts
+768626	poc	ergebnis		True			15.35	False	ok	offener schritt ja
+768722	poc	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+768731	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+768790	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+766656	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+755402	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+755191	poc	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; offener schritt ja
+755196	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+767882	poc	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+768491	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+768527	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+768610	poc	ergebnis		True			15.55	False	ok	hindernis ja/ergebnis; offener schritt ja
+768930	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+780041	poc	ergebnis		True			-105.85	True	nachpruefen	offener schritt ja
+768338	poc	ergebnis		True			-99.85	True	ok	offener schritt ja
+766936	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+754895	poc	ergebnis		False			15.0	False	ok	nichts
+780255	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+779971	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+767234	poc	ergebnis		False			-106.0	True	ok	nichts
+768914	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+768929	poc	ergebnis		False			4.0	False	ok	nichts
+780151	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+779822	poc	ergebnis		True			-105.65	True	ok	offener schritt ja
+780284	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+780907	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+780718	poc	ergebnis		True			4.35	False	ok	offener schritt ja
+780160	poc	ergebnis		False			-106.0	True	ok	nichts
+779444	poc	ergebnis		True			-105.65	True	ok	offener schritt ja
+780757	poc	ergebnis		True			-95.25	True	ok	hindernis ja/ergebnis; offener schritt ja
+780004	poc	ergebnis		True			-105.65	True	ok	offener schritt ja
+780333	poc	ergebnis		False			8.0	False	ok	nichts
+780487	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+755037	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+779751	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+779754	poc	ergebnis		True			15.35	False	ok	offener schritt ja
+779792	poc	ergebnis		True			-99.85	True	ok	offener schritt ja
+755466	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+768740	poc	ergebnis		True			-95.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+778616	poc	ergebnis		True			4.35	False	ok	offener schritt ja
+779689	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+779896	poc	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+779921	poc	ergebnis		False			10.0	False	ok	nichts
+779985	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+780170	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+780645	poc	ergebnis		True			-95.25	True	ok	hindernis ja/ergebnis; offener schritt ja
+780730	poc	ergebnis		True			-99.85	True	ok	offener schritt ja
+727730	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+755412	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+767064	poc	ergebnis		True			12.75	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+767235	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+768728	poc	ergebnis		True			-105.65	True	ok	offener schritt ja
+768910	poc	ergebnis		False			15.0	False	ok	nichts
+779611	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+779939	poc	ergebnis		True			-95.45	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+779909	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+779860	poc	ergebnis		False			8.0	False	ok	nichts
+779802	poc	ergebnis		True			-105.65	True	ok	offener schritt ja
+780061	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+780058	poc	ergebnis		False			4.0	False	ok	nichts
+780453	poc	ergebnis		True			-96.45	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+780964	poc	ergebnis		True			-105.65	True	ok	offener schritt ja
+768657	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+780669	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+787462	poc	ergebnis		False			15.0	False	ok	nichts
+789863	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+789868	poc	ergebnis		False			4.0	False	ok	nichts
+790169	poc	ergebnis		True			-105.65	True	ok	offener schritt ja
+790341	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+790206	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+790397	poc	ergebnis		True			-95.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+790559	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+789992	poc	ergebnis		True			10.15	False	ok	offener schritt ja
+790423	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+790458	poc	ergebnis		True			-105.65	True	ok	offener schritt ja
+789598	poc	ergebnis		True			4.55	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+790088	poc	ergebnis		True			-105.65	True	ok	offener schritt ja
+790272	poc	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; offener schritt ja
+790395	poc	ergebnis		False			4.0	False	ok	nichts
+789182	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+780386	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+789463	poc	ergebnis		True			4.75	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+789758	poc	ergebnis		True			-105.4	True	ok	hindernis ja/ergebnis; grund Technik
+789788	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+789817	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+789815	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+789825	poc	ergebnis		True			10.15	False	ok	offener schritt ja
+789875	poc	ergebnis		False			4.0	False	ok	nichts
+789948	poc	ergebnis		True			14.35	False	ok	offener schritt ja
+790027	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+790155	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+790093	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+790340	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+790400	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+790435	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+790469	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+790518	poc	ergebnis		True			4.35	False	ok	offener schritt ja
+790575	poc	ergebnis		False			15.0	False	ok	nichts
+786285	poc	ergebnis		True			4.0	False	nachpruefen	offener schritt unklar
+789601	poc	ergebnis		True			10.15	False	ok	offener schritt ja
+790163	poc	ergebnis		False			2.0	False	ok	nichts
+790380	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+790563	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+790594	poc	ergebnis		True			-99.85	True	ok	offener schritt ja
+790654	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+811305	poc	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; offener schritt ja
+813109	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+811187	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+813103	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+811249	poc	ergebnis		True			-105.4	True	ok	hindernis ja/ergebnis; grund Technik
+812837	poc	ergebnis		True			4.15	False	nachpruefen	offener schritt ja
+812938	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+812583	poc	ergebnis		True			10.15	False	ok	offener schritt ja
+812841	poc	ergebnis		True			-95.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+813236	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+812309	poc	ergebnis		True			-95.25	True	ok	hindernis ja/ergebnis; offener schritt ja
+812703	poc	ergebnis		True			-105.45	True	ok	hindernis ja/ergebnis; offener schritt ja
+812904	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+812943	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+812917	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+813152	poc	ergebnis		False			2.0	False	ok	nichts
+812975	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+790240	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+812998	poc	ergebnis		True			-105.65	True	nachpruefen	offener schritt ja
+812994	poc	ergebnis		False			-106.0	True	ok	nichts
+813127	poc	ergebnis		False			4.0	False	ok	nichts
+813258	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+813232	poc	ergebnis		True			-105.85	True	ok	hindernis unklar/unklar; offener schritt ja
+825761	poc	ergebnis		True			-105.65	True	ok	offener schritt ja
+824939	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+825879	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+825117	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+812960	poc	ergebnis		True			25.75	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+812844	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+812982	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+813086	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+812806	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+825238	poc	ergebnis		True			4.7	False	ok	hindernis ja/ergebnis; grund Organisation; offener schritt ja
+825833	poc	ergebnis		True			15.75	False	ok	hindernis ja/ergebnis; offener schritt ja
+812763	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+825803	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+825783	poc	ergebnis		False			15.0	False	ok	nichts
+825797	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+812729	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+825706	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+812672	poc	ergebnis		False			15.0	False	ok	nichts
+824886	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+825159	poc	ergebnis		True			14.55	False	ok	hindernis ja/ergebnis; offener schritt ja
+825142	poc	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+813228	poc	ergebnis		False			4.0	False	ok	nichts
+825122	poc	ergebnis		True			-95.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+825854	poc	ergebnis		True			4.75	False	ok	hindernis ja/ergebnis; offener schritt ja
+813242	poc	ergebnis		True			-105.65	True	ok	offener schritt ja
+825829	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+824735	poc	ergebnis		False			15.0	False	ok	nichts
+825492	poc	ergebnis		False			15.0	False	ok	nichts
+825905	poc	ergebnis		True			-95.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+825942	poc	ergebnis		True			-105.65	True	ok	hindernis unklar/unklar; offener schritt ja
+825974	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+825794	poc	ergebnis		False			4.0	False	ok	nichts
+813021	poc	ergebnis		False			-106.0	True	ok	nichts
+825108	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+825995	poc	ergebnis		True			10.15	False	ok	offener schritt ja
+825403	poc	ergebnis		True			15.15	False	ok	hindernis unklar/unklar; offener schritt ja
+825968	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+825018	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+825404	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+811285	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+839088	poc	ergebnis		True			-105.85	True	nachpruefen	offener schritt ja
+842066	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+838894	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+842613	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+841781	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+841109	poc	ergebnis		True			4.9	False	ok	hindernis ja/ergebnis; grund Aufwand; offener schritt ja
+842472	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+836429	poc	ergebnis		True			-89.25	True	ok	hindernis ja/ergebnis; offener schritt ja
+838702	poc	ergebnis		True			4.15	False	nachpruefen	hindernis unklar/unklar; offener schritt ja
+838342	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+840010	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+840446	poc	ergebnis		False			4.0	False	ok	nichts
+825813	poc	ergebnis		False			8.0	False	ok	nichts
+837874	poc	ergebnis		True			-105.65	True	ok	offener schritt ja
+840116	poc	ergebnis		False			12.0	False	ok	nichts
+839271	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+839997	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+840243	poc	ergebnis		False			-106.0	True	ok	nichts
+840295	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+841640	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+841775	poc	ergebnis		True			15.15	False	ok	hindernis unklar/ergebnis; offener schritt ja
+842349	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+842606	poc	ergebnis		True			-95.25	True	ok	hindernis ja/ergebnis; offener schritt ja
+825581	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+835883	poc	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; offener schritt ja
+838414	poc	ergebnis		True			-105.65	True	ok	offener schritt ja
+838672	poc	ergebnis		True			-89.25	True	ok	hindernis ja/ergebnis; offener schritt ja
+841112	poc	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+838002	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+825836	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+825892	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+842251	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+825435	poc	ergebnis		False			-106.0	True	ok	nichts
+839200	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+838359	poc	ergebnis		True			10.15	False	ok	offener schritt ja
+839297	poc	ergebnis		True			-105.65	True	ok	offener schritt ja
+813223	poc	ergebnis		False			-106.0	True	ok	nichts
+862549	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+862311	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+840052	poc	ergebnis		True			-99.65	True	ok	offener schritt ja
+841865	poc	ergebnis		True			-99.25	True	ok	hindernis ja/ergebnis; offener schritt ja
+875672	poc	ergebnis		False			4.0	False	ok	nichts
+825972	poc	ergebnis		False			15.0	False	ok	nichts
+875698	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+840626	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+875573	poc	ergebnis		True			-105.45	True	ok	hindernis ja/ergebnis; offener schritt ja
+862089	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+874966	poc	ergebnis		True			-105.65	True	ok	offener schritt ja
+875410	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+875649	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+875692	poc	ergebnis		False			15.0	False	ok	nichts
+899912	poc	ergebnis		True			4.15	False	nachpruefen	offener schritt ja
+899538	poc	ergebnis		True			4.9	False	ok	hindernis ja/ergebnis; grund Organisation; offener schritt ja
+899872	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+899555	poc	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; offener schritt ja
+899366	poc	ergebnis		True			14.75	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+899609	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+899774	poc	ergebnis		True			-105.85	True	ok	hindernis unklar/unklar; offener schritt ja
+890644	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+899573	poc	ergebnis		True			-105.1	True	ok	hindernis ja/ergebnis; grund Organisation; offener schritt ja
+899928	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+885469	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+899537	poc	ergebnis		True			2.15	False	ok	offener schritt ja
+899953	poc	ergebnis		False			4.0	False	ok	nichts
+899315	poc	ergebnis		True			-105.1	True	ok	hindernis ja/ergebnis; grund Geld; offener schritt ja
+899839	poc	ergebnis		True			10.55	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+899260	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+899930	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+899652	poc	ergebnis		False			15.0	False	ok	nichts
+899742	poc	ergebnis		True			13.15	False	ok	offener schritt ja
+899891	poc	ergebnis		False			15.0	False	ok	nichts
+899636	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+897025	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+899840	poc	ergebnis		True			15.35	False	ok	offener schritt ja
+899779	poc	ergebnis		True			4.75	False	ok	hindernis ja/ergebnis; offener schritt ja
+957440	poc	ergebnis		True			-95.45	True	ok	hindernis ja/ergebnis; offener schritt ja
+957509	poc	ergebnis		False			15.0	False	ok	nichts
+957513	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+957551	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+957570	poc	ergebnis		False			10.0	False	ok	nichts
+956151	poc	ergebnis		True			-105.65	True	ok	offener schritt ja
+957534	poc	ergebnis		True			-105.65	True	ok	offener schritt ja
+957504	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+957508	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+959109	poc	ergebnis		True			-105.85	True	ok	hindernis unklar/ergebnis; offener schritt ja
+957506	poc	ergebnis		True			10.75	False	ok	hindernis ja/ergebnis; offener schritt ja
+957532	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+957467	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+963872	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+957524	poc	ergebnis		True			10.15	False	ok	offener schritt ja
+963913	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+963875	poc	ergebnis		False			-106.0	True	ok	nichts
+963934	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+963912	poc	ergebnis		True			4.15	False	nachpruefen	offener schritt ja
+964007	poc	ergebnis		True			15.55	False	ok	hindernis ja/ergebnis; offener schritt ja
+964013	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+957272	poc	ergebnis		True			10.75	False	ok	hindernis ja/ergebnis; offener schritt ja
+957512	poc	ergebnis		False			-106.0	True	ok	nichts
+957488	poc	ergebnis		True			15.35	False	ok	offener schritt ja
+957538	poc	ergebnis		True			-105.65	True	ok	offener schritt ja
+957533	poc	ergebnis		True			12.15	False	ok	offener schritt ja
+957516	poc	antrag			12/15	False	-106	True	ok	antrag
+957500	poc	ergebnis		True			-99.85	True	ok	offener schritt ja
+957442	poc	ergebnis		False			15.0	False	ok	nichts
+957546	poc	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; offener schritt ja
+957585	poc	ergebnis		False			-106.0	True	ok	nichts
+963950	poc	ergebnis		True			4.75	False	ok	hindernis ja/ergebnis; offener schritt ja
+957641	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+963675	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+963947	poc	ergebnis		True			-105.65	True	ok	offener schritt ja
+963980	poc	ergebnis		True			4.35	False	ok	offener schritt ja
+957581	poc	ergebnis		True			-105.65	True	ok	hindernis unklar/unklar; offener schritt ja
+957527	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+963945	poc	ergebnis		True			-99.85	True	ok	offener schritt ja
+963884	poc	ergebnis		True			-99.85	True	ok	offener schritt ja
+963903	poc	ergebnis		True			-95.25	True	ok	hindernis ja/ergebnis; offener schritt ja
+963933	poc	ergebnis		True			-105.85	True	nachpruefen	offener schritt ja
+964006	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+963992	poc	ergebnis		False			-106.0	True	ok	nichts
+963941	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+963953	poc	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+963955	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+963898	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+963986	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+957480	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+963954	poc	ergebnis		True			4.9	False	ok	hindernis ja/ergebnis; grund Geld; offener schritt ja
+963967	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+957514	poc	ergebnis		False			-106.0	True	ok	nichts
+966725	poc	ergebnis		True			10.15	False	ok	offener schritt ja
+966759	poc	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; offener schritt ja
+966788	poc	ergebnis		True			-95.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+966772	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+966837	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+963910	poc	ergebnis		True			-105.65	True	ok	offener schritt ja
+963893	poc	ergebnis		True			-105.85	True	nachpruefen	offener schritt ja
+966846	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+966722	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+966743	poc	ergebnis		False			2.0	False	ok	nichts
+966334	poc	ergebnis		True			-95.45	True	ok	hindernis ja/ergebnis; offener schritt ja
+966720	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+966764	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+966791	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+966757	poc	ergebnis		True			2.15	False	ok	offener schritt ja
+966677	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+966656	poc	ergebnis		True			4.15	False	ok	hindernis unklar/unklar; offener schritt ja
+966654	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+966758	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+966781	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+966718	poc	ergebnis		False			-106.0	True	ok	nichts
+966570	poc	ergebnis		True			15.35	False	ok	offener schritt ja
+963863	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+966581	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+966740	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+966733	poc	ergebnis		True			15.55	False	ok	hindernis ja/ergebnis; offener schritt ja
+966710	poc	ergebnis		False			4.0	False	ok	nichts
+966786	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+966856	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+966721	poc	ergebnis		True			15.35	False	ok	offener schritt ja
+966813	poc	ergebnis		True			-105.65	True	ok	offener schritt ja
+966696	poc	ergebnis		False			15.0	False	ok	nichts
+964009	poc	ergebnis		False			15.0	False	ok	nichts
+966770	poc	ergebnis		False			15.0	False	ok	nichts
+966709	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+966760	poc	ergebnis		True			-105.65	True	ok	offener schritt ja
+966703	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+966674	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+966824	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+966826	poc	ergebnis		True			-105.65	True	ok	offener schritt ja
+966841	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+966785	poc	ergebnis		False			2.0	False	ok	nichts
+966614	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+966685	poc	ergebnis		True			-95.25	True	ok	hindernis ja/ergebnis; offener schritt ja
+966735	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+966842	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+966765	poc	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; offener schritt ja
+101059920	poc	ergebnis		False			4.0	False	ok	nichts
+101062689	poc	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+101062180	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+101064463	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+101061890	poc	ergebnis		False			12.0	False	ok	nichts
+101061820	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+101062041	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+101062032	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+101066321	poc	ergebnis		True			-105.65	True	ok	offener schritt ja
+101066434	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+101068557	poc	ergebnis		True			4.35	False	ok	offener schritt ja
+101068936	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+101069100	poc	ergebnis		True			-106.0	True	ok	offener schritt unklar
+101069190	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+101069192	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+101069171	poc	ergebnis		True			10.35	False	ok	offener schritt ja
+101069187	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+101069172	poc	ergebnis		False			12.0	False	ok	nichts
+101069165	poc	ergebnis		True			15.75	False	ok	hindernis ja/ergebnis; offener schritt ja
+101069232	poc	ergebnis		True			-95.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+101069217	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+101069262	poc	ergebnis		True			-105.85	True	ok	hindernis unklar/unklar; offener schritt ja
+101069250	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+101069228	poc	ergebnis		True			10.15	False	ok	offener schritt ja
+101069237	poc	ergebnis		True			15.4	False	ok	hindernis ja/ergebnis; offener schritt unklar
+101069244	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+101069259	poc	ergebnis		True			14.75	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+101069261	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+101069245	poc	ergebnis		True			4.75	False	ok	hindernis ja/ergebnis; offener schritt ja
+101069288	poc	ergebnis		True			-105.85	True	ok	hindernis unklar/unklar; offener schritt ja
+101069326	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+101069293	poc	ergebnis		True			-95.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+101069319	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+101069298	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+101069295	poc	ergebnis		True			-95.6	True	ok	hindernis ja/ergebnis; offener schritt unklar
+101069343	poc	ergebnis		True			4.35	False	ok	offener schritt ja
+101069337	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+101069387	poc	ergebnis		True			-95.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+101069377	poc	ergebnis		True			15.9	False	ok	hindernis ja/ergebnis; grund Geld; offener schritt ja
+101069363	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+101069360	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+101069336	poc	ergebnis		False			-106.0	True	ok	nichts
+101069382	poc	ergebnis		True			-105.65	True	ok	offener schritt ja
+101069391	poc	ergebnis		True			-105.65	True	ok	offener schritt ja
+101069394	poc	ergebnis		False			15.0	False	ok	nichts
+101069401	poc	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+101069416	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+101069446	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+101069436	poc	ergebnis		True			10.15	False	ok	offener schritt ja
+101069457	poc	ergebnis		True			15.75	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+101069470	poc	ergebnis		True			-99.25	True	ok	hindernis ja/ergebnis; offener schritt ja
+101069469	poc	ergebnis		True			-95.4	True	ok	hindernis ja/ergebnis; grund Technik
+101069447	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+101069182	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+101069348	poc	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+101069247	poc	ergebnis		True			-105.65	True	ok	offener schritt ja
+101069234	poc	ergebnis		True			-105.65	True	ok	offener schritt ja
+101069327	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+101069308	poc	ergebnis								keine Haiku-Antwort
+101082087	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+101069322	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+101069207	poc	ergebnis		True			-99.85	True	ok	offener schritt ja
+101069179	poc	ergebnis		False			4.0	False	ok	nichts
+101061967	poc	ergebnis		True			-105.45	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+101082088	poc	ergebnis		True			-105.45	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+101081567	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+101081830	poc	ergebnis		True			14.75	False	ok	hindernis ja/ergebnis; offener schritt ja
+101082333	poc	ergebnis		True			25.15	False	ok	offener schritt ja
+101069218	poc	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+101069239	poc	ergebnis		True			4.35	False	ok	offener schritt ja
+101081171	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+101082096	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+101082238	poc	ergebnis		True			15.75	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+101082283	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+101069264	poc	ergebnis		True			15.15	False	nachpruefen	offener schritt ja
+101069260	poc	ergebnis		False			-106.0	True	ok	nichts
+101081821	poc	ergebnis		True			4.35	False	ok	offener schritt ja
+101081736	poc	ergebnis		False			-106.0	True	ok	nichts
+101069456	poc	ergebnis		True			-105.65	True	ok	offener schritt ja
+101069310	poc	ergebnis		False			-106.0	True	ok	nichts
+101069299	poc	ergebnis		True			10.15	False	ok	offener schritt ja
+101069302	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+101069301	poc	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; offener schritt ja
+101069279	poc	ergebnis		True			4.35	False	ok	offener schritt ja
+101069268	poc	ergebnis		True			-95.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+101069181	poc	ergebnis		True			-105.65	True	ok	offener schritt ja
+101081881	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+101082079	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+101082210	poc	ergebnis		False			-106.0	True	ok	nichts
+101081871	poc	ergebnis		True			-89.6	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt unklar
+101081888	poc	ergebnis		True			-95.4	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt unklar
+101081911	poc	ergebnis		False			4.0	False	ok	nichts
+101081998	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+101066777	poc	ergebnis		True			12.35	False	nachpruefen	offener schritt ja
+101082223	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+101082183	poc	ergebnis		True			-99.85	True	ok	hindernis unklar/ergebnis; offener schritt ja
+101069402	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+101100903	poc	ergebnis		True			20.75	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+101100837	poc	ergebnis		False			15.0	False	ok	nichts
+101100663	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+101101069	poc	ergebnis		True			-95.25	True	ok	hindernis ja/ergebnis; offener schritt ja
+101100718	poc	ergebnis		True			-89.45	True	ok	hindernis ja/ergebnis; offener schritt ja
+101100574	poc	ergebnis		True			-105.4	True	nachpruefen	hindernis ja/ergebnis; grund Technik; offener schritt unklar
+101100628	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+101100615	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+101100599	poc	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; offener schritt ja
+101101026	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+101101079	poc	ergebnis		False			-106.0	True	ok	nichts
+101100819	poc	ergebnis		True			10.15	False	ok	offener schritt ja
+101062467	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+101100894	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+101100953	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+101101071	poc	ergebnis		True			-105.65	True	ok	offener schritt ja
+101101022	poc	ergebnis		True			10.15	False	ok	offener schritt ja
+101081361	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+101100873	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+101101098	poc	ergebnis		False			4.0	False	ok	nichts
+101100664	poc	ergebnis		True			10.55	False	ok	hindernis ja/ergebnis; offener schritt ja
+101101033	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+101100859	poc	ergebnis		True			-105.65	True	ok	offener schritt ja
+101101072	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+101112727	poc	ergebnis		True			25.6	False	ok	hindernis ja/ergebnis; grund Technik
+101113125	poc	ergebnis		False			2.0	False	ok	nichts
+101082172	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+101113464	poc	ergebnis		True			25.4	False	ok	hindernis ja/ergebnis
+101113487	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+101113407	poc	ergebnis		True			-95.4	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt unklar
+101067680	poc	ergebnis		True			-105.4	True	ok	hindernis ja/ergebnis; grund Technik
+101059468	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+101113529	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+101113389	poc	ergebnis								keine Haiku-Antwort
+101113439	poc	ergebnis		True			4.35	False	ok	offener schritt ja
+101112725	poc	ergebnis		False			11.0	False	ok	nichts
+101113141	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+101113262	poc	ergebnis		True			10.15	False	ok	offener schritt ja
+101101048	poc	ergebnis		True			-99.85	True	ok	offener schritt ja
+101081713	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+101113532	poc	ergebnis		True			22.9	False	ok	hindernis ja/ergebnis; grund Aufwand; offener schritt ja
+101113438	poc	ergebnis		True			4.35	False	ok	offener schritt ja
+101113416	poc	ergebnis		True			-105.65	True	ok	offener schritt ja
+101113333	poc	ergebnis		True			-95.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+101112898	poc	ergebnis		True			-95.45	True	ok	hindernis ja/ergebnis; offener schritt ja
+101112677	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+101112851	poc	ergebnis		True			-105.65	True	ok	offener schritt ja
+101112763	poc	ergebnis		False			15.0	False	ok	nichts
+101112716	poc	ergebnis		True			10.55	False	ok	hindernis ja/ergebnis; offener schritt ja
+101111915	poc	ergebnis		True			-105.85	True	nachpruefen	offener schritt ja
+101112853	poc	ergebnis		True			-105.65	True	ok	offener schritt ja
+101113026	poc	ergebnis		True			-105.65	True	ok	offener schritt ja
+101068512	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+101069307	poc	ergebnis		True			-105.85	True	ok	hindernis unklar/unklar; offener schritt ja
+101069349	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+101067679	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+101062521	poc	ergebnis		False			-106.0	True	ok	nichts
+101113104	poc	ergebnis		True			4.15	False	ok	hindernis unklar/unklar; offener schritt ja
+101113522	poc	ergebnis		True			-105.65	True	ok	offener schritt ja
+101113418	poc	ergebnis		False			12.0	False	ok	nichts
+101113313	poc	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; offener schritt ja
+101123027	poc	ergebnis		True			20.9	False	ok	hindernis ja/ergebnis; grund Personal; offener schritt ja
+101122563	poc	ergebnis		True			-105.45	True	ok	hindernis ja/ergebnis; offener schritt ja
+101113433	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+101113421	poc	ergebnis		False			15.0	False	ok	nichts
+101113365	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+101113345	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+101113096	poc	ergebnis		True			4.35	False	ok	offener schritt ja
+101113334	poc	ergebnis		True			4.35	False	ok	offener schritt ja
+101112887	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+101112805	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+101101066	poc	ergebnis		True			-95.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+101123421	poc	ergebnis		True			10.15	False	ok	offener schritt ja
+101113553	poc	ergebnis		True			4.35	False	ok	hindernis unklar/unklar; offener schritt ja
+101082135	poc	ergebnis		False			-106.0	True	ok	nichts
+101138186	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+101137959	poc	ergebnis		False			4.0	False	ok	nichts
+101137970	poc	ergebnis		True			-95.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+101137852	poc	ergebnis		True			-95.4	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt unklar
+101082299	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+101123031	poc	ergebnis		True			15.4	False	ok	hindernis ja/ergebnis; offener schritt unklar
+101123091	poc	ergebnis		True			15.9	False	ok	hindernis ja/ergebnis; grund Aufwand; offener schritt ja
+101123147	poc	ergebnis		True			4.35	False	ok	offener schritt ja
+101123231	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+101123257	poc	ergebnis		False			-106.0	True	ok	nichts
+101123334	poc	ergebnis		True			14.75	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+101123478	poc	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+101123353	poc	ergebnis		False			15.0	False	ok	nichts
+101138580	poc	ergebnis		True			10.15	False	ok	offener schritt ja
+101123099	poc	ergebnis		True			4.15	False	ok	offener schritt ja
+101123089	poc	ergebnis		True			-95.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+101123066	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+101123202	poc	ergebnis		True			4.35	False	ok	offener schritt ja
+101122970	poc	ergebnis		True			4.0	False	ok	offener schritt unklar
+101137960	poc	ergebnis		True			-105.85	True	ok	offener schritt ja
+101137675	poc	ergebnis		True			-95.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+101138967	poc	ergebnis		True			-105.1	True	ok	hindernis ja/ergebnis; grund Geld; offener schritt ja
+101138283	poc	ergebnis		True			-99.85	True	ok	offener schritt ja
+101138301	poc	ergebnis		True			15.35	False	ok	hindernis unklar/unklar; offener schritt ja
+101157564	poc	antrag			13/15	False	-106	True	ok	antrag
+101123298	poc	ergebnis		True			15.15	False	ok	offener schritt ja
+101158039	poc	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+101188523	poc	ergebnis		True			20.2	False	ok	hindernis unklar/ergebnis; offener schritt unklar
+101189364	poc	antrag			14/15	False	-106	True	ok	antrag
+652593	sme2	ergebnis		False			6.0	False	ok	nichts
+666148	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+666206	sme2	ergebnis		False			2.0	False	ok	nichts
+666257	sme2	ergebnis		True			10.75	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+666278	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+666287	sme2	ergebnis		False			15.0	False	ok	nichts
+666312	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+666346	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+666412	sme2	ergebnis		True			4.9	False	ok	hindernis ja/ergebnis; grund Aufwand; offener schritt ja
+666423	sme2	ergebnis		True			10.75	False	ok	hindernis ja/ergebnis; offener schritt ja
+666425	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+666435	sme2	ergebnis		True			4.15	False	ok	hindernis unklar/ergebnis; offener schritt ja
+666449	sme2	ergebnis		True			-95.45	True	ok	hindernis ja/ergebnis; offener schritt ja
+666482	sme2	ergebnis		True			11.0	False	nachpruefen	offener schritt unklar
+666496	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+666507	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+666513	sme2	ergebnis		True			10.15	False	ok	offener schritt ja
+666566	sme2	ergebnis		True			4.35	False	ok	offener schritt ja
+666570	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+666588	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+666624	sme2	ergebnis		True			-105.45	True	ok	hindernis ja/ergebnis; offener schritt ja
+666635	sme2	ergebnis		False			15.0	False	ok	nichts
+666644	sme2	ergebnis		True			4.75	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+666712	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+666736	sme2	ergebnis		False			8.0	False	ok	nichts
+666741	sme2	ergebnis		True			-105.45	True	ok	hindernis ja/ergebnis; offener schritt ja
+666758	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+666788	sme2	ergebnis		True			-99.65	True	ok	offener schritt ja
+666794	sme2	ergebnis		True			2.15	False	ok	offener schritt ja
+666810	sme2	ergebnis		True			10.9	False	ok	hindernis ja/ergebnis; grund Organisation; offener schritt ja
+666815	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+666841	sme2	ergebnis		True			4.75	False	nachpruefen	hindernis ja/ergebnis; grund Technik; offener schritt ja
+672389	sme2	ergebnis		True			14.75	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+672930	sme2	ergebnis		False			12.0	False	ok	nichts
+673155	sme2	ergebnis		True			22.75	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+673853	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+673763	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+674539	sme2	ergebnis		True			-105.65	True	ok	offener schritt ja
+666427	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+674710	sme2	ergebnis		True			15.0	False	ok	offener schritt unklar
+666610	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+673447	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+673453	sme2	ergebnis		False			2.0	False	ok	nichts
+666367	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+673682	sme2	ergebnis		True			4.75	False	ok	hindernis ja/ergebnis; offener schritt ja
+673727	sme2	ergebnis		True			10.15	False	ok	offener schritt ja
+673780	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+673944	sme2	ergebnis		False			4.0	False	ok	nichts
+674440	sme2	ergebnis		False			2.0	False	ok	nichts
+674491	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+666438	sme2	ergebnis		False			15.0	False	ok	nichts
+666488	sme2	ergebnis		False			4.0	False	ok	nichts
+666774	sme2	ergebnis		False			4.0	False	ok	nichts
+666866	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+672145	sme2	ergebnis		True			-105.1	True	ok	hindernis ja/ergebnis; grund Organisation; offener schritt ja
+672231	sme2	ergebnis		False			4.0	False	ok	nichts
+672309	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+672528	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+672910	sme2	ergebnis		True			4.75	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+674741	sme2	ergebnis		False			2.0	False	ok	nichts
+666668	sme2	ergebnis		True			-105.65	True	ok	offener schritt ja
+673817	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+666440	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+672680	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+666490	sme2	ergebnis		False			2.0	False	ok	nichts
+666698	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+666726	sme2	ergebnis		False			2.0	False	ok	nichts
+666793	sme2	ergebnis		True			4.75	False	ok	hindernis ja/ergebnis; offener schritt ja
+666798	sme2	ergebnis		True			-105.65	True	ok	offener schritt ja
+666800	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+672814	sme2	ergebnis		True			-99.65	True	ok	offener schritt ja
+673663	sme2	ergebnis		True			2.0	False	ok	offener schritt unklar
+674311	sme2	ergebnis		True			4.55	False	nachpruefen	hindernis ja/ergebnis; offener schritt ja
+674413	sme2	ergebnis		True			4.0	False	ok	offener schritt unklar
+671379	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+666308	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+666732	sme2	antrag			6/15	False	4	False	ok	antrag
+666795	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+671970	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+672032	sme2	ergebnis		True			-105.1	True	ok	hindernis ja/ergebnis; grund Geld; offener schritt ja
+672267	sme2	ergebnis		True			4.15	False	ok	hindernis unklar/unklar; offener schritt ja
+672281	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+673659	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+672530	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+673336	sme2	antrag			1/15	True	15	False	ok	antrag
+673664	sme2	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+674200	sme2	ergebnis		True			-105.45	True	ok	hindernis ja/ergebnis; offener schritt ja
+674285	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+673976	sme2	ergebnis		True			8.15	False	ok	offener schritt ja
+674006	sme2	ergebnis		True			4.35	False	ok	offener schritt ja
+673868	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+673953	sme2	ergebnis		True			-89.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+666432	sme2	ergebnis		True			4.9	False	ok	hindernis ja/ergebnis; grund Organisation; offener schritt ja
+666666	sme2	ergebnis		False			-106.0	True	ok	nichts
+666852	sme2	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; offener schritt ja
+672265	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+673581	sme2	ergebnis		True			12.15	False	ok	offener schritt ja
+673662	sme2	ergebnis		True			2.15	False	ok	offener schritt ja
+673690	sme2	ergebnis		True			10.4	False	ok	hindernis ja/ergebnis; offener schritt unklar
+673771	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+674049	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+674119	sme2	ergebnis		True			15.75	False	ok	hindernis ja/ergebnis; offener schritt ja
+674137	sme2	ergebnis		True			2.15	False	ok	offener schritt ja
+674744	sme2	ergebnis		True			10.75	False	ok	hindernis ja/ergebnis; offener schritt ja
+682804	sme2	ergebnis		True			2.15	False	nachpruefen	offener schritt ja
+683626	sme2	ergebnis		False			15.0	False	ok	nichts
+684026	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+684086	sme2	ergebnis		True			10.15	False	ok	offener schritt ja
+684596	sme2	ergebnis		False			2.0	False	ok	nichts
+685082	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+674282	sme2	ergebnis		True			-106.0	True	nachpruefen	offener schritt unklar
+674474	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+674797	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+684516	sme2	ergebnis		False			2.0	False	ok	nichts
+685213	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+672777	sme2	ergebnis		True			2.15	False	ok	offener schritt ja
+684051	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+672278	sme2	ergebnis		False			15.0	False	ok	nichts
+674045	sme2	ergebnis		True			10.15	False	ok	offener schritt ja
+683954	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+684467	sme2	ergebnis		True			4.35	False	ok	offener schritt ja
+672550	sme2	ergebnis		True			4.9	False	ok	hindernis ja/ergebnis; grund Organisation; offener schritt ja
+673737	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+683515	sme2	ergebnis		True			2.15	False	ok	offener schritt ja
+683541	sme2	ergebnis		True			10.15	False	ok	offener schritt ja
+683928	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+683959	sme2	ergebnis		True			-105.85	True	ok	hindernis unklar/unklar; offener schritt ja
+684085	sme2	ergebnis		True			4.55	False	ok	hindernis ja/ergebnis; offener schritt ja
+684477	sme2	ergebnis		False			2.0	False	ok	nichts
+684546	sme2	ergebnis		True			-105.65	True	ok	offener schritt ja
+685317	sme2	ergebnis		True			4.15	False	ok	hindernis unklar/unklar; offener schritt ja
+673023	sme2	ergebnis		False			10.0	False	ok	nichts
+673990	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+674683	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+683550	sme2	ergebnis		True			-105.85	True	nachpruefen	offener schritt ja
+683612	sme2	ergebnis		True			2.15	False	ok	offener schritt ja
+683678	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+683736	sme2	ergebnis		True			2.15	False	ok	offener schritt ja
+684092	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+684937	sme2	ergebnis		True			2.15	False	ok	offener schritt ja
+685074	sme2	ergebnis		True			10.15	False	ok	hindernis unklar/unklar; offener schritt ja
+685368	sme2	ergebnis		True			2.0	False	nachpruefen	offener schritt unklar
+672001	sme2	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; offener schritt ja
+673887	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+683661	sme2	ergebnis		False			2.0	False	ok	nichts
+684016	sme2	ergebnis		False			15.0	False	ok	nichts
+684723	sme2	ergebnis		True			8.15	False	ok	offener schritt ja
+685052	sme2	ergebnis		True			14.75	False	ok	hindernis ja/ergebnis; offener schritt ja
+693928	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+696376	sme2	ergebnis		True			2.15	False	ok	offener schritt ja
+696535	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+696601	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+697549	sme2	ergebnis		False			4.0	False	ok	nichts
+697633	sme2	ergebnis		False			2.0	False	ok	nichts
+697675	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+697678	sme2	ergebnis		False			8.0	False	ok	nichts
+697804	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+697958	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+698081	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+698282	sme2	ergebnis		True			4.55	False	ok	hindernis ja/ergebnis; offener schritt ja
+698607	sme2	ergebnis		True			2.15	False	ok	offener schritt ja
+698688	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+699017	sme2	ergebnis		True			15.55	False	ok	hindernis ja/ergebnis; offener schritt ja
+699111	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+697515	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+698606	sme2	ergebnis		True			14.75	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+696747	sme2	ergebnis		True			2.0	False	nachpruefen	offener schritt unklar
+696776	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+694328	sme2	ergebnis		True			4.75	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+698494	sme2	ergebnis		True			2.15	False	ok	offener schritt ja
+699069	sme2	antrag			7/15	False	4	False	ok	antrag
+674231	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+698221	sme2	ergebnis		True			4.35	False	ok	offener schritt ja
+696973	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+697197	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+696519	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+698530	sme2	ergebnis		True			8.15	False	ok	offener schritt ja
+698298	sme2	ergebnis		False			2.0	False	ok	nichts
+711324	sme2	ergebnis		True			-105.85	True	ok	hindernis unklar/unklar; offener schritt ja
+697098	sme2	ergebnis		True			20.75	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+698374	sme2	ergebnis		True			4.0	False	ok	offener schritt unklar
+710968	sme2	ergebnis		False			4.0	False	ok	nichts
+711935	sme2	ergebnis		True			4.35	False	ok	offener schritt ja
+698662	sme2	ergebnis		False			15.0	False	ok	nichts
+711193	sme2	ergebnis		False			2.0	False	ok	nichts
+712179	sme2	ergebnis		True			10.15	False	ok	hindernis unklar/unklar; offener schritt ja
+696800	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+696945	sme2	ergebnis		True			2.15	False	ok	offener schritt ja
+698201	sme2	ergebnis		True			10.35	False	ok	offener schritt ja
+711866	sme2	ergebnis		True			2.15	False	ok	offener schritt ja
+712363	sme2	ergebnis		False			15.0	False	ok	nichts
+711315	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+697234	sme2	ergebnis		True			-105.85	True	nachpruefen	offener schritt ja
+712491	sme2	ergebnis		True			4.15	False	ok	hindernis unklar/unklar; offener schritt ja
+711094	sme2	ergebnis		True			2.15	False	ok	offener schritt ja
+712445	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+711160	sme2	ergebnis		True			-105.45	True	ok	hindernis ja/ergebnis; offener schritt ja
+709841	sme2	ergebnis		True			-99.65	True	ok	offener schritt ja
+710145	sme2	ergebnis		True			15.7	False	ok	hindernis ja/ergebnis; grund Organisation; offener schritt ja
+710384	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+711260	sme2	ergebnis		True			-105.65	True	ok	offener schritt ja
+711347	sme2	ergebnis		False			2.0	False	ok	nichts
+673980	sme2	ergebnis		False			15.0	False	ok	nichts
+710337	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+711264	sme2	ergebnis		False			8.0	False	ok	nichts
+711269	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+711303	sme2	ergebnis		False			15.0	False	ok	nichts
+711501	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+711540	sme2	ergebnis		True			4.15	False	ok	hindernis unklar/unklar; offener schritt ja
+711591	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+717497	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+718705	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+719180	sme2	ergebnis		True			2.0	False	ok	offener schritt unklar
+719383	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+719497	sme2	ergebnis		True			-105.65	True	ok	offener schritt ja
+720121	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+720176	sme2	ergebnis		True			12.15	False	ok	offener schritt ja
+718717	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+718822	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+718922	sme2	ergebnis		True			14.75	False	ok	hindernis ja/ergebnis; offener schritt ja
+719084	sme2	ergebnis		False			15.0	False	ok	nichts
+719201	sme2	ergebnis		True			2.15	False	ok	offener schritt ja
+711367	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+717336	sme2	ergebnis		False			15.0	False	ok	nichts
+717850	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+718823	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+718855	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+717957	sme2	ergebnis		False			2.0	False	ok	nichts
+719570	sme2	ergebnis		False			4.0	False	ok	nichts
+710995	sme2	ergebnis		True			10.15	False	ok	hindernis unklar/unklar; offener schritt ja
+719806	sme2	ergebnis		True			4.75	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+717690	sme2	ergebnis		True			15.15	False	nachpruefen	offener schritt ja
+725026	sme2	ergebnis		False			8.0	False	ok	nichts
+725076	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+726499	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+726513	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+726572	sme2	ergebnis		True			10.15	False	ok	offener schritt ja
+726825	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+726675	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+726903	sme2	ergebnis		False			2.0	False	ok	nichts
+726849	sme2	ergebnis		True			4.35	False	ok	offener schritt ja
+726607	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+726940	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+724958	sme2	ergebnis		False			2.0	False	ok	nichts
+725490	sme2	ergebnis		False			8.0	False	ok	nichts
+726658	sme2	ergebnis		False			10.0	False	ok	nichts
+724188	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+726558	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+726574	sme2	ergebnis		False			15.0	False	ok	nichts
+726763	sme2	ergebnis		False			15.0	False	ok	nichts
+724613	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+726605	sme2	ergebnis		True			8.15	False	ok	offener schritt ja
+726695	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+726947	sme2	ergebnis		True			-105.65	True	ok	offener schritt ja
+711389	sme2	ergebnis		False			15.0	False	ok	nichts
+718212	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+719098	sme2	ergebnis		True			4.35	False	ok	offener schritt ja
+718755	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+719500	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+719445	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+724982	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+724586	sme2	ergebnis		True			2.15	False	ok	offener schritt ja
+726539	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+726029	sme2	ergebnis		True			2.15	False	ok	offener schritt ja
+726545	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+726659	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+726618	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+726788	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+726776	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+719375	sme2	ergebnis		False			15.0	False	ok	nichts
+718624	sme2	ergebnis		True			4.55	False	ok	hindernis ja/ergebnis; offener schritt ja
+725151	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+726353	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+725832	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+726665	sme2	ergebnis		True			4.15	False	ok	hindernis unklar/unklar; offener schritt ja
+726743	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+726904	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+726797	sme2	antrag			15/15	False	-106	True	ok	antrag
+726799	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+730891	sme2	ergebnis		True			15.35	False	ok	offener schritt ja
+731129	sme2	ergebnis		True			2.15	False	ok	offener schritt ja
+732303	sme2	ergebnis		True			4.35	False	ok	offener schritt ja
+732493	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+731246	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+733099	sme2	ergebnis		True			14.75	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+733426	sme2	ergebnis		True			12.15	False	ok	offener schritt ja
+733538	sme2	ergebnis		False			2.0	False	ok	nichts
+733209	sme2	ergebnis		True			20.75	False	ok	hindernis ja/ergebnis; offener schritt ja
+733515	sme2	ergebnis		True			4.75	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+733543	sme2	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+733552	sme2	ergebnis		True			-105.7	True	ok	grund Geld; offener schritt ja
+733815	sme2	ergebnis		True			-105.45	True	ok	hindernis ja/ergebnis; grund Geld; offener schritt unklar
+733544	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+733619	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+733967	sme2	ergebnis		True			14.55	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+733958	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+733952	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+717516	sme2	ergebnis		True			10.35	False	ok	offener schritt ja
+726878	sme2	ergebnis		True			4.35	False	ok	offener schritt ja
+731043	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+733542	sme2	ergebnis		True			-105.1	True	ok	hindernis ja/ergebnis; grund Organisation; offener schritt ja
+733732	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+733723	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+733984	sme2	ergebnis		False			15.0	False	ok	nichts
+734075	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+733979	sme2	ergebnis		True			12.15	False	ok	offener schritt ja
+738569	sme2	ergebnis		True			12.15	False	nachpruefen	hindernis unklar/unklar; offener schritt ja
+733400	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+733617	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+739200	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+733108	sme2	ergebnis		True			-105.65	True	ok	hindernis unklar/unklar; offener schritt ja
+732582	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+733460	sme2	ergebnis		True			4.35	False	ok	offener schritt ja
+733664	sme2	ergebnis		True			8.15	False	ok	offener schritt ja
+738296	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+738697	sme2	ergebnis		True			15.7	False	ok	hindernis ja/ergebnis; grund Organisation; offener schritt ja
+738661	sme2	ergebnis		True			2.15	False	ok	offener schritt ja
+739468	sme2	ergebnis		True			20.75	False	ok	hindernis ja/ergebnis; grund Geld
+739096	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+726703	sme2	ergebnis		True			4.75	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+733164	sme2	ergebnis		False			15.0	False	ok	nichts
+733461	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+733157	sme2	ergebnis		False			4.0	False	ok	nichts
+733676	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+738402	sme2	ergebnis		False			4.0	False	ok	nichts
+738373	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+738589	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+738614	sme2	ergebnis		True			2.15	False	ok	offener schritt ja
+738851	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+738874	sme2	ergebnis		True			2.15	False	ok	offener schritt ja
+738767	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+738864	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+739322	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+739305	sme2	ergebnis		True			-99.85	True	ok	offener schritt ja
+739301	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+733627	sme2	ergebnis		True			2.15	False	ok	offener schritt ja
+733718	sme2	ergebnis		True			4.35	False	ok	offener schritt ja
+738777	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+738808	sme2	ergebnis		True			-105.1	True	ok	hindernis ja/ergebnis; grund Geld; offener schritt ja
+739479	sme2	ergebnis		True			10.15	False	ok	offener schritt ja
+738719	sme2	ergebnis		False			4.0	False	ok	nichts
+738580	sme2	ergebnis		False			15.0	False	ok	nichts
+738282	sme2	ergebnis		True			2.15	False	ok	offener schritt ja
+738755	sme2	ergebnis		True			2.15	False	ok	offener schritt ja
+738759	sme2	ergebnis		True			4.7	False	ok	hindernis ja/ergebnis; grund Organisation; offener schritt ja
+738846	sme2	ergebnis		True			-105.65	True	ok	offener schritt ja
+739148	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+739280	sme2	ergebnis		True			4.35	False	ok	hindernis unklar/unklar; offener schritt ja
+739408	sme2	ergebnis		True			12.15	False	nachpruefen	offener schritt ja
+731695	sme2	ergebnis		True			10.35	False	ok	offener schritt ja
+738928	sme2	ergebnis		True			4.35	False	ok	offener schritt ja
+738295	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+738517	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+734035	sme2	ergebnis		True			15.35	False	ok	offener schritt ja
+738377	sme2	ergebnis		True			10.15	False	ok	hindernis unklar/unklar; offener schritt ja
+738789	sme2	ergebnis		True			-105.25	True	nachpruefen	hindernis ja/ergebnis; offener schritt ja
+733901	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+738922	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+738654	sme2	ergebnis		True			-95.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+739013	sme2	ergebnis		False			12.0	False	ok	nichts
+739349	sme2	ergebnis		True			6.7	False	nachpruefen	hindernis ja/ergebnis; grund Geld; offener schritt ja
+756850	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+734039	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+734032	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+739367	sme2	ergebnis		False			4.0	False	ok	nichts
+738956	sme2	ergebnis		True			10.15	False	ok	offener schritt ja
+756553	sme2	ergebnis		True			12.15	False	ok	offener schritt ja
+739264	sme2	ergebnis		True			12.15	False	ok	offener schritt ja
+738529	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+738523	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+738774	sme2	ergebnis		True			4.75	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+738925	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+756407	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+755731	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+756696	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+738483	sme2	ergebnis		True			-105.4	True	ok	hindernis ja/ergebnis
+757038	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+756049	sme2	ergebnis		False			-106.0	True	ok	nichts
+756346	sme2	ergebnis		False			4.0	False	ok	nichts
+756698	sme2	ergebnis		False			4.0	False	ok	nichts
+756150	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+756269	sme2	ergebnis		False			8.0	False	ok	nichts
+756656	sme2	ergebnis		False			2.0	False	ok	nichts
+756943	sme2	ergebnis		False			15.0	False	ok	nichts
+757202	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+756977	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+738842	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+756998	sme2	ergebnis		False			2.0	False	ok	nichts
+757166	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+738441	sme2	ergebnis		True			10.15	False	ok	offener schritt ja
+738973	sme2	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+755757	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+756043	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+756014	sme2	ergebnis		True			-99.85	True	ok	offener schritt ja
+756165	sme2	ergebnis		True			4.0	False	ok	offener schritt unklar
+756712	sme2	ergebnis		False			4.0	False	ok	nichts
+756826	sme2	ergebnis		False			15.0	False	ok	nichts
+757082	sme2	ergebnis		True			4.35	False	ok	offener schritt ja
+757198	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+756059	sme2	ergebnis		True			12.15	False	ok	offener schritt ja
+756435	sme2	ergebnis		False			2.0	False	ok	nichts
+756841	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+756436	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+756865	sme2	ergebnis		False			8.0	False	ok	nichts
+756861	sme2	ergebnis		True			4.55	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+757088	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+756641	sme2	ergebnis		True			2.15	False	ok	offener schritt ja
+756006	sme2	ergebnis		False			10.0	False	ok	nichts
+756288	sme2	ergebnis		False			-106.0	True	ok	nichts
+756439	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+756079	sme2	ergebnis		True			-105.65	True	ok	offener schritt ja
+756081	sme2	ergebnis		True			4.15	False	nachpruefen	offener schritt ja
+757004	sme2	ergebnis		True			15.35	False	ok	offener schritt ja
+767912	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+768291	sme2	ergebnis		True			14.9	False	ok	hindernis ja/ergebnis; grund Aufwand; offener schritt ja
+755919	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+757096	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+757130	sme2	ergebnis		True			-105.45	True	ok	hindernis ja/ergebnis; offener schritt ja
+767333	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+767807	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+768016	sme2	ergebnis		True			4.15	False	nachpruefen	offener schritt ja
+768405	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+766614	sme2	ergebnis		True			-105.65	True	ok	offener schritt ja
+766649	sme2	ergebnis		True			14.75	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+766850	sme2	ergebnis		True			-99.85	True	ok	offener schritt ja
+766670	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+766742	sme2	ergebnis		True			14.55	False	ok	hindernis ja/ergebnis; offener schritt ja
+767814	sme2	ergebnis		True			15.35	False	ok	offener schritt ja
+767636	sme2	ergebnis		True			10.35	False	nachpruefen	offener schritt ja
+767839	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+768434	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+767864	sme2	ergebnis		False			4.0	False	ok	nichts
+756280	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+765262	sme2	ergebnis		True			4.55	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+766499	sme2	ergebnis		True			-105.1	True	ok	hindernis ja/ergebnis; grund Geld; offener schritt ja
+766521	sme2	ergebnis		True			6.15	False	ok	offener schritt ja
+766603	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+766610	sme2	ergebnis		False			4.0	False	ok	nichts
+766747	sme2	ergebnis		False			2.0	False	ok	nichts
+766792	sme2	ergebnis		False			10.0	False	ok	nichts
+766907	sme2	ergebnis		True			10.15	False	ok	offener schritt ja
+767138	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+767170	sme2	ergebnis		False			2.0	False	ok	nichts
+767198	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+767272	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+767419	sme2	ergebnis		True			-105.85	True	ok	hindernis unklar/unklar; offener schritt ja
+767509	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+767513	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+767568	sme2	ergebnis		True			2.15	False	ok	offener schritt ja
+767644	sme2	ergebnis		True			14.55	False	ok	hindernis ja/ergebnis; offener schritt ja
+767667	sme2	ergebnis		True			-105.65	True	ok	offener schritt ja
+767850	sme2	ergebnis		True			-99.85	True	ok	offener schritt ja
+768049	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+768084	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+768129	sme2	ergebnis		True			2.15	False	ok	offener schritt ja
+768197	sme2	ergebnis		False			8.0	False	ok	nichts
+768264	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+768278	sme2	ergebnis		True			2.15	False	ok	offener schritt ja
+768292	sme2	ergebnis		False			4.0	False	ok	nichts
+768328	sme2	ergebnis		True			2.15	False	ok	offener schritt ja
+768397	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+778144	sme2	ergebnis		True			10.15	False	ok	offener schritt ja
+779196	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+767415	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+768079	sme2	ergebnis		True			2.15	False	ok	offener schritt ja
+768299	sme2	ergebnis		True			4.35	False	ok	offener schritt ja
+778453	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+778893	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+778609	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+778627	sme2	ergebnis		True			15.55	False	ok	hindernis ja/ergebnis; offener schritt ja
+778089	sme2	ergebnis		True			-99.85	True	ok	offener schritt ja
+778608	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+777828	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+767556	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+767678	sme2	ergebnis		True			-95.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+768260	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+777770	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+777900	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+778472	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+779089	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+779158	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+779218	sme2	ergebnis		False			2.0	False	ok	nichts
+779071	sme2	ergebnis		True			6.15	False	ok	offener schritt ja
+778161	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+778615	sme2	ergebnis		True			15.55	False	ok	hindernis ja/ergebnis; offener schritt ja
+767383	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+778602	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+777888	sme2	ergebnis		True			2.15	False	ok	offener schritt ja
+777862	sme2	ergebnis		False			4.0	False	ok	nichts
+778533	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+777835	sme2	ergebnis		True			-96.25	True	ok	hindernis ja/ergebnis; offener schritt ja
+768242	sme2	ergebnis		True			4.7	False	ok	hindernis ja/ergebnis; grund Organisation; offener schritt ja
+779020	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+767901	sme2	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; offener schritt ja
+779152	sme2	ergebnis		True			4.35	False	ok	offener schritt ja
+777780	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+778392	sme2	ergebnis		True			8.15	False	ok	offener schritt ja
+778620	sme2	ergebnis		True			-105.65	True	ok	offener schritt ja
+778450	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+766805	sme2	ergebnis		True			-95.25	True	ok	hindernis ja/ergebnis; offener schritt ja
+778867	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+778064	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+778764	sme2	ergebnis		True			15.35	False	ok	offener schritt ja
+778421	sme2	ergebnis		True			15.15	False	nachpruefen	offener schritt ja
+778339	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+778106	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+778030	sme2	ergebnis		True			2.15	False	ok	offener schritt ja
+777783	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+778135	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+778154	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+778788	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+779024	sme2	ergebnis		False			15.0	False	ok	nichts
+783598	sme2	ergebnis		False			4.0	False	ok	nichts
+784273	sme2	ergebnis		True			12.15	False	ok	offener schritt ja
+767542	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+767942	sme2	ergebnis		False			4.0	False	ok	nichts
+777691	sme2	ergebnis		True			-105.65	True	ok	offener schritt ja
+778065	sme2	ergebnis		True			2.15	False	ok	offener schritt ja
+778847	sme2	ergebnis		False			4.0	False	ok	nichts
+778897	sme2	ergebnis		False			4.0	False	ok	nichts
+783458	sme2	ergebnis		True			10.15	False	ok	offener schritt ja
+783552	sme2	ergebnis		True			2.15	False	ok	offener schritt ja
+783680	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+783717	sme2	ergebnis		True			2.7	False	ok	hindernis ja/ergebnis; grund Organisation; offener schritt ja
+783696	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+783850	sme2	ergebnis		False			15.0	False	ok	nichts
+783913	sme2	ergebnis		True			15.9	False	ok	hindernis ja/ergebnis; grund Organisation; offener schritt ja
+783989	sme2	ergebnis		False			15.0	False	ok	nichts
+784020	sme2	ergebnis		True			15.15	False	ok	hindernis unklar/unklar; offener schritt ja
+784345	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+784480	sme2	ergebnis		True			2.15	False	ok	offener schritt ja
+784865	sme2	ergebnis		True			4.15	False	ok	hindernis unklar/ergebnis; offener schritt ja
+778501	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+783480	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+783518	sme2	ergebnis		True			4.75	False	ok	hindernis ja/ergebnis; offener schritt ja
+783681	sme2	ergebnis		True			-105.85	True	ok	hindernis unklar/unklar; offener schritt ja
+783848	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+783861	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+784040	sme2	ergebnis		True			2.7	False	ok	hindernis ja/ergebnis; grund Aufwand; offener schritt ja
+784183	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+784651	sme2	ergebnis		True			-105.1	True	ok	hindernis ja/ergebnis; grund Aufwand; offener schritt ja
+777902	sme2	ergebnis		True			10.35	False	ok	hindernis unklar/unklar; offener schritt ja
+778498	sme2	ergebnis		True			10.15	False	ok	offener schritt ja
+778591	sme2	ergebnis		True			-99.25	True	ok	hindernis ja/ergebnis; offener schritt ja
+783535	sme2	ergebnis		True			4.75	False	nachpruefen	hindernis ja/ergebnis; offener schritt ja
+783790	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+783868	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+784167	sme2	ergebnis		False			2.0	False	ok	nichts
+784909	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+778586	sme2	ergebnis		True			-95.45	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+768090	sme2	ergebnis		True			2.55	False	ok	hindernis ja/ergebnis; offener schritt ja
+768386	sme2	ergebnis		True			4.7	False	ok	hindernis ja/ergebnis; grund Organisation; offener schritt ja
+778503	sme2	ergebnis		True			-99.85	True	ok	offener schritt ja
+778550	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+778553	sme2	ergebnis		True			-99.85	True	ok	offener schritt ja
+778571	sme2	ergebnis		False			-100.0	True	ok	nichts
+778998	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+783638	sme2	ergebnis		True			2.15	False	ok	offener schritt ja
+783506	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+783654	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+783664	sme2	ergebnis		True			12.15	False	ok	offener schritt ja
+783727	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+783939	sme2	ergebnis		True			4.9	False	ok	hindernis ja/ergebnis; grund Organisation; offener schritt ja
+783944	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+783773	sme2	ergebnis		False			2.0	False	ok	nichts
+783818	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+783838	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+783959	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+784050	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+784127	sme2	ergebnis		True			-95.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+784399	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+784172	sme2	ergebnis		True			4.9	False	ok	hindernis ja/ergebnis; grund Geld; offener schritt ja
+784596	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+784620	sme2	ergebnis		True			-106.0	True	ok	offener schritt unklar
+784802	sme2	ergebnis		False			2.0	False	ok	nichts
+784689	sme2	ergebnis		False			4.0	False	ok	nichts
+783977	sme2	ergebnis		True			8.15	False	ok	offener schritt ja
+802793	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+804554	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+802873	sme2	ergebnis		True			4.35	False	ok	offener schritt ja
+804549	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+805767	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+806309	sme2	ergebnis		True			4.35	False	ok	offener schritt ja
+806502	sme2	ergebnis		True			15.15	False	ok	hindernis unklar/unklar; offener schritt ja
+805593	sme2	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+805912	sme2	ergebnis		True			2.15	False	ok	offener schritt ja
+806018	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+806124	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+806817	sme2	ergebnis		False			4.0	False	ok	nichts
+806756	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+806108	sme2	ergebnis		True			-105.65	True	ok	offener schritt ja
+806431	sme2	ergebnis		True			-95.25	True	ok	hindernis ja/ergebnis; offener schritt ja
+805990	sme2	ergebnis		True			-105.65	True	ok	hindernis unklar/unklar; offener schritt ja
+805997	sme2	ergebnis		True			-105.65	True	ok	offener schritt ja
+802370	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+805609	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+793325	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+801945	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+801806	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+804219	sme2	ergebnis		True			10.35	False	ok	offener schritt ja
+804453	sme2	ergebnis		True			-95.45	True	ok	hindernis ja/ergebnis; offener schritt ja
+804477	sme2	ergebnis		True			2.15	False	ok	offener schritt ja
+804858	sme2	ergebnis		True			2.15	False	ok	offener schritt ja
+804955	sme2	ergebnis		True			-99.65	True	ok	offener schritt ja
+805055	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+805689	sme2	ergebnis		True			14.75	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+805900	sme2	ergebnis		False			2.0	False	ok	nichts
+806038	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+806083	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+806095	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+806162	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+806295	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+806303	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+806470	sme2	ergebnis		True			15.55	False	ok	hindernis ja/ergebnis; offener schritt ja
+806446	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+806595	sme2	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; offener schritt ja
+806628	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+806773	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+806821	sme2	ergebnis		True			4.15	False	ok	hindernis unklar/unklar; offener schritt ja
+787441	sme2	ergebnis		True			-105.65	True	nachpruefen	offener schritt ja
+804252	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+805754	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+805970	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+806245	sme2	ergebnis		True			-99.85	True	ok	offener schritt ja
+806766	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+812092	sme2	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; offener schritt ja
+812411	sme2	ergebnis		False			11.0	False	ok	nichts
+812543	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+812312	sme2	ergebnis		True			22.0	False	ok	hindernis unklar/ergebnis; offener schritt unklar
+811499	sme2	ergebnis		True			-105.65	True	ok	offener schritt ja
+811930	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+812002	sme2	ergebnis		False			-106.0	True	ok	nichts
+812167	sme2	ergebnis		True			15.75	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+823219	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+811473	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+811529	sme2	ergebnis		True			2.15	False	ok	offener schritt ja
+811755	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+811988	sme2	ergebnis		True			-95.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+811509	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+811792	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+811644	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+811799	sme2	ergebnis		True			4.7	False	ok	hindernis ja/ergebnis; grund Organisation; offener schritt ja
+812001	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+811822	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+812242	sme2	ergebnis		True			4.35	False	ok	offener schritt ja
+811514	sme2	ergebnis		False			2.0	False	ok	nichts
+811349	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+811640	sme2	ergebnis		False			15.0	False	ok	nichts
+811744	sme2	ergebnis		False			-106.0	True	ok	nichts
+811532	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+822134	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+822458	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+823337	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+823582	sme2	ergebnis		True			15.55	False	ok	hindernis ja/ergebnis; offener schritt ja
+822123	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+822142	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+822227	sme2	ergebnis		False			2.0	False	ok	nichts
+822455	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+822464	sme2	ergebnis		True			4.7	False	ok	hindernis ja/ergebnis; grund Organisation; offener schritt ja
+822917	sme2	ergebnis		True			15.0	False	ok	offener schritt unklar
+822932	sme2	ergebnis		True			-105.3	True	ok	hindernis ja/ergebnis; grund Organisation; offener schritt ja
+823184	sme2	ergebnis		True			-105.85	True	nachpruefen	offener schritt ja
+823505	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+829943	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+829917	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+830344	sme2	ergebnis		True			2.9000000000000004	False	ok	hindernis ja/ergebnis; grund Organisation; offener schritt ja
+829319	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+829433	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+829448	sme2	ergebnis		True			-95.25	True	ok	hindernis ja/ergebnis; offener schritt ja
+829492	sme2	ergebnis		True			-105.65	True	ok	offener schritt ja
+829535	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+829735	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+829877	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+830019	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+829467	sme2	ergebnis		True			15.7	False	ok	hindernis ja/ergebnis; grund Organisation; offener schritt ja
+829774	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+829983	sme2	ergebnis		True			10.15	False	ok	offener schritt ja
+830150	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+830468	sme2	ergebnis		False			2.0	False	ok	nichts
+825511	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+822247	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+822555	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+822620	sme2	ergebnis		True			15.7	False	ok	hindernis ja/ergebnis; grund Geld; offener schritt ja
+822641	sme2	ergebnis		False			15.0	False	ok	nichts
+822784	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+822956	sme2	ergebnis		True			2.15	False	ok	offener schritt ja
+822995	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+823073	sme2	ergebnis		True			10.15	False	ok	offener schritt ja
+823080	sme2	ergebnis		False			15.0	False	ok	nichts
+823124	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+823176	sme2	ergebnis		False			15.0	False	ok	nichts
+823185	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+823260	sme2	ergebnis		True			-105.65	True	ok	offener schritt ja
+823273	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+823284	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+823356	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+823383	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+823463	sme2	ergebnis		True			4.35	False	ok	offener schritt ja
+823487	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+823392	sme2	ergebnis		True			4.35	False	ok	offener schritt ja
+823552	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+822897	sme2	ergebnis		False			15.0	False	ok	nichts
+822927	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+823282	sme2	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; offener schritt ja
+823307	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+829651	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+811977	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+811319	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+811389	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+811418	sme2	ergebnis		True			-105.3	True	ok	hindernis ja/ergebnis; grund Organisation; offener schritt ja
+811908	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+805945	sme2	ergebnis		True			2.55	False	ok	hindernis ja/ergebnis; offener schritt ja
+804065	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+801830	sme2	ergebnis		False			2.0	False	ok	nichts
+803243	sme2	ergebnis		True			4.7	False	ok	hindernis ja/ergebnis; grund Aufwand; offener schritt ja
+806842	sme2	ergebnis		True			-105.65	True	ok	offener schritt ja
+806844	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+811820	sme2	ergebnis		True			4.35	False	ok	offener schritt ja
+811765	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+811248	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+811429	sme2	ergebnis		False			15.0	False	ok	nichts
+811469	sme2	ergebnis		True			14.75	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+811561	sme2	ergebnis		False			15.0	False	ok	nichts
+812170	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+811764	sme2	ergebnis		True			10.15	False	ok	offener schritt ja
+811715	sme2	ergebnis		True			4.35	False	ok	hindernis unklar/unklar; offener schritt ja
+811668	sme2	ergebnis		False			15.0	False	ok	nichts
+811800	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+811562	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+811515	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+812471	sme2	ergebnis		False			15.0	False	ok	nichts
+823081	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+811592	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+822144	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+822723	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+823310	sme2	ergebnis		True			15.0	False	ok	offener schritt unklar
+823292	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+823620	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+822442	sme2	ergebnis		True			10.35	False	ok	offener schritt ja
+822653	sme2	ergebnis		True			-105.65	True	ok	offener schritt ja
+822720	sme2	ergebnis		True			4.7	False	ok	hindernis ja/ergebnis; grund Aufwand; offener schritt ja
+822096	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+806097	sme2	ergebnis		True			4.15	False	ok	hindernis unklar/unklar; offener schritt ja
+829282	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+823312	sme2	ergebnis		True			-105.1	True	ok	hindernis ja/ergebnis; grund Geld; offener schritt ja
+829640	sme2	ergebnis		False			2.0	False	ok	nichts
+830204	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+829681	sme2	ergebnis		False			2.0	False	ok	nichts
+830550	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+830265	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+829729	sme2	ergebnis		False			15.0	False	ok	nichts
+830239	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+829384	sme2	ergebnis		False			12.0	False	ok	nichts
+829941	sme2	ergebnis		True			2.15	False	ok	offener schritt ja
+829668	sme2	antrag			2/15	True	15	False	ok	antrag
+830017	sme2	ergebnis		False			15.0	False	ok	nichts
+830134	sme2	antrag			4/15	True	10	False	ok	antrag
+830294	sme2	ergebnis		False			4.0	False	ok	nichts
+822842	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+829644	sme2	ergebnis		False			4.0	False	ok	nichts
+829284	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+830085	sme2	ergebnis		True			20.75	False	ok	hindernis ja/ergebnis; offener schritt ja
+830574	sme2	ergebnis		True			-105.45	True	ok	hindernis ja/ergebnis; offener schritt ja
+823270	sme2	ergebnis		True			-105.65	True	ok	offener schritt ja
+820867	sme2	ergebnis		False			2.0	False	ok	nichts
+822375	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+829846	sme2	ergebnis		False			4.0	False	ok	nichts
+830101	sme2	ergebnis		False			2.0	False	ok	nichts
+830457	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+830296	sme2	ergebnis		True			2.0	False	ok	offener schritt unklar
+829242	sme2	ergebnis		False			8.0	False	ok	nichts
+830471	sme2	ergebnis		True			-105.65	True	ok	offener schritt ja
+830559	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+830508	sme2	ergebnis		False			2.0	False	ok	nichts
+847630	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+847744	sme2	ergebnis		False			2.0	False	ok	nichts
+847955	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+848429	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+848413	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+848560	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+848596	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+848620	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+848747	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+848927	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+849052	sme2	ergebnis		True			4.15	False	ok	hindernis unklar/unklar; offener schritt ja
+848986	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+849119	sme2	ergebnis		True			12.15	False	ok	offener schritt ja
+849502	sme2	ergebnis		True			-105.65	True	ok	offener schritt ja
+849533	sme2	ergebnis		True			-105.85	True	ok	hindernis unklar/unklar; offener schritt ja
+849543	sme2	ergebnis		False			15.0	False	ok	nichts
+849692	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+849704	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+849921	sme2	ergebnis		True			2.15	False	ok	offener schritt ja
+849938	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+849969	sme2	ergebnis		True			15.35	False	ok	offener schritt ja
+849973	sme2	antrag			8/15	False	4	False	ok	antrag
+850014	sme2	ergebnis		True			4.55	False	ok	hindernis ja/ergebnis; offener schritt ja
+850053	sme2	ergebnis		False			15.0	False	ok	nichts
+850104	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+850054	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+850192	sme2	ergebnis		True			2.15	False	ok	offener schritt ja
+850221	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+850275	sme2	ergebnis		True			2.15	False	ok	offener schritt ja
+850339	sme2	ergebnis		True			10.75	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+850370	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+848682	sme2	ergebnis		True			4.35	False	ok	offener schritt ja
+849157	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+848757	sme2	ergebnis		True			-105.45	True	ok	hindernis ja/ergebnis; offener schritt ja
+848361	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+848827	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+850059	sme2	ergebnis		False			15.0	False	ok	nichts
+850151	sme2	ergebnis		True			2.0	False	ok	offener schritt unklar
+829654	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+829615	sme2	ergebnis		True			-105.65	True	ok	offener schritt ja
+830061	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+848554	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+849027	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+849296	sme2	ergebnis		True			-105.45	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+849281	sme2	ergebnis		False			15.0	False	ok	nichts
+849538	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+849307	sme2	ergebnis		False			-106.0	True	ok	nichts
+850006	sme2	ergebnis		True			-99.85	True	ok	offener schritt ja
+858373	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+858355	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+858617	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+858051	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+858630	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+858886	sme2	ergebnis		True			-105.65	True	ok	offener schritt ja
+858896	sme2	ergebnis		False			6.0	False	ok	nichts
+859111	sme2	ergebnis		True			4.75	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+859152	sme2	ergebnis		True			20.55	False	ok	hindernis ja/ergebnis; offener schritt ja
+858112	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+858481	sme2	ergebnis		False			15.0	False	ok	nichts
+858632	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+859711	sme2	ergebnis		False			8.0	False	ok	nichts
+858089	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+858504	sme2	ergebnis		False			4.0	False	ok	nichts
+858757	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+858805	sme2	ergebnis		True			2.0	False	ok	offener schritt unklar
+859096	sme2	ergebnis		True			-105.45	True	ok	hindernis ja/ergebnis; offener schritt ja
+859503	sme2	ergebnis		False			15.0	False	ok	nichts
+858428	sme2	ergebnis		True			4.35	False	ok	offener schritt ja
+849628	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+848497	sme2	ergebnis		True			-99.85	True	ok	offener schritt ja
+849381	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+849469	sme2	ergebnis		True			10.15	False	ok	offener schritt ja
+850330	sme2	ergebnis		True			-105.65	True	ok	offener schritt ja
+858934	sme2	antrag			5/15	False	10	False	ok	antrag
+859148	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+858498	sme2	ergebnis		True			12.15	False	ok	offener schritt ja
+859770	sme2	ergebnis		False			2.0	False	ok	nichts
+850078	sme2	ergebnis		True			15.9	False	ok	hindernis ja/ergebnis; grund Organisation; offener schritt ja
+858999	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+858389	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+858378	sme2	ergebnis		True			4.75	False	ok	hindernis ja/ergebnis; offener schritt ja
+859507	sme2	ergebnis		True			8.9	False	ok	hindernis ja/ergebnis; grund Organisation; offener schritt ja
+859357	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+859114	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+858064	sme2	ergebnis		True			2.15	False	ok	offener schritt ja
+858571	sme2	ergebnis		True			-105.4	True	nachpruefen	hindernis ja/ergebnis; grund Technik; offener schritt unklar
+859474	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+874050	sme2	ergebnis		True			4.75	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+872170	sme2	ergebnis		False			12.0	False	ok	nichts
+871234	sme2	ergebnis		True			10.15	False	ok	offener schritt ja
+872404	sme2	ergebnis		True			2.0	False	ok	offener schritt unklar
+858879	sme2	ergebnis		True			15.35	False	ok	offener schritt ja
+872737	sme2	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+872249	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+872914	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+873723	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+873765	sme2	ergebnis		True			4.15	False	ok	hindernis unklar/unklar; offener schritt ja
+871386	sme2	ergebnis		True			-105.1	True	ok	hindernis ja/ergebnis; grund Geld; offener schritt ja
+873576	sme2	ergebnis		True			14.75	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+874079	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+859065	sme2	ergebnis		False			2.0	False	ok	nichts
+859179	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+873306	sme2	ergebnis		False			15.0	False	ok	nichts
+873401	sme2	ergebnis		True			-105.65	True	ok	offener schritt ja
+874126	sme2	ergebnis		True			6.15	False	ok	offener schritt ja
+873262	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+873351	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+871647	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+873312	sme2	ergebnis		True			-105.45	True	ok	hindernis ja/ergebnis; offener schritt ja
+873076	sme2	ergebnis		False			15.0	False	ok	nichts
+873550	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+874042	sme2	ergebnis		True			4.35	False	ok	offener schritt ja
+872800	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+873261	sme2	ergebnis		False			15.0	False	ok	nichts
+873579	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+873466	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+873537	sme2	ergebnis		False			15.0	False	ok	nichts
+874102	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+879673	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+873854	sme2	ergebnis		True			2.15	False	ok	offener schritt ja
+874190	sme2	ergebnis		True			4.75	False	ok	hindernis ja/ergebnis; offener schritt ja
+874163	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+880935	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+872685	sme2	ergebnis		True			2.15	False	ok	offener schritt ja
+873511	sme2	ergebnis		False			12.0	False	ok	nichts
+872155	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+873631	sme2	ergebnis		True			15.7	False	ok	hindernis ja/ergebnis; grund Geld; offener schritt ja
+880709	sme2	ergebnis		True			8.15	False	ok	offener schritt ja
+880954	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+873395	sme2	ergebnis		True			12.15	False	ok	hindernis unklar/unklar; offener schritt ja
+873593	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+872210	sme2	ergebnis		False			2.0	False	ok	nichts
+872288	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+873918	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+880322	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+879986	sme2	ergebnis		True			12.15	False	ok	offener schritt ja
+880828	sme2	antrag			3/15	True	14	False	ok	antrag
+880750	sme2	ergebnis		True			14.75	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+873403	sme2	ergebnis		True			-99.7	True	ok	grund Geld; offener schritt ja
+873919	sme2	ergebnis		True			4.75	False	ok	hindernis ja/ergebnis; offener schritt ja
+881193	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+881273	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+874313	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+880138	sme2	ergebnis		True			8.15	False	ok	offener schritt ja
+880158	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+880218	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+880412	sme2	ergebnis		False			15.0	False	ok	nichts
+880439	sme2	ergebnis		True			4.7	False	nachpruefen	hindernis ja/ergebnis; grund Organisation; offener schritt ja
+880495	sme2	ergebnis		True			2.15	False	ok	offener schritt ja
+881184	sme2	ergebnis		True			2.15	False	ok	hindernis unklar/unklar; offener schritt ja
+881467	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+872440	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+879805	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+879608	sme2	ergebnis		False			2.0	False	ok	nichts
+881323	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+873538	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+880701	sme2	ergebnis		False			2.0	False	ok	nichts
+873904	sme2	ergebnis		False			15.0	False	ok	nichts
+880480	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+879814	sme2	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; offener schritt ja
+880793	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+880240	sme2	ergebnis		True			4.15	False	ok	hindernis unklar/unklar; offener schritt ja
+879961	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+880895	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+873915	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+859655	sme2	ergebnis		True			4.35	False	ok	offener schritt ja
+880726	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+874346	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+880642	sme2	ergebnis		True			10.15	False	ok	offener schritt ja
+879726	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+880754	sme2	ergebnis		True			4.55	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+880032	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+880054	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+881297	sme2	ergebnis		True			4.75	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+881343	sme2	ergebnis		True			2.75	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+859232	sme2	ergebnis		False			2.0	False	ok	nichts
+873534	sme2	ergebnis		True			4.55	False	ok	hindernis ja/ergebnis; offener schritt ja
+879405	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+880718	sme2	ergebnis		True			11.15	False	ok	offener schritt ja
+879228	sme2	ergebnis		True			-99.85	True	ok	offener schritt ja
+881419	sme2	ergebnis		False			11.0	False	ok	nichts
+880758	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+881182	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+880308	sme2	ergebnis		False			8.0	False	ok	nichts
+881472	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+880753	sme2	ergebnis		True			4.35	False	ok	offener schritt ja
+874146	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+881113	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+879255	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+880637	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+880432	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+880336	sme2	ergebnis		True			-105.85	True	nachpruefen	offener schritt ja
+880551	sme2	ergebnis		True			-105.1	True	ok	hindernis ja/ergebnis; grund Organisation; offener schritt ja
+881158	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+881172	sme2	ergebnis		False			15.0	False	ok	nichts
+881239	sme2	ergebnis		True			2.15	False	ok	offener schritt ja
+881495	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+880349	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+880227	sme2	ergebnis		False			2.0	False	ok	nichts
+881092	sme2	ergebnis		True			15.35	False	ok	offener schritt ja
+946528	sme2	ergebnis		True			4.35	False	ok	offener schritt ja
+947084	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+945810	sme2	ergebnis		True			4.35	False	ok	offener schritt ja
+945943	sme2	ergebnis		True			15.35	False	ok	offener schritt ja
+945729	sme2	ergebnis		False			4.0	False	ok	nichts
+947471	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+879953	sme2	ergebnis		False			15.0	False	ok	nichts
+946288	sme2	ergebnis		True			4.55	False	ok	hindernis ja/ergebnis; offener schritt ja
+947496	sme2	ergebnis		True			2.15	False	ok	offener schritt ja
+874184	sme2	ergebnis		False			15.0	False	ok	nichts
+947485	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+946688	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+946887	sme2	ergebnis		True			2.15	False	ok	offener schritt ja
+947558	sme2	ergebnis		True			15.7	False	ok	hindernis ja/ergebnis; grund Organisation; offener schritt ja
+945983	sme2	ergebnis		True			4.75	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+873840	sme2	ergebnis		False			4.0	False	ok	nichts
+947559	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+945010	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+945530	sme2	ergebnis		True			-99.85	True	ok	offener schritt ja
+946966	sme2	ergebnis		True			-96.85	True	ok	offener schritt ja
+945922	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+946584	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+946903	sme2	ergebnis		True			-99.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+946442	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+946589	sme2	ergebnis		True			-105.65	True	ok	offener schritt ja
+947344	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+945929	sme2	ergebnis		True			4.7	False	ok	hindernis ja/ergebnis; grund Organisation; offener schritt ja
+946025	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+946409	sme2	ergebnis		True			4.35	False	ok	offener schritt ja
+946598	sme2	ergebnis		True			-105.65	True	ok	offener schritt ja
+946602	sme2	ergebnis		True			15.75	False	ok	hindernis ja/ergebnis; offener schritt ja
+946611	sme2	ergebnis		True			10.55	False	ok	hindernis ja/ergebnis; offener schritt ja
+947280	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+946693	sme2	ergebnis		False			8.0	False	ok	nichts
+945610	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+945842	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+946013	sme2	ergebnis		True			-99.45	True	ok	hindernis ja/ergebnis; offener schritt ja
+946255	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+946437	sme2	ergebnis		False			15.0	False	ok	nichts
+946900	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+954045	sme2	ergebnis		True			4.35	False	ok	offener schritt ja
+946140	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+946280	sme2	ergebnis		True			10.15	False	ok	offener schritt ja
+946845	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+945807	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+954282	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+954905	sme2	ergebnis		True			-105.45	True	ok	hindernis ja/ergebnis; offener schritt ja
+954782	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+880911	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+880965	sme2	ergebnis		False			2.0	False	ok	nichts
+880174	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+881062	sme2	ergebnis		True			10.15	False	ok	offener schritt ja
+947336	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+954732	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+947081	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+945764	sme2	ergebnis		True			-99.85	True	ok	offener schritt ja
+953716	sme2	ergebnis		False			4.0	False	ok	nichts
+955073	sme2	ergebnis		True			4.35	False	nachpruefen	offener schritt ja
+880906	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+946203	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+947230	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+953418	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+953549	sme2	ergebnis		True			10.15	False	ok	offener schritt ja
+954566	sme2	ergebnis		True			-99.65	True	ok	offener schritt ja
+954796	sme2	ergebnis		False			15.0	False	ok	nichts
+954072	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+954932	sme2	ergebnis		True			-105.3	True	ok	hindernis ja/ergebnis; grund Organisation; offener schritt ja
+954038	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+954040	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+953844	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+954530	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+954575	sme2	ergebnis		False			15.0	False	ok	nichts
+953378	sme2	ergebnis		True			2.15	False	ok	offener schritt ja
+947373	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+954783	sme2	ergebnis		True			-99.25	True	ok	hindernis ja/ergebnis; offener schritt ja
+954933	sme2	ergebnis		True			10.15	False	ok	offener schritt ja
+960747	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+954221	sme2	ergebnis		True			-99.65	True	ok	offener schritt ja
+960060	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+960719	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+954553	sme2	ergebnis		True			4.35	False	ok	hindernis unklar/unklar; offener schritt ja
+960426	sme2	ergebnis		False			15.0	False	ok	nichts
+961205	sme2	ergebnis		True			-96.85	True	nachpruefen	offener schritt ja
+961050	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+959492	sme2	ergebnis		True			-105.65	True	ok	offener schritt ja
+959259	sme2	ergebnis		True			2.15	False	ok	offener schritt ja
+959379	sme2	ergebnis		False			15.0	False	ok	nichts
+959776	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+960826	sme2	ergebnis		True			2.0	False	ok	offener schritt unklar
+961522	sme2	ergebnis		True			25.6	False	ok	hindernis ja/ergebnis; grund Technik
+960995	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+961930	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+960828	sme2	ergebnis		True			4.35	False	ok	offener schritt ja
+960713	sme2	ergebnis		True			4.35	False	ok	offener schritt ja
+961253	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+960623	sme2	ergebnis		False			-106.0	True	ok	nichts
+960401	sme2	ergebnis		False			11.0	False	ok	nichts
+960217	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+101011031	sme2	ergebnis		True			4.9	False	ok	hindernis ja/ergebnis; grund Organisation; offener schritt ja
+959049	sme2	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+959151	sme2	ergebnis		False			2.0	False	ok	nichts
+960589	sme2	ergebnis		True			12.15	False	ok	offener schritt ja
+960899	sme2	ergebnis		True			-105.3	True	ok	hindernis ja/ergebnis; grund Aufwand; offener schritt ja
+960327	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+101010128	sme2	ergebnis		True			4.7	False	ok	hindernis ja/ergebnis; grund Geld; offener schritt ja
+946915	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+947454	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+101010197	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+101009619	sme2	ergebnis		True			-95.45	True	ok	hindernis ja/ergebnis; offener schritt ja
+101010499	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+961989	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+960251	sme2	ergebnis		True			-95.85	True	ok	hindernis unklar/unklar; offener schritt ja
+101008984	sme2	ergebnis		True			10.35	False	ok	offener schritt ja
+101009401	sme2	ergebnis		True			-95.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+101010113	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+101009244	sme2	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+101010692	sme2	ergebnis		True			15.15	False	nachpruefen	offener schritt ja
+101009642	sme2	ergebnis		True			-105.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+960123	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+960768	sme2	ergebnis		True			-105.65	True	ok	offener schritt ja
+960783	sme2	ergebnis		True			-105.65	True	ok	offener schritt ja
+101007342	sme2	ergebnis		False			4.0	False	ok	nichts
+101010566	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+101011217	sme2	ergebnis		True			14.75	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+101010348	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+960071	sme2	ergebnis		True			-105.65	True	ok	offener schritt ja
+960140	sme2	ergebnis		True			-95.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+101009255	sme2	ergebnis		True			4.35	False	ok	offener schritt ja
+101009283	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+101009387	sme2	ergebnis		False			-106.0	True	ok	nichts
+101009970	sme2	ergebnis		True			4.35	False	ok	offener schritt ja
+960129	sme2	ergebnis		True			-105.45	True	ok	hindernis ja/ergebnis; offener schritt ja
+960141	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+101010139	sme2	ergebnis		True			4.9	False	ok	hindernis ja/ergebnis; grund Organisation; offener schritt ja
+101011013	sme2	ergebnis		True			-105.45	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+101010676	sme2	ergebnis		True			12.55	False	ok	hindernis ja/ergebnis; offener schritt ja
+101010233	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+101011162	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+101009316	sme2	ergebnis		True			2.4	False	ok	hindernis ja/ergebnis; grund Technik
+101009840	sme2	ergebnis		False			4.0	False	ok	nichts
+101009983	sme2	ergebnis		True			-105.65	True	ok	offener schritt ja
+101010029	sme2	ergebnis		True			-95.6	True	ok	hindernis ja/ergebnis; grund Technik
+101010486	sme2	ergebnis		True			12.55	False	ok	hindernis ja/ergebnis; offener schritt ja
+101011053	sme2	ergebnis		True			-105.65	True	ok	offener schritt ja
+101009382	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+101010266	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+101010323	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+101010327	sme2	ergebnis		False			-100.0	True	ok	nichts
+101009685	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+101009793	sme2	ergebnis		True			4.75	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+101010441	sme2	ergebnis		True			15.15	False	ok	offener schritt ja
+101010875	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+101009511	sme2	ergebnis		True			-105.45	True	ok	hindernis ja/ergebnis; offener schritt ja
+101010276	sme2	ergebnis		True			-105.65	True	ok	offener schritt ja
+101010838	sme2	ergebnis		True			4.4	False	ok	hindernis ja/ergebnis; offener schritt unklar
+101010259	sme2	ergebnis		True			20.55	False	ok	hindernis ja/ergebnis; offener schritt ja
+101010042	sme2	ergebnis		True			-99.65	True	ok	offener schritt ja
+101010563	sme2	ergebnis		True			4.35	False	ok	offener schritt ja
+101010454	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+101010321	sme2	ergebnis		True			12.15	False	ok	offener schritt ja
+101008819	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+101009497	sme2	ergebnis		True			-105.45	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+101009447	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+101010031	sme2	ergebnis		True			-105.65	True	nachpruefen	offener schritt ja
+101009882	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+101009125	sme2	ergebnis		True			2.15	False	ok	offener schritt ja
+967987	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+967357	sme2	ergebnis		True			-95.25	True	ok	hindernis ja/ergebnis; offener schritt ja
+968187	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+968107	sme2	ergebnis		True			4.75	False	ok	hindernis ja/ergebnis; offener schritt ja
+968363	sme2	ergebnis		False			4.0	False	ok	nichts
+967134	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+969065	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+967872	sme2	ergebnis		True			-105.65	True	ok	offener schritt ja
+969201	sme2	ergebnis		True			10.15	False	ok	offener schritt ja
+967144	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+968190	sme2	ergebnis		True			4.15	False	ok	hindernis unklar/unklar; offener schritt ja
+968614	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+970619	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+969418	sme2	ergebnis		True			-105.1	True	ok	hindernis ja/ergebnis; grund Organisation; offener schritt ja
+967328	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+968430	sme2	ergebnis		True			8.0	False	ok	offener schritt unklar
+968825	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+967473	sme2	ergebnis		False			15.0	False	ok	nichts
+968496	sme2	antrag			9/15	False	4	False	ok	antrag
+969112	sme2	ergebnis		True			-105.65	True	ok	offener schritt ja
+969116	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+969297	sme2	ergebnis		True			-99.85	True	ok	offener schritt ja
+969953	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+970564	sme2	ergebnis		True			-105.85	True	ok	offener schritt ja
+959600	sme2	ergebnis		True			-105.65	True	ok	offener schritt ja
+967019	sme2	ergebnis		True			4.15	False	ok	offener schritt ja
+968850	sme2	ergebnis		True			4.9	False	ok	hindernis ja/ergebnis; grund Geld; offener schritt ja
+969264	sme2	ergebnis		True			-95.25	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja

@@ -11,6 +11,8 @@ Erledigtes wird gestrichen und nach einer Woche gelöscht; was daraus folgte, st
 
 ## Planungs-Chat
 
+- [ ] Häppchen 2: Antrags-Regel prüfen. Im Haiku-v0.3-Test lagen nur 1 von 3 guten und 3 von 12 Grenzfällen der Antrags-Texte im oberen Viertel; die Regel ist im Prüfset kaum erfüllbar (15 Fälle, 4 Plätze). Bericht `pruefset/haiku_test_v03_2026-11-10.md`. Für Häppchen 1 unverändert (Entscheidung Nick 2026-11-10).
+
 - [ ] A04: Punktzahl trennt nicht (S1 = S2 = 0). Entscheiden: Haiku-Prompt ändern (Abbruchgründe mit Beispielen, Beleg muss Zitat sein, Texte nicht kürzen, Anträge anders fragen)
 - [ ] Sonnet-Test am Prüfset vorbereiten (rund 0,7 bis 1,2 $), misst die echte Ausgabelänge; Längengrenzen für freie Felder im Sonnet-Prompt?
 - [ ] Meine Bewertung der 20 Beispiele (`pruefset/stichprobe_v02_bewertung.md`) gegenprüfen

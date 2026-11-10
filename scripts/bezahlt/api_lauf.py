@@ -106,7 +106,7 @@ async def lauf(aufgaben, aus, *, modell, max_usd, bisher_usd, worst_usd, paralle
         w = worst_usd(a)
         async with sem:
             async with lock:
-                if stand['usd'] + stand['reserviert'] + w > max_usd:
+                if stand['gestoppt'] or stand['usd'] + stand['reserviert'] + w > max_usd:
                     stand['gestoppt'] = True
                     return
                 stand['reserviert'] += w

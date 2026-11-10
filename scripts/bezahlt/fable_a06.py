@@ -1,0 +1,139 @@
+"""Fable 5.2 für A06 Phase 7. BEZAHLT (Freigabe 2026-11-10-A06e, Obergrenze 12 $ für beide Teile zusammen).
+
+  frei:  7b, ein langer Aufruf über die oberen 100 (ohne Websuche) -> ergebnisse/fable_a06_frei.jsonl
+  tiefe: 7a, Tiefenprüfung je Kandidat, höchstens --suchen Websuchen -> ergebnisse/fable_a06_tiefe.jsonl
+Aufruf:
+  python3 scripts/bezahlt/fable_a06.py frei  --freigabe 2026-11-10-A06e --max-usd 12
+  python3 scripts/bezahlt/fable_a06.py tiefe --anzahl 2 --freigabe 2026-11-10-A06e --max-usd 12
+Eingabe: ergebnisse/a06_obere100.jsonl (scripts/a06_obere100.py: Text, Haiku, Sonnet, OpenAlex je Kandidat, nach Rang).
+--max-usd gilt für beide Teile zusammen (Kosten beider Ausgabedateien werden mitgezählt).
+Ablehnungen: Server-Fallback ("default"); das antwortende Modell steht in _usage.modell und _fallback.
+"""
+import argparse, asyncio, json, sys
+sys.path.insert(0, 'scripts/bezahlt')
+import api_lauf as L
+
+MODELL = 'claude-fable-5-2'
+AUS = {'frei': 'ergebnisse/fable_a06_frei.jsonl', 'tiefe': 'ergebnisse/fable_a06_tiefe.jsonl'}
+BETAS = ['server-side-fallback-2026-07-01']
+
+
+def katalog():
+    k = open('docs/03_faehigkeiten_katalog.md', encoding='utf-8').read()
+    return k[k.index('## Querschnitts-Fähigkeiten'):k.index('## Methoden')]
+
+
+NICK = ('Nick ist eine Person in Deutschland ohne eigenes Labor; er arbeitet mit KI-Werkzeugen, kann Software, '
+        'Simulation und Datenanalyse machen und kleine Prototypen mit Teilen aus Deutschland für rund 1.000 € '
+        'Material in einigen Wochen bauen. Gesucht ist Forschung, die früher abgebrochen oder nicht weitergeführt '
+        'wurde und deren damaliges Hindernis heute mit KI oder günstiger Rechenleistung lösbar ist.')
+
+TIEFE = f"""Du prüfst einen Kandidaten für Nick gründlich und lösungsorientiert. {NICK}
+Ein Hindernis ist eine Aufgabe, kein Ausschlussgrund. Verwirf nur bei Widerlegung oder vollständiger Lösung durch andere, mit Beleg.
+Du darfst bis zu 3 Websuchen machen. Belege nur aus Quellen, die du in diesem Aufruf tatsächlich geöffnet oder als
+Suchergebnis gesehen hast, mit URL; sonst schreibe "unbelegt". Zitate aus dem Originaltext wörtlich.
+Beantworte:
+1. Noch offen oder von anderen gelöst? (offen | teilweise gelöst | gelöst | unklar), mit Beleg.
+2. Welche konkrete Eigenschaft der damaligen Entwicklung gibt heute einen eigenen Vorteil? Mit Zitat.
+3. Erster Schritt mit Nicks Mitteln, 2 bis 4 Wochen, mit Kosten in Euro.
+4. Wer würde zahlen? Mit Beleg oder "unbelegt".
+5. Entscheidende offene Annahme und der schnellste Test dafür.
+6. Die acht Heilmeier-Fragen, je ein bis zwei Sätze.
+7. Urteil in einem Satz: weiterverfolgen | mit Vorbehalt | nicht weiterverfolgen, mit Hauptgrund.
+Antworte am Ende mit genau einem JSON-Objekt (Deutsch, sachlich, kurze Sätze):
+{{"noch_offen":{{"stand":"offen|teilweise gelöst|gelöst|unklar","beleg":"...","url":"...|null"}},
+"vorteil":{{"satz":"...","zitat":"..."}},"erster_schritt":{{"satz":"...","kosten_eur":0,"dauer_wochen":0}},
+"heute":{{"entwicklung":"was das Hindernis heute beseitigt","url":"...|unbelegt"}},
+"markt":{{"wer":"...","url":"...|unbelegt"}},"annahme":{{"satz":"...","test":"..."}},
+"rechte_unterlagen":"...","heilmeier":["1 ...","2 ...","3 ...","4 ...","5 ...","6 ...","7 ...","8 ..."],
+"dafuer":"...","dagegen":"...","urteil":"weiterverfolgen|mit Vorbehalt|nicht weiterverfolgen: Grund","kurztitel":"höchstens 6 Wörter"}}"""
+
+FREI = f"""Du bekommst die oberen 100 Kandidaten aus Häppchen 1 der Suche für Nick. {NICK}
+Jeder Kandidat hat ID, Pool, Titel, Haiku-Felder (Zitate wörtlich aus dem Text), Sonnet-Bewertung und den
+OpenAlex-Fortsetzungscheck. Suche mit eigenem Blick über alle zusammen nach:
+1. demselben Hindernis in mehreren Projekten,
+2. Teilergebnissen, die sich ergänzen,
+3. einem heutigen Werkzeug, das mehrere alte Projekte zugleich löst,
+4. beschönigenden Formeln, hinter denen ein technisches Scheitern steckt,
+5. neuen Ansätzen oder Geschäftsideen, die erst aus der Kombination entstehen, auch wenn kein Einzelfall stark ist.
+Kennzeichne alles als Vermutung, mit wörtlichem Zitat aus dem Material und Projekt-ID.
+Danach: Wie sollten wir Häppchen 2 schneiden (Pools, Suchbegriffe, Kriterien), damit die Ausbeute steigt?
+Weitere Pools, die es gibt: cep_pos, fwf_pos, sbir1 (SBIR Phase I ohne Phase II), sbir2, gw (Grant Witness),
+sme1_noP2 (CORDIS KMU Phase 1 ohne Phase 2), riv (tschechische Ergebnisse, teils "bisher ungenutzt").
+Schreibe Markdown mit den Abschnitten: "## Funde" (nummeriert, je Fund: Art 1-5, Vermutung, Projekte mit IDs,
+Zitate, warum es zählt, erster Schritt), "## Die drei stärksten Funde" (je zwei Sätze), "## Vorschlag für Häppchen 2".
+Deutsch, sachlich, kurze Sätze."""
+
+
+def kandidat_text(k, voll=True):
+    s = k['sonnet']
+    teile = [f"ID: {k['id']} · Pool: {k['pool']} · Rang {k['rang']} · Sonnet-Summe {s.get('summe')}/42 · "
+             f"Pflicht {'ja' if s.get('pflicht_erfuellt') else 'nein'}", f"Titel: {k['titel']}"]
+    if voll:
+        teile.append(f"Originaltext:\n{k['text']}")
+    h = {x: y for x, y in k['haiku'].items() if y not in (None, [], '')}
+    teile.append('Haiku: ' + json.dumps(h, ensure_ascii=False))
+    sv = {x: s.get(x) for x in ('k1', 'k2', 'k14', 'punkte', 'vorteil', 'erster_schritt', 'werkzeug_heute', 'markt_wer', 'annahme', 'ausschluss')}
+    teile.append('Sonnet: ' + json.dumps(sv, ensure_ascii=False))
+    teile.append('OpenAlex (Hinweis, kein Urteil): ' + json.dumps(k.get('openalex') or 'kein Ergebnis', ensure_ascii=False)[:1500 if voll else 400])
+    return '\n'.join(teile)
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument('teil', choices=['frei', 'tiefe'])
+    ap.add_argument('--anzahl', type=int, default=30)
+    ap.add_argument('--suchen', type=int, default=3)
+    ap.add_argument('--freigabe'); ap.add_argument('--max-usd', type=float)
+    ap.add_argument('--reserve-usd', type=float, default=0.0, help='für den anderen Teil freihalten')
+    ap.add_argument('--dry-run', action='store_true')
+    a = ap.parse_args()
+    ks = [json.loads(l) for l in open('ergebnisse/a06_obere100.jsonl', encoding='utf-8')]
+    bisher = sum(L.lies(p)[1] for p in AUS.values())
+    aus = AUS[a.teil]
+    fertig, _ = L.lies(aus)
+    pin, pout = L.PREISE[MODELL]
+    kat = katalog()
+    if a.teil == 'frei':
+        inhalt = '\n\n---\n\n'.join(kandidat_text(k, voll=False) for k in ks)
+        aufgaben = [] if 'frei' in fertig else [{'id': 'frei', 'params': {
+            'max_tokens': 48000, 'betas': BETAS, 'fallbacks': 'default', 'output_config': {'effort': 'high'},
+            'system': [{'type': 'text', 'text': FREI}, {'type': 'text', 'text': 'Fähigkeiten-Katalog:\n\n' + kat}],
+            'messages': [{'role': 'user', 'content': inhalt}]}}]
+        worst = lambda x: (L.tok(FREI + kat + inhalt) * pin + 30000 * pout) / 1e6
+        json_erw = False
+    else:
+        wahl = [k for k in ks[:a.anzahl] if k['id'] not in fertig]
+        tools = [{'type': 'web_search_20260209', 'name': 'web_search', 'max_uses': a.suchen}]
+        aufgaben = [{'id': k['id'], 'params': {
+            'max_tokens': 32000, 'betas': BETAS, 'fallbacks': 'default', 'output_config': {'effort': 'medium'},
+            'tools': tools,
+            'system': [{'type': 'text', 'text': TIEFE},
+                       {'type': 'text', 'text': 'Fähigkeiten-Katalog:\n\n' + kat, 'cache_control': {'type': 'ephemeral'}}],
+            'messages': [{'role': 'user', 'content': kandidat_text(k)}]}} for k in wahl]
+        # ungünstig: Material + 3 Suchen à 15.000 Token Ergebnisse, zweimal gelesen, 12.000 Token Ausgabe
+        worst = lambda x: ((L.tok(TIEFE + kat + x['params']['messages'][0]['content']) + a.suchen * 15000) * 2 * pin
+                           + 12000 * pout) / 1e6 + a.suchen * L.WEBSUCHE_USD
+        json_erw = True
+    if a.dry_run:
+        print(f'Trockenlauf Fable {a.teil}: {len(aufgaben)} Aufrufe, ungünstigster Fall {sum(worst(x) for x in aufgaben):.2f} $; '
+              f'bisher unter A06e {bisher:.4f} $')
+        return
+    L.pruefe_start(a)
+
+    def auswerten(z, antworten):
+        fb = [b for r in antworten for b in r.content if b.type == 'fallback']
+        if fb:
+            z['_fallback'] = [f'{b.from_.model} -> {b.to.model}' for b in fb]
+        z['_websuchen'] = sum(1 for r in antworten for b in r.content if b.type == 'server_tool_use')
+        z['_quellen'] = sorted({c.url for r in antworten for b in r.content if b.type == 'web_search_tool_result'
+                                and isinstance(b.content, list) for c in b.content if getattr(c, 'url', None)})[:40]
+        if a.teil == 'tiefe' and '_fehler' not in z:
+            z['_text'] = ''.join(b.text for b in antworten[-1].content if b.type == 'text')
+
+    asyncio.run(L.lauf(aufgaben, aus, modell=MODELL, max_usd=a.max_usd - a.reserve_usd, bisher_usd=bisher,
+                       worst_usd=worst, parallel=10, beta=True, auswerten=auswerten, json_erwartet=json_erw))
+
+
+if __name__ == '__main__':
+    main()
