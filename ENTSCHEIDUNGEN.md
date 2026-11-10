@@ -29,7 +29,7 @@ Ein bezahltes Skript startet nur, wenn seine Freigabe-ID hier steht.
 | 2026-11-10-A03 | Haiku-Prompt v0.2: Prüfset (Test A) und 100 Zufallseinträge (Test B) | rund 0,09 $ (Trockenlauf; ungünstigster Fall 0,16 $) | 0,50 $ | 2026-11-10 | 0,0957 $ (Läufe 2026-11-10, inkl. 11 RIV aus dem Nachtrag) |
 | 2026-11-10-A05 | Haiku-Prompt v0.3: erweitertes Prüfset und 100 Zufallseinträge, Texte v2 (A05 Phase 4) | offen (Trockenlauf folgt) | 0,50 $ | 2026-11-10 | nicht genutzt, ersetzt durch A06a |
 | 2026-11-10-A06 | Sonnet-Bewertung kompakt am Prüfset (A05 Phase 5; nur wenn Phase 4 besteht) | offen (Trockenlauf folgt) | 2,00 $ | 2026-11-10 | nicht genutzt, ersetzt durch A06c |
-| 2026-11-10-A06a | Haiku-Test v0.3 am Prüfset und 100 Zufallseinträgen (A06 Phase 3) | offen (Trockenlauf folgt) | 0,50 $ | 2026-11-10 | – |
+| 2026-11-10-A06a | Haiku-Test v0.3 am Prüfset und 100 Zufallseinträgen (A06 Phase 3) | rund 0,075 $ (Trockenlauf; ungünstigster Fall 0,12 $) | 0,50 $ | 2026-11-10 | 0,067 $ (Lauf 2026-11-10) |
 | 2026-11-10-A06b | Haiku v0.3 auf Häppchen 1, rund 2.738 Einträge (A06 Phase 4) | offen | 2,00 $ | 2026-11-10 | – |
 | 2026-11-10-A06c | Sonnet am Prüfset (A06 Phase 5) | offen | 2,00 $ | 2026-11-10 | – |
 | 2026-11-10-A06d | Sonnet auf die Auswahl aus Häppchen 1 (A06 Phase 5) | offen | 5,00 $ | 2026-11-10 | – |

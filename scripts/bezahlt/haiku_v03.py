@@ -52,12 +52,14 @@ def main():
               f'{sum(worst(r) for r in offen):.4f} $; bisher unter dieser Freigabe {bisher:.4f} $')
         return
     L.pruefe_start(a)
-    aufgaben = [{'id': r['id'], 'params': {
+    typ = {r['id']: r['texttyp'] for r in offen}
+    aufgaben = [{'id': r['id'], 'eintrag': r, 'params': {
         'max_tokens': MAX_TOKENS, 'thinking': {'type': 'disabled'}, 'system': sysm[r['texttyp']],
         'messages': [{'role': 'user', 'content': nutzertext(r)}]}} for r in offen]
     def auswerten(z, _):
-        z['_texttyp'] = next(r['texttyp'] for r in offen if r['id'] == z['id'])
-    asyncio.run(L.lauf(aufgaben, aus, modell=MODELL, max_usd=a.max_usd, bisher_usd=bisher, worst_usd=worst,
+        z['_texttyp'] = typ[z['id']]
+    asyncio.run(L.lauf(aufgaben, aus, modell=MODELL, max_usd=a.max_usd, bisher_usd=bisher,
+                       worst_usd=lambda x: worst(x['eintrag']),
                        parallel=a.parallel, auswerten=auswerten))
 
 

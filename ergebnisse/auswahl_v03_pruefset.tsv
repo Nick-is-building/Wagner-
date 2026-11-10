@@ -1,0 +1,102 @@
+id	pool	texttyp	klasse	weiter	antrag_pos	oberes_viertel	rang	hinten	zitat	gruende
+FV10342	cep_fail	ergebnis	gut	True			22	False	ok	hindernis ja/ergebnis; grund Technik
+FR-TI3/018	cep_fail	ergebnis	gut	True			35	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+FW01010098	cep_fail	ergebnis	grenzfall	True			12	False	ok	offener schritt unklar
+TJ01000218	cep_fail	ergebnis	gut	True			16	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt unklar
+GA106/09/0814	cep_fail	ergebnis	gut	True			-94	True	ok	hindernis ja/ergebnis; grund Technik
+GA203/99/P017	cep_fail	ergebnis	gut	True			18	False	ok	grund Personal; offener schritt unklar
+10.55776/I5180	fwf_obst	ergebnis	gut	True			18	False	ok	offener schritt ja
+101069261	poc	ergebnis	gut	True			7	False	ok	offener schritt ja
+101123089	poc	ergebnis	gut	True			-81	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+IAA400550614	cep_fail	ergebnis	gut (schon weitergeführt)	False			-106	True	ok	nichts
+10.55776/P24116	fwf_obst	ergebnis	gut (schon weitergeführt)	False			15	False	ok	nichts
+TA02020998	cep_fail	ergebnis	grenzfall	True			11	False	ok	grund Organisation
+10.55776/P33931	fwf_obst	ergebnis	grenzfall	True			-91	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+10.55776/P16969	fwf_obst	ergebnis	grenzfall	False			-96	True	ok	nichts
+181662	sbir1	antrag	grenzfall		17/17	False	-90	True	ok	antrag
+175273	sbir1	antrag	grenzfall		11/17	False	14	False	ok	antrag
+1ET310330507	cep_fail	ergebnis	grenzfall	True			-94	True	ok	hindernis ja/ergebnis; grund Technik
+GA13-10527S	cep_fail	ergebnis	grenzfall	True			34	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt unklar
+TA04010165	cep_fail	ergebnis	grenzfall	True			24	False	ok	hindernis ja/ergebnis; grund Technik; offener schritt unklar
+PZ-CH/32	cep_fail	ergebnis	grenzfall	True			-88	True	ok	hindernis ja/ergebnis; grund Personal; offener schritt ja
+UDSKLI2016_06_01	cep_fail	ergebnis	grenzfall	True			26	False	ok	hindernis ja/ergebnis; grund Technik
+GPP204/10/P331	cep_fail	ergebnis	grenzfall	True			18	False	ok	grund Personal
+841640	poc	ergebnis	grenzfall	True			18	False	ok	offener schritt ja
+966654	poc	ergebnis	grenzfall	True			-103	True	ok	offener schritt ja
+712708	poc	ergebnis	grenzfall	True			7	False	ok	offener schritt ja
+665275	poc	ergebnis	grenzfall	True			-75	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+101069244	poc	ergebnis	grenzfall	True			18	False	ok	offener schritt ja
+666588	sme2	ergebnis	grenzfall	False			8	False	ok	nichts
+RIV/62156489:43210/24:43925736	riv	ergebnis	grenzfall	False			4	False	ok	nichts
+RIV/46504711:_____/21:N0000005	riv	ergebnis	grenzfall	False			-106	True	ok	nichts
+RIV/00216305:26110/22:PR36166	riv	ergebnis	grenzfall	True			15	False	ok	offener schritt unklar
+FI-IM5/190	cep_roh	ergebnis	ungeeignet	True			-106	True	ok	hindernis unklar/unklar; offener schritt unklar
+TA01021058	cep_roh	ergebnis	ungeeignet	True			10	False	ok	hindernis ja/ergebnis; offener schritt unklar
+TA04011060	cep_roh	ergebnis	ungeeignet	True			-98	True	ok	hindernis ja/ergebnis
+LM2018141	cep_roh	ergebnis	ungeeignet	False			2	False	ok	nichts
+GA105/08/1072	cep_fail	ergebnis	ungeeignet	True			15	False	ok	hindernis unklar/unklar; offener schritt unklar
+GP201/03/P149	cep_fail	ergebnis	ungeeignet	False			2	False	ok	nichts
+GP202/09/P410	cep_fail	ergebnis	ungeeignet	True			24	False	ok	hindernis ja/ergebnis
+GA202/98/P149	cep_fail	ergebnis	ungeeignet	True			19	False	ok	grund Personal
+TC5-032	cep_fail	ergebnis	ungeeignet	True			10	False	ok	hindernis unklar/unklar; grund Geld; offener schritt ja
+FR-TI3/421	cep_pos	ergebnis	ungeeignet	False			11	False	ok	nichts
+FI-IM/218	cep_pos	ergebnis	ungeeignet	False			8	False	ok	nichts
+FV40429	cep_pos	ergebnis	ungeeignet	False			4	False	ok	nichts
+10.55776/P21555	fwf_pos	ergebnis	ungeeignet	True			-81	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+10.55776/R12	fwf_obst	ergebnis	ungeeignet	True			22	False	ok	offener schritt ja
+10.55776/P34177	fwf_obst	ergebnis	ungeeignet	False			2	False	ok	nichts
+779611	poc	ergebnis	grenzfall	True			18	False	ok	offener schritt ja
+101081171	poc	ergebnis	gut	True			22	False	ok	offener schritt ja
+713734	poc	ergebnis	ungeeignet	False			-106	True	ok	nichts
+966570	poc	ergebnis	grenzfall	True			22	False	ok	offener schritt ja
+101113407	poc	ergebnis	grenzfall	True			-81	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+101100837	poc	ergebnis	ungeeignet	False			15	False	ok	nichts
+838702	poc	ergebnis	grenzfall	True			7	False	ok	hindernis unklar/unklar; offener schritt ja
+856213	sme1_noP2	ergebnis	grenzfall	True			11	False	ok	offener schritt ja
+835911	sme1_noP2	ergebnis	grenzfall	True			18	False	ok	offener schritt ja
+773660	sme1_noP2	ergebnis	ungeeignet	True			22	False	ok	hindernis unklar/ergebnis; offener schritt ja
+743055	sme1_noP2	ergebnis	ungeeignet	True			7	False	ok	offener schritt ja
+700138	sme1_noP2	ergebnis	gut	True			11	False	ok	offener schritt ja
+835624	sme1_noP2	ergebnis	ungeeignet	True			26	False	ok	hindernis ja/ergebnis; grund Technik
+773577	sme1_noP2	ergebnis	grenzfall	True			7	False	nachpruefen	offener schritt ja
+766614	sme2	ergebnis	ungeeignet	True			11	False	ok	offener schritt ja
+784399	sme2	ergebnis	ungeeignet	True			18	False	ok	hindernis unklar/unklar; offener schritt ja
+873395	sme2	ergebnis	grenzfall	True			15	False	ok	offener schritt ja
+101010323	sme2	ergebnis	ungeeignet	True			7	False	ok	offener schritt ja
+858886	sme2	ergebnis	ungeeignet	True			-103	True	ok	offener schritt ja
+174959	sbir2	antrag	gut		12/17	False	12	False	ok	antrag
+F083-006-0016d	sbir2	antrag	ungeeignet		13/17	False	10	False	ok	antrag
+0839819	sbir2	antrag	gut		1/17	True	25	False	ok	antrag
+A2-4502	sbir2	antrag	ungeeignet		15/17	False	4	False	ok	antrag
+F131-169-2045a	sbir2	antrag	grenzfall		14/17	False	10	False	ok	antrag
+N17A-030-0089	sbir2	antrag	gut		7/17	False	20	False	ok	antrag
+75707B04-I	sbir1	antrag	grenzfall		8/17	False	15	False	ok	antrag
+0712671	sbir1	antrag	grenzfall		16/17	False	4	False	ok	antrag
+N051-006-0399	sbir1	antrag	grenzfall		2/17	True	25	False	ok	antrag
+A18B-010-0252	sbir1	antrag	grenzfall		9/17	False	15	False	ok	antrag
+RIV/46747885:24620/19:00007289	riv	ergebnis	ungeeignet	True			4	False	ok	offener schritt unklar
+RIV/46747885:24620/19:00007290	riv	ergebnis	grenzfall	True			2	False	ok	offener schritt unklar
+RIV/00216305:26620/20:PR33267	riv	ergebnis	grenzfall	False			15	False	ok	nichts
+10.55776/P26658	fwf_obst	ergebnis	ungeeignet	False			-106	True	ok	nichts
+10.55776/P12977	fwf_obst	ergebnis	ungeeignet	True			17	False	ok	hindernis ja/ergebnis; offener schritt ja
+10.55776/I3773	fwf_pos	ergebnis	ungeeignet	True			-97	True	ok	offener schritt ja
+10.55776/M2247	fwf_pos	ergebnis	ungeeignet	False			11	False	ok	nichts
+GAP101/11/2110	cep_fail	ergebnis	grenzfall	True			15	False	ok	hindernis unklar/unklar
+TA04021700	cep_pos	ergebnis	ungeeignet	False			10	False	ok	nichts
+2313791	gw	antrag	grenzfall		3/17	True	25	False	ok	antrag
+957467	poc	ergebnis	grenzfall	True			18	False	ok	offener schritt ja
+754696	poc	ergebnis	grenzfall	False			15	False	ok	nichts
+101081888	poc	ergebnis	gut	True			-81	True	ok	hindernis ja/ergebnis; grund Technik; offener schritt ja
+957508	poc	ergebnis	grenzfall	False			8	False	ok	nichts
+674659	sme1_noP2	ergebnis	ungeeignet	True			18	False	ok	offener schritt ja
+10.55776/P24187	fwf_obst	ergebnis	ungeeignet	False			15	False	ok	nichts
+10.55776/ESP335	fwf_obst	ergebnis	ungeeignet	False			15	False	ok	nichts
+10.55776/P20342	fwf_obst	ergebnis	ungeeignet	False			15	False	ok	nichts
+TC4-043	cep_fail	ergebnis	gut	True			34	False	ok	hindernis ja/ergebnis; grund Technik
+A2-6839	sbir2	antrag	grenzfall		4/17	True	25	False	ok	antrag
+095176	sbir2	antrag	grenzfall		5/17	False	25	False	ok	antrag
+F10B-T21-0040	sbir2	antrag	grenzfall		6/17	False	25	False	ok	antrag
+812471	sme2	ergebnis	ungeeignet	True			18	False	ok	offener schritt ja
+10.55776/ORD61	fwf_obst	ergebnis	ungeeignet	False			15	False	ok	nichts
+899912	poc	ergebnis	grenzfall	True			7	False	nachpruefen	offener schritt ja
+0810523	sbir2	antrag	grenzfall		10/17	False	15	False	ok	antrag

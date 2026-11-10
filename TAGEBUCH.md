@@ -2,12 +2,11 @@
 
 ## Stand (höchstens sechs Zeilen, immer aktuell halten)
 
-- Daten: auf der VM geladen (1,3 GB `data/roh`), Stufe 1 gelaufen: 17.421 Einträge, 46 Prüfset-Einträge; stimmt mit dem Chat überein (A01 erledigt).
-- Prüfset: 51 Einträge (8 gut, 2 gut schon weitergeführt, 21 Grenzfall, 20 ungeeignet; FW01010098 in A04 auf Grenzfall). OpenAlex-Check v0.3 auf 31 Fällen.
-- Prompts: Haiku v0.1 und v0.2 nicht bestanden. Punktzahl (A04) trennt nicht: S1 = S2 = 0 Punkte, alle 17.421 kämen durch. Bericht `pruefset/punktzahl_test_2026-11-10.md`.
-- Texte v2 (A05): `data/zwischen/items_v2.pkl`, 8.679 ergebnis / 8.742 antrag; CORDIS-Berichte für poc, sme1_noP2, sme2 geladen.
-- Läuft: A05, Haltepunkt 1: 55 Prüfset-Vorschläge in `pruefset/a05_neue_eintraege.csv` (7 gut, 25 Grenzfall, 23 ungeeignet), wartet auf Okay.
-- Ausgegeben bisher: rund 0,23 $ API (A02 0,13 $, A03 0,10 $).
+- Prüfset: 106 Einträge (15 gut, 2 gut schon weitergeführt, 46 Grenzfall, 43 ungeeignet), A05-Einträge in A06 übernommen.
+- Kriterien K11–K14 in `docs/04_pipeline.md`, Höchstwert 42, Startschwelle vorläufig 20; Sonnet-Prompt v0.2 (ungetestet).
+- Haiku v0.3 (zwei Varianten nach Texttyp) am Prüfset nicht bestanden: Ergebnis-Texte gut 12/12, Grenzfall 27/34 (79 %); Antrags-Texte 1/3 gut im oberen Viertel. Bericht `pruefset/haiku_test_v03_2026-11-10.md`.
+- Läuft: A06, Haltepunkt nach Phase 3, wartet auf Nicks Entscheidung. Häppchen 1 (2.738 Einträge) noch nicht gesendet.
+- Ausgegeben bisher: rund 0,30 $ API (A02 0,13 $, A03 0,10 $, A06a 0,07 $).
 
 ## Regeln
 
@@ -30,6 +29,15 @@ Format:
 ```
 
 ---
+
+### 2026-11-10 09:30 UTC · Code (Opus 5.5) · A06 Phase 0–3 · Kriterien, Haiku v0.3, Test (Haltepunkt)
+- Gebaut: `auftraege/A06_haeppchen1.md`; Prüfset 106; K11–K14 in `docs/04_pipeline.md`; `prompts/sonnet_bewertung.md` v0.2, `prompts/haiku_extraktion.md` v0.3; `scripts/bezahlt/api_lauf.py` (parallel, fortsetzbar), `haiku_v03.py`; `scripts/a06_eingabe.py`, `auswahl_v03.py`, `kosten.py`.
+- Getestet: Haiku v0.3 auf 101 Prüfset- und 100 Zufallseinträgen, 0 Fehler, je rund 10 s.
+- Beobachtet: nicht bestanden. Ergebnis-Texte gut 12/12, Grenzfall 27/34; Antrags-Texte gut 1/3 im oberen Viertel. Bericht `pruefset/haiku_test_v03_2026-11-10.md`.
+- Hat nicht geklappt: Testregel verfehlt (Grenzfälle 65 % gesamt). Beim Zusammenführen des Prüfsets brach das Schreiben ab (Zeile FW01010098 mit Komma ohne Anführungszeichen); Datei aus Git wiederhergestellt, dann sicher neu geschrieben. Erster Haiku-Start brach vor dem Senden ab (Programmfehler, nichts gesendet).
+- Vermutet: Fable-Tiefenprüfung kostet grob 0,75 $ je Kandidat (`scripts/kosten.py`); 30 Kandidaten passen nicht in 8 $. Nicht gemessen.
+- Kosten: 0,067 $ API (A06a). Sitzung Claude Code grob 3 $.
+- Nächster Schritt: Haltepunkt, Entscheidung von Nick.
 
 ### 2026-11-10 07:40 UTC · Code (Opus 5.5) · A05 Phase 2 · Prüfset-Vorschläge mit Doppelbewertung (Haltepunkt 1)
 - Gebaut: `scripts/pruefset_vorschlaege.py` (Runde 1: 39 aus allen Pools, Signal + Zufall, Startwert 20261110; Runde 2: 16 gezielt), `scripts/a05_pruefset_neu.py`; Dateien `pruefset/a05_vorschlaege*.md/.jsonl`, `a05_erstbewertung.md`, `a05_zweitbewertung*.md` (Subagent, Opus, ohne meine Begründung), Ergebnis `pruefset/a05_neue_eintraege.csv`. `pruefset.csv` noch NICHT geändert (wartet auf Okay).
