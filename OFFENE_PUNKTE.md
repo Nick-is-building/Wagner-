@@ -4,14 +4,14 @@ Erledigtes wird gestrichen und nach einer Woche gelöscht; was daraus folgte, st
 
 ## Claude Code
 
-- [ ] A01: Umgebung, Daten laden, Stufe 1, Fortsetzungscheck am Prüfset (kostenlos)
+- [x] A01: erledigt 2026-11-10 (siehe Tagebuch)
 - [ ] A02: Haiku-Prompt am Prüfset (freigegeben, rund 0,04 $, Obergrenze 0,50 $)
 
 ## Planungs-Chat
 
 - [ ] Prüfset auf 20 gute Fälle bringen (fehlen rund 9)
 - [ ] Nach A02: Haiku-Prompt nachschärfen, dann Sonnet-Test vorbereiten
-- [ ] Wiederbelebungs-Signal mit Haikus Fachbegriffen neu testen
+- [ ] Wiederbelebungs-Signal mit Haikus Fachbegriffen neu testen (A01: 9 von 31 Fällen „vermutlich weitergeführt“, vermutlich zu grob)
 - [ ] SBIR-Neuausschreibungen zählen; erloschene US-Patente als Quelle prüfen
 
 ## Nick

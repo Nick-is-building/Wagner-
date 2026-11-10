@@ -2,10 +2,10 @@
 
 ## Stand (höchstens sechs Zeilen, immer aktuell halten)
 
-- Daten: Quellen geprüft; Skripte für Laden und Stufe 1 fertig und im Chat getestet (17.421 Einträge nach Frühfiltern). Auf der VM noch nicht geladen.
-- Prüfset: 51 Einträge (11 gut, 20 Grenzfall, 20 ungeeignet). OpenAlex-Test darauf gelaufen.
+- Daten: auf der VM geladen (1,3 GB `data/roh`), Stufe 1 gelaufen: 17.421 Einträge, 46 Prüfset-Einträge; stimmt mit dem Chat überein (A01 erledigt).
+- Prüfset: 51 Einträge (11 gut, 20 Grenzfall, 20 ungeeignet). OpenAlex-Check v0.3 (voll) auf 31 Fällen gelaufen.
 - Prompts: Entwürfe v0.1 für Haiku, Sonnet, Opus; ungetestet.
-- Nächster Auftrag: `auftraege/A01_daten_stufe1.md` (kostenlos). Danach A02 (Prüfset-Test mit Haiku, freigegeben, Obergrenze 0,50 $).
+- Nächster Auftrag: `auftraege/A02_pruefset_haiku.md` (freigegeben, Obergrenze 0,50 $): Skript und Trockenlauf, echter Lauf erst nach Nicks Ansicht der Kosten.
 - Ausgegeben bisher: 0 $ API.
 
 ## Regeln
@@ -29,6 +29,14 @@ Format:
 ```
 
 ---
+
+### 2026-11-10 00:20 UTC · Code (Sonnet 5.5) · A01 · Daten laden, Stufe 1, Fortsetzungscheck
+- Gebaut/geändert: `.venv`, `data/roh` (1,3 GB, lokal), `ergebnisse/openalex_eingabe.csv`; Logs `logs/daten_laden.log`, `logs/stufe1.log`, `logs/openalex_check.log`. Keine Skripte geändert.
+- Getestet: `scripts/stufe1.sh` Exit 0; 17.421 Einträge, 46 von 51 Prüfset-Einträgen in `ergebnisse/pruefset_eingabe.jsonl` (5 gewollt entfernt). Check: `openalex_check.py --modus voll`, 31 Zeilen in `ergebnisse/openalex_check.jsonl`.
+- Beobachtet: P24116 und IAA400550614 beide „Thema vermutlich weitergeführt“ (wie erwartet). Insgesamt aber 9 von 31 Zeilen „vermutlich weitergeführt“ (Chat-Test: 2 von 28, ohne weltweite Suche); neu u. a. FV10342, FW01010098, GA106/09/0814, TA02020998, 10.55776/P16969, 181662. Die 3 RIV-Zeilen stehen nur im neuen Lauf, alle „kein Hinweis“.
+- Hat nicht geklappt: `.env` ist für mich gesperrt, ob `OPENALEX_API_KEY` gesetzt ist, habe ich nicht geprüft (Lauf ging durch). Vermutet: weltweite Suche in v0.3 ist zu grob (Titelwörter), nicht geprüft; Entscheidung beim Planungs-Chat.
+- Kosten: 0 $ API; rund 1.050 OpenAlex-Credits (Log: 8.838 auf 7.821 Rest).
+- Nächster Vorschlag: A02 (Skript, Trockenlauf).
 
 ### 2026-11-09 07:30 UTC · Chat · Setup · Regeln, Fortsetzungscheck v0.3, OpenAlex-Test am Prüfset
 - Gebaut/geändert: `CLAUDE.md` nach dem Vorbild der früheren Projekte (Arbeitsbereich, Freigaben, Git, Ausfallsicherheit), `.claude/settings.json` (technische Sperren), `scripts/openalex_check.py` v0.3 mit drei Signalen, `scripts/openalex_eingabe.py`, `auftraege/A01`, `A02`.
