@@ -5,7 +5,7 @@
 - Daten: auf der VM geladen (1,3 GB `data/roh`), Stufe 1 gelaufen: 17.421 Einträge, 46 Prüfset-Einträge; stimmt mit dem Chat überein (A01 erledigt).
 - Prüfset: 51 Einträge (8 gut, 2 gut schon weitergeführt, 21 Grenzfall, 20 ungeeignet; FW01010098 in A04 auf Grenzfall). OpenAlex-Check v0.3 auf 31 Fällen.
 - Prompts: Haiku v0.1 und v0.2 nicht bestanden. Punktzahl (A04) trennt nicht: S1 = S2 = 0 Punkte, alle 17.421 kämen durch. Bericht `pruefset/punktzahl_test_2026-11-10.md`.
-- Nächster Schritt: Planungs-Chat entscheidet über Haiku-Prompt (Abbruchgründe, Belege, Textlänge, Anträge) und den Sonnet-Test am Prüfset (rund 1 $).
+- Nächster Schritt: A05 in einer neuen Sitzung (Auftrag kommt vom Planungs-Chat).
 - Ausgegeben bisher: rund 0,23 $ API (A02 0,13 $, A03 0,10 $).
 
 ## Regeln
@@ -29,6 +29,16 @@ Format:
 ```
 
 ---
+
+### 2026-11-10 05:40 UTC · Code (Opus 5.5) · A02 bis A04 · Sitzungsabschluss und Lehren
+- Gebaut: Haiku-Skripte v0.1/v0.2, Weiter-Regel, Punktzahl, Kostenschätzung; Berichte `pruefset/haiku_test_2026-11-10.md`, `haiku_test_v02_2026-11-10.md`, `punktzahl_test_2026-11-10.md`. Alles committet; JSONL und Logs lokal.
+- Beobachtet: Haiku v0.1 und v0.2 nicht bestanden; Punktzahl trennt nicht (S1 = S2 = 0, alle 17.421 kämen durch). 2,1 Zeichen je Token (geeicht an 146 Aufrufen), nicht 4.
+- Lehre: Texte sind zu kurz abgeschnitten (500 bis 600 Zeichen je Feld, mitten im Satz, `scripts/build_texts.py`).
+- Lehre: 17 von 20 Zufallseinträgen sind Anträge ohne Aussage über den Ausgang; dort findet kein Prompt ein Hindernis.
+- Lehre: GA203/99/P017 (Mutterschaft) wurde als „formal“ statt „Personal“ eingestuft; Abbruchgründe brauchen Beispiele im Prompt.
+- Lehre: Sonnet-Ausgabe muss kürzer werden; sie ist der größte Kostenhebel (alle Einträge: 177 bis 334 $ mit Cache je nach Länge).
+- Hat nicht geklappt: Warte-Schleife aus A03 endete nie (`pgrep -f` fand sich selbst), am Ende beendet. Einmal A03-Ergebnisse überschrieben, aus Git wiederhergestellt.
+- Kosten: gesamt rund 0,23 $ API (A02 0,13 $, A03 0,10 $, A04 0 $).
 
 ### 2026-11-10 05:20 UTC · Code (Opus 5.5) · A04 · Punktzahl, Schwellen, Stichprobe, Sonnet-Kosten
 - Gebaut/geändert: `pruefset/pruefset.csv` (FW01010098 → Grenzfall, Grund in der Zeile), `scripts/weiter_regel.py` (Zitat aus beliebigem Feld), `scripts/punktzahl.py`, `scripts/sonnet_kosten.py`; Berichte `pruefset/punktzahl_test_2026-11-10.md`, `pruefset/stichprobe_v02_bewertung.md`.
