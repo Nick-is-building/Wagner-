@@ -4,9 +4,9 @@
 
 - Daten: auf der VM geladen (1,3 GB `data/roh`), Stufe 1 gelaufen: 17.421 Einträge, 46 Prüfset-Einträge; stimmt mit dem Chat überein (A01 erledigt).
 - Prüfset: 51 Einträge (11 gut, 20 Grenzfall, 20 ungeeignet). OpenAlex-Check v0.3 (voll) auf 31 Fällen gelaufen.
-- Prompts: Haiku v0.1 am Prüfset **nicht bestanden** (gut 8/9, Grenzfall 19/20), Bericht `pruefset/haiku_test_2026-11-10.md`. Sonnet, Opus v0.1 ungetestet.
-- Nächster Schritt: Planungs-Chat entscheidet über Prompt-Änderung (Vorschläge im Bericht). A02 erledigt.
-- Ausgegeben bisher: rund 0,13 $ API (A02).
+- Prompts: Haiku v0.1 nicht bestanden (gut 8/9, Grenzfall 19/20). Haiku v0.2 (A03) **nicht bestanden** (gut 7/9, Grenzfall 13/20), Bericht `pruefset/haiku_test_v02_2026-11-10.md`. Sonnet, Opus v0.1 ungetestet.
+- Nächster Schritt: Planungs-Chat entscheidet über die Regel (Vorschläge im Bericht) und bewertet `ergebnisse/haiku_v02_stichprobe.md`. A03 erledigt.
+- Ausgegeben bisher: rund 0,23 $ API (A02 0,13 $, A03 0,10 $).
 
 ## Regeln
 
@@ -29,6 +29,14 @@ Format:
 ```
 
 ---
+
+### 2026-11-10 04:10 UTC · Code (Opus 5.5) · A03 mit Nachtrag · Haiku v0.2, Prüfset und 100 Zufallseinträge
+- Gebaut/geändert: `prompts/haiku_extraktion.md` v0.2, `scripts/weiter_regel.py` (mit RIV-Nachtrag), `scripts/bezahlt/haiku_v02.py`, `scripts/zufall_eingabe.py`, `scripts/haiku_v02_auswertung.py`, `scripts/haiku_v02_varianten.py`; `zitat_check.py` mit optionalem Ausgabepfad. Bericht `pruefset/haiku_test_v02_2026-11-10.md`, Stichprobe `ergebnisse/haiku_v02_stichprobe.md`.
+- Getestet: Trockenläufe, falsche Freigabe bricht ab, Regel an 8 Hand-Beispielen. Echte Läufe: `nohup … haiku_v02.py --test A/B` (Log `logs/haiku_v02.log`), danach 11 RIV (`logs/haiku_v02_riv.log`); 146 Antworten, 0 Fehler.
+- Beobachtet: Prüfset gut 7/9, Grenzfall 13/20, ungeeignet 9/15. Zufall 52/100 weiter (SBIR 40/54, RIV 0/14). RIV Code O: 0 von 11 weiter, N0000005 nicht dabei; Hochrechnung rund 0 von 744 (95-%-Bereich 0 bis 223).
+- Hat nicht geklappt: Test A nicht bestanden, auch in keiner Regel-Variante. GA106/09/0814 (gut) fällt nur, weil mein Skript „unklar“ ohne Zitat im Feld `hindernis` als „nein“ zählt. Zitat-Befunde (14) nicht von Hand geprüft.
+- Kosten: 0,0957 $ API (Obergrenze 0,50 $); 0 OpenAlex-Credits.
+- Nächster Vorschlag: Planungs-Chat: Kern-Bedingung und Zitat-Durchsetzung prüfen, Stichprobe bewerten. Keine Erlaubnis.
 
 ### 2026-11-10 02:50 UTC · Code (Opus 5.5) · A02 · Auswertung Haiku-Prüfset (Schritt 4)
 - Gebaut/geändert: `scripts/haiku_auswertung.py`, Bericht `pruefset/haiku_test_2026-11-10.md`, Tabelle `ergebnisse/haiku_auswertung.tsv`. Prompt unverändert.

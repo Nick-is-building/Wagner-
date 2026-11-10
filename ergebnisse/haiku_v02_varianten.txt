@@ -1,0 +1,4 @@
+1 Auftrag (Zitat-Pflicht im Skript, Kern-Bedingung): gut 7/9, Grenzfall 13/20, ungeeignet 9/15 | Zufall 52/100
+2 ohne Zitat-Pflicht im Skript (Haikus Rohwerte): gut 8/9, Grenzfall 13/20, ungeeignet 11/15 | Zufall 56/100
+3 ohne Kern-Bedingung: gut 7/9, Grenzfall 14/20, ungeeignet 10/15 | Zufall 61/100
+4 ohne beides: gut 8/9, Grenzfall 14/20, ungeeignet 12/15 | Zufall 63/100
