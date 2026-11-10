@@ -6,7 +6,7 @@
 - Prüfset: 51 Einträge (8 gut, 2 gut schon weitergeführt, 21 Grenzfall, 20 ungeeignet; FW01010098 in A04 auf Grenzfall). OpenAlex-Check v0.3 auf 31 Fällen.
 - Prompts: Haiku v0.1 und v0.2 nicht bestanden. Punktzahl (A04) trennt nicht: S1 = S2 = 0 Punkte, alle 17.421 kämen durch. Bericht `pruefset/punktzahl_test_2026-11-10.md`.
 - Texte v2 (A05): `data/zwischen/items_v2.pkl`, 8.679 ergebnis / 8.742 antrag; CORDIS-Berichte für poc, sme1_noP2, sme2 geladen.
-- Läuft: A05 (Claude Code auch als Planungs-Chat), Phase 2 Prüfset erweitern.
+- Läuft: A05, Haltepunkt 1: 55 Prüfset-Vorschläge in `pruefset/a05_neue_eintraege.csv` (7 gut, 25 Grenzfall, 23 ungeeignet), wartet auf Okay.
 - Ausgegeben bisher: rund 0,23 $ API (A02 0,13 $, A03 0,10 $).
 
 ## Regeln
@@ -30,6 +30,14 @@ Format:
 ```
 
 ---
+
+### 2026-11-10 07:40 UTC · Code (Opus 5.5) · A05 Phase 2 · Prüfset-Vorschläge mit Doppelbewertung (Haltepunkt 1)
+- Gebaut: `scripts/pruefset_vorschlaege.py` (Runde 1: 39 aus allen Pools, Signal + Zufall, Startwert 20261110; Runde 2: 16 gezielt), `scripts/a05_pruefset_neu.py`; Dateien `pruefset/a05_vorschlaege*.md/.jsonl`, `a05_erstbewertung.md`, `a05_zweitbewertung*.md` (Subagent, Opus, ohne meine Begründung), Ergebnis `pruefset/a05_neue_eintraege.csv`. `pruefset.csv` noch NICHT geändert (wartet auf Okay).
+- Beobachtet: 55 Vorschläge → 7 gut (beide einig), 25 Grenzfall (davon 8 uneins), 23 ungeeignet. Prüfset danach 15 gut / 46 Grenzfall / 43 ungeeignet; Ziel 20 gut nicht erreicht. Gute aus Antrags- und CORDIS-Pools jetzt 6 (SBIR 3, PoC 2, SME-1 1).
+- Rückblick: OpenAlex „voll“ auf 6 alte Fälle (`ergebnisse/a05_rueckblick_openalex.jsonl`, 120 Credits); nur 0810523 plausibel (Deep-Learning-Arbeit 2019), nicht geprüft. 5 Fälle nicht gefunden.
+- Hat nicht geklappt: Meine Erstbewertung Runde 2 erst nach dem Bericht des Zweitprüfers in die Datei geschrieben (Urteile vorher gefasst, aber nicht nachweisbar). Ausbeute an guten Fällen gering (7 von 55).
+- Kosten: 0 $ API; 120 OpenAlex-Credits. Sitzung grob 4 $ (inkl. zwei Subagenten).
+- Nächster Schritt: Haltepunkt 1, Okay von Nick.
 
 ### 2026-11-10 06:40 UTC · Code (Opus 5.5) · A05 Phase 1 · CORDIS-Berichte und Texte v2
 - Gebaut/geändert: `scripts/cordis_berichte.py` (neu, Aufruf in `daten_laden.sh` und `stufe1.sh`), `scripts/build_texts.py` v2 → `data/zwischen/items_v2.pkl`; v1 heißt jetzt `scripts/build_texts_v1.py` (für alte Läufe, `items.pkl` unverändert).
