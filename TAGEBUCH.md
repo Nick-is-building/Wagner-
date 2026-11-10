@@ -4,8 +4,8 @@
 
 - Daten: auf der VM geladen (1,3 GB `data/roh`), Stufe 1 gelaufen: 17.421 Einträge, 46 Prüfset-Einträge; stimmt mit dem Chat überein (A01 erledigt).
 - Prüfset: 51 Einträge (11 gut, 20 Grenzfall, 20 ungeeignet). OpenAlex-Check v0.3 (voll) auf 31 Fällen gelaufen.
-- Prompts: Entwürfe v0.1 für Haiku, Sonnet, Opus; ungetestet.
-- Nächster Auftrag: A02 Schritt 4 (Auswertung je Klasse, `pruefset/haiku_test_<datum>.md`) mit Opus. Haiku-Lauf ist fertig (92 Antworten).
+- Prompts: Haiku v0.1 am Prüfset **nicht bestanden** (gut 8/9, Grenzfall 19/20), Bericht `pruefset/haiku_test_2026-11-10.md`. Sonnet, Opus v0.1 ungetestet.
+- Nächster Schritt: Planungs-Chat entscheidet über Prompt-Änderung (Vorschläge im Bericht). A02 erledigt.
 - Ausgegeben bisher: rund 0,13 $ API (A02).
 
 ## Regeln
@@ -29,6 +29,14 @@ Format:
 ```
 
 ---
+
+### 2026-11-10 02:50 UTC · Code (Opus 5.5) · A02 · Auswertung Haiku-Prüfset (Schritt 4)
+- Gebaut/geändert: `scripts/haiku_auswertung.py`, Bericht `pruefset/haiku_test_2026-11-10.md`, Tabelle `ergebnisse/haiku_auswertung.tsv`. Prompt unverändert.
+- Getestet: Skript läuft auf den 92 Antworten; Zahlen von Hand gegen die Tabelle geprüft.
+- Beobachtet: weiter kommen gut 8 von 9, „gut (schon weitergeführt)“ 0 von 2, Grenzfall 19 von 20 (95 %), ungeeignet 12 von 15. Durchgefallen: GA203/99/P017 (Abbruch wegen Mutterschaft, nicht technisch), IAA400550614, P24116, RIV …N0000005.
+- Hat nicht geklappt: Testregel nicht bestanden (ein guter Fall fehlt). Trennschärfe gering: 8 ungeeignete kommen nur über „unklar“ weiter. Die 5 Zitat-Befunde nicht von Hand geprüft.
+- Kosten: 0 $.
+- Nächster Vorschlag: Planungs-Chat prüft die sechs Vorschläge im Bericht (u. a. „Rechenanteil hoch“ als Weiter-Regel: gut 9/9, +1 ungeeignet). Keine Erlaubnis.
 
 ### 2026-11-10 01:30 UTC · Code (Sonnet 5.5) · A02 · Haiku-Lauf am Prüfset (Schritte 2 und 3)
 - Gebaut/geändert: `scripts/bezahlt/haiku_extraktion.py` (Denken aus, `max_tokens` 2000, erstes JSON-Objekt lesen). Ausgaben (lokal): `ergebnisse/haiku_pruefset.jsonl` (alle Zeilen inkl. Fehler), `haiku_pruefset_ok.jsonl` (92 gute), `zitat_check.jsonl`. Logs `logs/haiku_pruefset*.log`. Prompt unverändert.
