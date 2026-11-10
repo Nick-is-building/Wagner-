@@ -30,6 +30,12 @@ Format:
 
 ---
 
+### 2026-11-10 06:10 UTC · Code (Opus 5.5) · A05 Phase 0 · Auftrag und Regeln
+- Gebaut/geändert: `auftraege/A05_luecken_schliessen.md` (Auftrag wörtlich), `CLAUDE.md` (Abschnitte Haltepunkte, Sitzungsbudget 5 $), `ENTSCHEIDUNGEN.md` (Rolle Planungs-Chat; Freigaben 2026-11-10-A05 und -A06).
+- Getestet: nicht nötig (nur Text).
+- Hat nicht geklappt: nichts.
+- Nächster Schritt: A05 Phase 1 (CORDIS-Berichte, build_texts v2).
+
 ### 2026-11-10 05:40 UTC · Code (Opus 5.5) · A02 bis A04 · Sitzungsabschluss und Lehren
 - Gebaut: Haiku-Skripte v0.1/v0.2, Weiter-Regel, Punktzahl, Kostenschätzung; Berichte `pruefset/haiku_test_2026-11-10.md`, `haiku_test_v02_2026-11-10.md`, `punktzahl_test_2026-11-10.md`. Alles committet; JSONL und Logs lokal.
 - Beobachtet: Haiku v0.1 und v0.2 nicht bestanden; Punktzahl trennt nicht (S1 = S2 = 0, alle 17.421 kämen durch). 2,1 Zeichen je Token (geeicht an 146 Aufrufen), nicht 4.

@@ -38,6 +38,17 @@ Auf dieser VM liegen andere Projekte. Nie vermischen.
 - **Kostenlos und ohne Rückfrage erlaubt** (wenn ein Auftrag es verlangt): Daten laden, Skripte in `scripts/` außer `bezahlt/`, OpenAlex-Abfragen im Tagesbudget, Tests, Trockenläufe.
 - **OpenAlex-Budget:** 10.000 Credits pro Tag; Filterabfrage 1 Credit, Suche 10. `scripts/openalex_check.py` braucht im Standardmodus „schnell“ rund 13 Credits je Kandidat (rund 750 pro Tag), im Modus „voll“ 30 bis 45. Es bricht unter 200 Credits Rest selbst ab und macht nach dem Zurücksetzen um Mitternacht UTC dort weiter.
 
+## Haltepunkte
+
+- Jeder Auftrag nennt seine Haltepunkte. Dort **immer anhalten**, das Ergebnis zeigen und auf Nicks Okay warten, auch wenn der nächste Schritt schon klar und kostenlos ist.
+- Nennt ein Auftrag keine Haltepunkte, gilt sein Ende als Haltepunkt.
+
+## Sitzungsbudget
+
+- Nach jedem größeren Teilschritt grob schätzen, was diese Claude-Code-Sitzung bisher gekostet hat (Token von Claude Code selbst, nicht die Skript-Läufe), und die Schätzung im Bericht nennen.
+- **Bei rund 5 $ anhalten**, Stand sichern (Tagebuch, Commit, Push) und Nick fragen, ob es weitergeht.
+- Bezahlte Skript-Läufe zählen gegen ihre eigene Freigabe in `ENTSCHEIDUNGEN.md`, nicht gegen dieses Budget.
+
 ## Modellwahl in Claude Code
 
 - **Sonnet reicht** für Daten laden, Skripte, Umbauten, Tests, Tagebuch.

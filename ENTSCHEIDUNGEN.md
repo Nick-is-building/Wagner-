@@ -4,6 +4,7 @@ Was Nick entschieden hat, neueste oben. Budgetfreigaben stehen hier, bevor ein b
 
 | Datum | Entscheidung | Folge |
 |---|---|---|
+| 2026-11-10 | A05 erteilt: Claude Code übernimmt auch die Rolle des Planungs-Chats (planen, bauen, auswerten, bewerten); Haltepunkte und Freigaben bleiben; Prüfset-Erweiterung ausdrücklich beauftragt | `auftraege/A05_luecken_schliessen.md`, `CLAUDE.md` (Haltepunkte, Sitzungsbudget 5 $) |
 | 2026-11-10 | A03-Nachtrag: RIV Code O nicht mehr ohne Prüfung weiter; offener Schritt = ja, dazu Rechenanteil mittel/hoch oder Hindernis ja/unklar | `scripts/weiter_regel.py` |
 | 2026-11-10 | A03 freigegeben (Haiku-Prompt v0.2, Prüfset und 100 Zufallseinträge) | Lauf auf der VM durch Claude Code |
 | 2026-11-09 | A02 freigegeben (Haiku am Prüfset) | Lauf auf der VM durch Claude Code |
@@ -25,3 +26,5 @@ Ein bezahltes Skript startet nur, wenn seine Freigabe-ID hier steht.
 |---|---|---|---|---|---|
 | 2026-11-09-A02 | Haiku-Prompt v0.1 am Prüfset (A02) | rund 0,04 $ | 0,50 $ | 2026-11-09 | rund 0,13 $ (Lauf 2026-11-10) |
 | 2026-11-10-A03 | Haiku-Prompt v0.2: Prüfset (Test A) und 100 Zufallseinträge (Test B) | rund 0,09 $ (Trockenlauf; ungünstigster Fall 0,16 $) | 0,50 $ | 2026-11-10 | 0,0957 $ (Läufe 2026-11-10, inkl. 11 RIV aus dem Nachtrag) |
+| 2026-11-10-A05 | Haiku-Prompt v0.3: erweitertes Prüfset und 100 Zufallseinträge, Texte v2 (A05 Phase 4) | offen (Trockenlauf folgt) | 0,50 $ | 2026-11-10 | – |
+| 2026-11-10-A06 | Sonnet-Bewertung kompakt am Prüfset (A05 Phase 5; nur wenn Phase 4 besteht) | offen (Trockenlauf folgt) | 2,00 $ | 2026-11-10 | – |
