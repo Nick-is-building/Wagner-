@@ -1,6 +1,6 @@
 # Pipeline: Stufen, Regeln, Erwartungswerte
 
-Stand 9. November 2026. Betriebsanleitung für die Suche. Hintergründe und Quellen stehen in `01_feldkarte.md`.
+Stand 10. November 2026 (Kriterien 11–14 aus A06). Betriebsanleitung für die Suche. Hintergründe und Quellen stehen in `01_feldkarte.md`.
 
 ## Pools (Stufe 1)
 
@@ -46,7 +46,7 @@ Verworfen: eine Regel gegen Publikationsmängel. Sie hätte einen guten Fall aus
 
 ## Stufe 2: Herausziehen (Haiku)
 
-Haiku urteilt nicht, es füllt Felder aus, jedes mit wörtlichem Zitat. Schema und Anweisung: `prompts/haiku_extraktion.md`. Zwei Durchläufe mit leicht verschiedenen Anweisungen; ein Ja („technisches Hindernis genannt“ oder „offener Schritt genannt“) reicht zum Weiterkommen. Danach prüft `scripts/zitat_check.py`, ob die Zitate wörtlich im Text stehen. Fehlt eines, kommt der Eintrag in „Nachprüfen“, nicht in den Müll.
+Haiku urteilt nicht, es füllt Felder aus, jedes mit wörtlichem Zitat. Schema und Anweisung: `prompts/haiku_extraktion.md` (v0.3, A06: zwei Varianten nach `texttyp`, Ergebnis-Texte mit `hindernis_quelle`, Antrags-Texte mit Kernrisiko; beide mit `erster_schritt`). Ein Durchlauf; die Auswahlregel steht in `scripts/auswahl_v03.py`: Ergebnis-Texte kommen weiter mit Hindernis aus dem Ausgang, Abbruchgrund außerhalb der Idee oder offenem Schritt; Antrags-Texte kommen in eine Rangliste (H1 bis H3, Rechenanteil, erster Schritt); Labor, Reinraum und Zulassung nach hinten. Danach prüft `scripts/zitat_check.py`, ob die Zitate wörtlich im Text stehen. Fehlt eines, kommt der Eintrag in „Nachprüfen“, nicht in den Müll.
 
 ## Hindernis-Muster
 
@@ -82,8 +82,18 @@ Alle Einträge mit H1 bis H7 oder offenem Schritt. Anweisung: `prompts/sonnet_be
 | 8 | Rechte | Frei nutzbar oder lizenzierbar? | 0–3 |
 | 9 | Unterlagen | Berichte, Daten, Patente zugänglich? | 0–3 |
 | 10 | Tempo | Wie schnell ein erstes vorzeigbares Ergebnis? | 0–3 |
+| 11 | Eigenständiger Vorteil | Welche konkrete Eigenschaft der damaligen Entwicklung bietet heute noch einen eigenen Vorteil (Patent, Datensatz, besondere Bauweise, Messergebnis, Nische, Erkenntnis)? Mit Zitat. Ohne so eine Eigenschaft bleibt nur eine Idee, die heute jeder haben kann: niedrig | Pflicht (mind. 1), 0–3, doppelt |
+| 12 | Für Nick umsetzbar | Erster Schritt ist Software, Simulation, Datenanalyse oder ein Prototyp, den eine Person mit KI-Anleitung, Teilen aus Deutschland und rund 1.000 € Material in einigen Wochen bauen kann; Daten öffentlich oder bezahlbar. Nicht umsetzbar bei Reinraum, Speziallabor, Tierversuchen, klinischen Studien oder Zulassung im ersten Schritt | Pflicht (mind. 1), 0–3, doppelt |
+| 13 | Keine Massenware | Macht ein heutiges Grundmodell oder ein verbreitetes offenes Werkzeug den Ansatz trivial? Dann niedrig, außer Kriterium 11 trägt | 0–3 |
+| 14 | Hindernis aus dem Ausgang | Stammt das Hindernis aus Bewertung, Endbericht oder Ergebnisbericht, nicht aus der Motivation? (Beispiel I5180: Hindernis nur in der Motivation, Endbericht meldet Erfolg.) | Prüfung, keine Punkte (siehe unten) |
 
-Höchstwert 27 Punkte (Kriterien 3 und 4 je bis 6, die übrigen fünf je bis 3). Weiter zu Stufe 4 geht alles mit erfüllten Pflichtkriterien und mindestens 13 Punkten; diese Startschwelle wird am Prüfset geeicht. Keine Obergrenze.
+Kriterien 11 bis 14 seit A06 (10. November 2026). Anlass: Bei fünf im Planungs-Chat geprüften Kandidaten scheiterten drei an Punkten, die die Kriterien 1 bis 10 nicht abfragten.
+
+Höchstwert 42 Punkte (Kriterien 3, 4, 11 und 12 je bis 6; Kriterien 5, 6, 8, 9, 10 und 13 je bis 3). Pflicht für die Auswahl: Kriterien 1 und 2 erfüllt, Kriterien 11 und 12 mindestens 1. Weiter zu Stufe 4 geht alles mit erfüllten Pflichtkriterien und mindestens der Startschwelle. Die Startschwelle wird am Prüfset geeicht (vorläufig 20 von 42, anteilig wie früher 13 von 27). Keine Obergrenze.
+
+Kriterium 14 (Auslegung Claude Code, A06): Bei Ergebnis-Texten gilt Kriterium 1 nur dann als erfüllt, wenn der unerledigte Kern aus dem Ausgang belegt ist (Bewertung, Endbericht, Ergebnisbericht). Steht das Hindernis nur in der Motivation und meldet der Ausgang Erfolg, ist Kriterium 1 nicht erfüllt. Bei Antrags-Texten (kein Ausgang im Text) ist Kriterium 14 „nicht anwendbar“; dass das Projekt liegen blieb, zeigen dort die Metadaten (keine Phase II, keine Folgeförderung).
+
+Abbruchgrund: Elternzeit, Mutterschaft, Weggang und Krankheit gelten als „Personal“, nicht als „formal“. „Formal“ heißt nur: Papiere, Berichte, Indikatoren, Vertrag.
 
 Harte Ausschlüsse: Idee widerlegt, nur formaler Grund, reines Ausbau- oder Infrastrukturprojekt, ausgeschlossenes Fach, militärisch ohne zivile Nutzung.
 
