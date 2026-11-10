@@ -16,9 +16,9 @@ import argparse, json, os, re, sys, time
 
 MODELL = 'claude-haiku-5-5'
 PREIS_IN, PREIS_OUT = 0.10, 0.50          # $ je Million Token (Quelle: auftraege/A02)
-MAX_TOKENS = 1200
+MAX_TOKENS = 2000
 ZEICHEN_JE_TOKEN = 3.0                    # grobe, vorsichtige Schätzung für tschechisch/deutsch/englisch
-AUSGABE_SCHAETZ = 400                     # erwartete Ausgabetoken je Antwort (A02)
+AUSGABE_SCHAETZ = 1000                    # beobachtet im Testaufruf: rund 1000 je Antwort (A02 schätzte 400)
 PROMPT = 'prompts/haiku_extraktion.md'
 EINGABE = 'ergebnisse/pruefset_eingabe.jsonl'
 AUSGABE = 'ergebnisse/haiku_pruefset.jsonl'
@@ -77,8 +77,8 @@ def json_aus_text(t):
     m = re.search(r'```(?:json)?\s*(.*?)```', t, re.S)
     if m:
         t = m.group(1).strip()
-    a, b = t.find('{'), t.rfind('}')
-    return json.loads(t[a:b + 1])
+    obj, _ = json.JSONDecoder().raw_decode(t[t.find('{'):])   # erstes Objekt, Text danach ignorieren
+    return obj
 
 
 def main():
@@ -141,7 +141,7 @@ def main():
             break
         zeile = {'id': r['id'], 'durchlauf': d}
         try:
-            resp = client.messages.create(model=MODELL, max_tokens=MAX_TOKENS,
+            resp = client.messages.create(model=MODELL, max_tokens=MAX_TOKENS, thinking={"type": "disabled"},
                                           system=sysm, messages=[{'role': 'user', 'content': usr}])
             u = resp.usage
             k = kosten(u.input_tokens, u.output_tokens)

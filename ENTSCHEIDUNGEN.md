@@ -21,4 +21,4 @@ Ein bezahltes Skript startet nur, wenn seine Freigabe-ID hier steht.
 
 | Freigabe-ID | Lauf | Geschätzt | Obergrenze | Freigegeben am | Tatsächlich |
 |---|---|---|---|---|---|
-| 2026-11-09-A02 | Haiku-Prompt v0.1 am Prüfset (A02) | rund 0,04 $ | 0,50 $ | 2026-11-09 | – |
+| 2026-11-09-A02 | Haiku-Prompt v0.1 am Prüfset (A02) | rund 0,04 $ | 0,50 $ | 2026-11-09 | rund 0,13 $ (Lauf 2026-11-10) |

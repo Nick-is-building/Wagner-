@@ -5,8 +5,8 @@
 - Daten: auf der VM geladen (1,3 GB `data/roh`), Stufe 1 gelaufen: 17.421 Einträge, 46 Prüfset-Einträge; stimmt mit dem Chat überein (A01 erledigt).
 - Prüfset: 51 Einträge (11 gut, 20 Grenzfall, 20 ungeeignet). OpenAlex-Check v0.3 (voll) auf 31 Fällen gelaufen.
 - Prompts: Entwürfe v0.1 für Haiku, Sonnet, Opus; ungetestet.
-- Nächster Auftrag: `auftraege/A02_pruefset_haiku.md` (freigegeben, Obergrenze 0,50 $): Skript und Trockenlauf, echter Lauf erst nach Nicks Ansicht der Kosten.
-- Ausgegeben bisher: 0 $ API.
+- Nächster Auftrag: A02 Schritt 4 (Auswertung je Klasse, `pruefset/haiku_test_<datum>.md`) mit Opus. Haiku-Lauf ist fertig (92 Antworten).
+- Ausgegeben bisher: rund 0,13 $ API (A02).
 
 ## Regeln
 
@@ -29,6 +29,14 @@ Format:
 ```
 
 ---
+
+### 2026-11-10 01:30 UTC · Code (Sonnet 5.5) · A02 · Haiku-Lauf am Prüfset (Schritte 2 und 3)
+- Gebaut/geändert: `scripts/bezahlt/haiku_extraktion.py` (Denken aus, `max_tokens` 2000, erstes JSON-Objekt lesen). Ausgaben (lokal): `ergebnisse/haiku_pruefset.jsonl` (alle Zeilen inkl. Fehler), `haiku_pruefset_ok.jsonl` (92 gute), `zitat_check.jsonl`. Logs `logs/haiku_pruefset*.log`. Prompt unverändert.
+- Getestet: Echter Lauf, 46 Einträge × 2 Durchläufe = 92 Antworten, alle lesbar. `zitat_check.py`: 87 mit allen Zitaten belegt, 5 zum Nachprüfen.
+- Beobachtet: Rund 0,13 $ gesamt (Datei: 0,1288 $, dazu zwei Testaufrufe ohne Protokoll, rund 0,002 $); Schätzung war 0,03 $. Antworten sind rund 1.000 Token lang, nicht 400.
+- Hat nicht geklappt: Erster Versuch: alle 92 Antworten leer oder abgeschnitten (rund 0,07 $), weil das Modell standardmäßig „denkt“ und die 1.200 Token verbrauchte. Danach 4 Antworten mit Text hinter dem JSON, Parser angepasst, wiederholt. Fehlerzeilen bleiben in der Datei. `zitat_check.py` schreibt je ID keine Durchlaufnummer (zwei Zeilen je ID, in Reihenfolge der Datei).
+- Kosten: rund 0,13 $ API (Obergrenze 0,50 $); 0 OpenAlex-Credits.
+- Nächster Vorschlag: Auswertung (A02 Schritt 4) mit Opus; noch nicht gemacht.
 
 ### 2026-11-10 00:40 UTC · Code (Sonnet 5.5) · A02 · Haiku-Skript und Trockenlauf
 - Gebaut/geändert: `scripts/bezahlt/haiku_extraktion.py` (Freigabe-Prüfung, `--max-usd`, `--dry-run`, JSONL je Antwort, fortsetzbar). Prompt und Prüfset unverändert.
