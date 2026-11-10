@@ -40,4 +40,16 @@ fi
 mkdir -p riv
 [ -s riv/riv_applied.jsonl ] || (cd ../.. && python3 scripts/riv_stream.py 2018 2024)
 
+# CORDIS-Ergebnisberichte H2020 und Horizon Europe; aus dem JSON nur die Pools poc, sme1_noP2, sme2 (braucht newpools.pkl)
+mkdir -p cordis_berichte/h2020 cordis_berichte/he
+for p in h2020:h2020 HORIZON:he; do
+  src=${p%%:*}; dst=${p##*:}
+  get "https://cordis.europa.eu/data/cordis-${src}reports-csv.zip" "cordis_berichte/cordis-${src}reports-csv.zip"
+  [ -s "cordis_berichte/$dst/reportSummaries.csv" ] || unzip -q -o "cordis_berichte/cordis-${src}reports-csv.zip" reportSummaries.csv -d "cordis_berichte/$dst"
+done
+if [ -s ../zwischen/newpools.pkl ] && [ ! -s ../zwischen/cordis_berichte.jsonl ]; then
+  for src in h2020 HORIZON; do get "https://cordis.europa.eu/data/cordis-${src}reports-json.zip" "cordis_berichte/cordis-${src}reports-json.zip"; done
+  (cd ../.. && python3 scripts/cordis_berichte.py --zip-loeschen)
+else echo "CORDIS-Berichte: übersprungen (fehlt newpools.pkl oder schon vorhanden)"; fi
+
 du -sh . ; echo "fertig"

@@ -5,7 +5,8 @@
 - Daten: auf der VM geladen (1,3 GB `data/roh`), Stufe 1 gelaufen: 17.421 Einträge, 46 Prüfset-Einträge; stimmt mit dem Chat überein (A01 erledigt).
 - Prüfset: 51 Einträge (8 gut, 2 gut schon weitergeführt, 21 Grenzfall, 20 ungeeignet; FW01010098 in A04 auf Grenzfall). OpenAlex-Check v0.3 auf 31 Fällen.
 - Prompts: Haiku v0.1 und v0.2 nicht bestanden. Punktzahl (A04) trennt nicht: S1 = S2 = 0 Punkte, alle 17.421 kämen durch. Bericht `pruefset/punktzahl_test_2026-11-10.md`.
-- Nächster Schritt: A05 in einer neuen Sitzung (Auftrag kommt vom Planungs-Chat).
+- Texte v2 (A05): `data/zwischen/items_v2.pkl`, 8.679 ergebnis / 8.742 antrag; CORDIS-Berichte für poc, sme1_noP2, sme2 geladen.
+- Läuft: A05 (Claude Code auch als Planungs-Chat), Phase 2 Prüfset erweitern.
 - Ausgegeben bisher: rund 0,23 $ API (A02 0,13 $, A03 0,10 $).
 
 ## Regeln
@@ -29,6 +30,14 @@ Format:
 ```
 
 ---
+
+### 2026-11-10 06:40 UTC · Code (Opus 5.5) · A05 Phase 1 · CORDIS-Berichte und Texte v2
+- Gebaut/geändert: `scripts/cordis_berichte.py` (neu, Aufruf in `daten_laden.sh` und `stufe1.sh`), `scripts/build_texts.py` v2 → `data/zwischen/items_v2.pkl`; v1 heißt jetzt `scripts/build_texts_v1.py` (für alte Läufe, `items.pkl` unverändert).
+- Getestet: beide Skripte gelaufen; gleiche 17.421 IDs wie v1; längster Text 4.002 Zeichen; zwei Texte von Hand angesehen.
+- Beobachtet: CORDIS-Bericht vorhanden: sme1_noP2 3.078/3.097, sme2 1.158/1.168, poc 849/854 (Erwartung 650: H2020-PoC 650 + Horizon Europe 199). H2020-PoC-Berichte haben nur `summary`, die beschreibt aber den Ausgang; zählt als Ergebnis. Texttyp: 8.679 ergebnis, 8.742 antrag (sbir1 6.113, sbir2 2.540, gw 55, CORDIS ohne Bericht 34). Ø 2.265 Zeichen statt rund 1.100.
+- Hat nicht geklappt: nichts. JSON-Zips gelöscht wie beauftragt; die 5.085 benötigten JSON liegen entpackt in `data/roh/cordis_berichte/json/` (74 MB).
+- Kosten: 0 $ API. Sitzung bisher grob 1 $.
+- Nächster Schritt: Phase 2 (Prüfset erweitern).
 
 ### 2026-11-10 06:10 UTC · Code (Opus 5.5) · A05 Phase 0 · Auftrag und Regeln
 - Gebaut/geändert: `auftraege/A05_luecken_schliessen.md` (Auftrag wörtlich), `CLAUDE.md` (Abschnitte Haltepunkte, Sitzungsbudget 5 $), `ENTSCHEIDUNGEN.md` (Rolle Planungs-Chat; Freigaben 2026-11-10-A05 und -A06).
