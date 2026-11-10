@@ -30,6 +30,14 @@ Format:
 
 ---
 
+### 2026-11-10 00:40 UTC · Code (Sonnet 5.5) · A02 · Haiku-Skript und Trockenlauf
+- Gebaut/geändert: `scripts/bezahlt/haiku_extraktion.py` (Freigabe-Prüfung, `--max-usd`, `--dry-run`, JSONL je Antwort, fortsetzbar). Prompt und Prüfset unverändert.
+- Getestet: `--dry-run` und die zwei Abbrüche (falsche Freigabe, fehlende Argumente) laufen. Echter API-Aufruf: nicht getestet, nichts gesendet.
+- Beobachtet: Trockenlauf: 92 Aufrufe, rund 108.800 Token Eingabe (Schätzung 3 Zeichen je Token), 36.800 Ausgabe, rund 0,029 $; ungünstigster Fall 0,066 $ (Grenze 0,50 $).
+- Hat nicht geklappt: Token sind nur nach Zeichenzahl geschätzt, nicht gezählt. Ob `claude-haiku-5-5` und die Preise stimmen, zeigt erst der erste echte Aufruf.
+- Kosten: 0 $.
+- Nächster Vorschlag: Nick sieht den Trockenlauf; bei Ja echter Lauf, danach `zitat_check.py` und Auswertung (Schritt 4 gehört laut A02 zu Opus).
+
 ### 2026-11-10 00:20 UTC · Code (Sonnet 5.5) · A01 · Daten laden, Stufe 1, Fortsetzungscheck
 - Gebaut/geändert: `.venv`, `data/roh` (1,3 GB, lokal), `ergebnisse/openalex_eingabe.csv`; Logs `logs/daten_laden.log`, `logs/stufe1.log`, `logs/openalex_check.log`. Keine Skripte geändert.
 - Getestet: `scripts/stufe1.sh` Exit 0; 17.421 Einträge, 46 von 51 Prüfset-Einträgen in `ergebnisse/pruefset_eingabe.jsonl` (5 gewollt entfernt). Check: `openalex_check.py --modus voll`, 31 Zeilen in `ergebnisse/openalex_check.jsonl`.
