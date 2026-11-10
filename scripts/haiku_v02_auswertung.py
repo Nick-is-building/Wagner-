@@ -4,6 +4,7 @@ Test A: ergebnisse/haiku_v02_pruefset.jsonl -> ergebnisse/haiku_v02_pruefset.tsv
 Test B: ergebnisse/haiku_v02_zufall.jsonl   -> ergebnisse/haiku_v02_zufall.tsv,
         ergebnisse/haiku_v02_stichprobe.md (10 Durchgekommene, 10 Ausgesiebte, Startwert 2026)
 Zusammenfassung nach stdout. Je ID zählt die letzte Zeile ohne _fehler.
+Optional: python3 scripts/haiku_v02_auswertung.py ZIEL_PRUEFSET.tsv ZIEL_ZUFALL.tsv (Tabellen aus A03 bleiben dann unberührt).
 """
 import csv, json, random, sys
 from collections import defaultdict
@@ -70,7 +71,7 @@ def test_a():
     ein = [json.loads(l) for l in open('ergebnisse/pruefset_eingabe.jsonl', encoding='utf-8')]
     zeilen = bewerte(ein, antworten('ergebnisse/haiku_v02_pruefset.jsonl'))
     for z in zeilen: z['klasse'] = ps[z['id']]['klasse']
-    tsv('ergebnisse/haiku_v02_pruefset.tsv', zeilen, ['klasse'])
+    tsv(sys.argv[1] if len(sys.argv) > 1 else 'ergebnisse/haiku_v02_pruefset.tsv', zeilen, ['klasse'])
     s = defaultdict(lambda: [0, 0, 0])
     for z in zeilen:
         s[z['klasse']][0] += bool(z['weiter']); s[z['klasse']][1] += 1; s[z['klasse']][2] += z['weiter'] is None
@@ -86,12 +87,15 @@ def test_a():
 def test_b():
     ein = [json.loads(l) for l in open('ergebnisse/zufall100_eingabe.jsonl', encoding='utf-8')]
     zeilen = bewerte(ein, antworten('ergebnisse/haiku_v02_zufall.jsonl'))
-    tsv('ergebnisse/haiku_v02_zufall.tsv', zeilen, [])
+    tsv(sys.argv[2] if len(sys.argv) > 2 else 'ergebnisse/haiku_v02_zufall.tsv', zeilen, [])
     s = defaultdict(lambda: [0, 0])
     for z in zeilen: s[z['pool']][0] += bool(z['weiter']); s[z['pool']][1] += 1
     print('Test B (100 Zufallseinträge):')
     for k, (w, n) in sorted(s.items(), key=lambda x: -x[1][1]): print(f'  {k}: {w} von {n} weiter ({w/n:.0%})')
     w = sum(v[0] for v in s.values()); print(f'  gesamt: {w} von {len(zeilen)} weiter; ohne Antwort: {sum(z["weiter"] is None for z in zeilen)}')
+    import os
+    if os.path.exists('ergebnisse/haiku_v02_stichprobe.md'):
+        print('  Stichprobe existiert schon (A03), nicht überschrieben.'); return
     rnd = random.Random(2026)
     durch = rnd.sample([z for z in zeilen if z['weiter']], min(10, sum(1 for z in zeilen if z['weiter'])))
     raus = rnd.sample([z for z in zeilen if z['weiter'] is False], min(10, sum(1 for z in zeilen if z['weiter'] is False)))

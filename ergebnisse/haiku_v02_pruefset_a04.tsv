@@ -1,0 +1,47 @@
+id	pool	klasse	weiter	kern	th	os	art	rechen	gruende
+FV10342	cep_fail	gut	ja	unklar	unklar	nein	unklar	niedrig	hindernis unklar
+FR-TI3/018	cep_fail	gut	ja	ja	ja	ja	Technik	unklar	hindernis ja; offener schritt ja
+FW01010098	cep_fail	grenzfall	NEIN	unklar	nein	nein	formal	unklar	kern unklar, sonst nichts
+TJ01000218	cep_fail	gut	ja	ja	unklar	unklar	Personal	unklar	hindernis unklar; grund Personal; offener schritt unklar
+GA106/09/0814	cep_fail	gut	ja	ja	unklar	nein	unklar	unklar	hindernis unklar
+GA203/99/P017	cep_fail	gut	ja	unklar	nein	unklar	formal	hoch	offener schritt unklar; rechenanteil hoch
+10.55776/I5180	fwf_obst	gut	ja	unklar	ja	unklar	Technik	hoch	hindernis ja; offener schritt unklar; rechenanteil hoch
+101069261	poc	gut	ja	unklar	nein	unklar	None	niedrig	offener schritt unklar
+101123089	poc	gut	ja	ja	ja	ja	unklar	niedrig	hindernis ja; offener schritt ja
+IAA400550614	cep_fail	gut (schon weitergeführt)	ja	unklar	nein	unklar	formal	unklar	offener schritt unklar
+10.55776/P24116	fwf_obst	gut (schon weitergeführt)	NEIN	nein	nein	nein	None	mittel	kern nein
+TA02020998	cep_fail	grenzfall	NEIN	ja	nein	nein	formal	unklar	kern ja, sonst nichts
+10.55776/P33931	fwf_obst	grenzfall	ja	ja	ja	ja	Technik	niedrig	hindernis ja; offener schritt ja
+10.55776/P16969	fwf_obst	grenzfall	ja	ja	ja	unklar	Technik	unklar	hindernis ja; offener schritt unklar
+181662	sbir1	grenzfall	ja	unklar	ja	ja	Technik	niedrig	hindernis ja; offener schritt ja
+175273	sbir1	grenzfall	ja	unklar	nein	unklar	None	niedrig	offener schritt unklar
+1ET310330507	cep_fail	grenzfall	ja	ja	unklar	unklar	unklar	niedrig	hindernis unklar; offener schritt unklar
+GA13-10527S	cep_fail	grenzfall	ja	ja	nein	unklar	null	mittel	offener schritt unklar
+TA04010165	cep_fail	grenzfall	ja	ja	unklar	unklar	unklar	unklar	hindernis unklar; offener schritt unklar
+PZ-CH/32	cep_fail	grenzfall	ja	ja	nein	ja	Personal	unklar	grund Personal; offener schritt ja
+UDSKLI2016_06_01	cep_fail	grenzfall	ja	ja	unklar	unklar	unklar	niedrig	hindernis unklar; offener schritt unklar
+GPP204/10/P331	cep_fail	grenzfall	ja	unklar	nein	nein	formal	hoch	rechenanteil hoch
+841640	poc	grenzfall	NEIN	nein	nein	ja	None	hoch	kern nein
+966654	poc	grenzfall	ja	unklar	unklar	unklar	null	unklar	hindernis unklar; offener schritt unklar
+712708	poc	grenzfall	ja	unklar	nein	ja	None	niedrig	offener schritt ja
+665275	poc	grenzfall	NEIN	nein	nein	nein	None	niedrig	kern nein
+101069244	poc	grenzfall	NEIN	nein	nein	nein	None	mittel	kern nein
+666588	sme2	grenzfall	NEIN	unklar	nein	nein	None	niedrig	kern unklar, sonst nichts
+RIV/62156489:43210/24:43925736	riv	grenzfall	NEIN	nein	nein	nein	None	unklar	kern nein
+RIV/46504711:_____/21:N0000005	riv	grenzfall	NEIN	nein	nein	nein	None	niedrig	kern nein
+RIV/00216305:26110/22:PR36166	riv	grenzfall	ja	unklar	nein	nein	None	hoch	rechenanteil hoch
+GA105/08/1072	cep_fail	ungeeignet	ja	ja	unklar	nein	unklar	unklar	hindernis unklar
+GP201/03/P149	cep_fail	ungeeignet	ja	unklar	nein	unklar	None	niedrig	offener schritt unklar
+GP202/09/P410	cep_fail	ungeeignet	ja	ja	unklar	unklar	unklar	mittel	hindernis unklar; offener schritt unklar
+GA202/98/P149	cep_fail	ungeeignet	ja	ja	nein	unklar	Personal	unklar	grund Personal; offener schritt unklar
+TC5-032	cep_fail	ungeeignet	ja	unklar	nein	ja	unklar	unklar	offener schritt ja
+FR-TI3/421	cep_pos	ungeeignet	ja	unklar	nein	nein	None	hoch	rechenanteil hoch
+FI-IM/218	cep_pos	ungeeignet	NEIN	nein	nein	nein	None	unklar	kern nein
+FV40429	cep_pos	ungeeignet	NEIN	nein	nein	unklar	None	niedrig	kern nein
+10.55776/P21555	fwf_pos	ungeeignet	ja	ja	ja	ja	Technik	niedrig	hindernis ja; offener schritt ja
+10.55776/R12	fwf_obst	ungeeignet	ja	ja	nein	ja	None	unklar	offener schritt ja
+10.55776/P34177	fwf_obst	ungeeignet	ja	unklar	nein	unklar	None	hoch	offener schritt unklar; rechenanteil hoch
+FI-IM5/190	cep_roh	ungeeignet	NEIN	unklar	nein	nein	formal	niedrig	kern unklar, sonst nichts
+LM2018141	cep_roh	ungeeignet	NEIN	nein	nein	nein	formal	unklar	kern nein
+TA01021058	cep_roh	ungeeignet	ja	unklar	nein	unklar	formal	unklar	offener schritt unklar
+TA04011060	cep_roh	ungeeignet	ja	unklar	unklar	ja	formal	niedrig	hindernis unklar; offener schritt ja

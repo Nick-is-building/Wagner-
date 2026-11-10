@@ -1,0 +1,47 @@
+id	klasse	punkte_v01	punkte_v02	teile_v02
+10.55776/P33931	grenzfall	4	5	+2 Hindernis ja; +1 offener Schritt ja; +1 Teilerfolg; +1 Kern ja
+10.55776/P16969	grenzfall	4	5	+2 Hindernis ja; +2 Muster H1-H3; +1 Kern ja
+181662	grenzfall	5	5	+2 Hindernis ja; +1 Muster H4-H7; +1 offener Schritt ja; +1 Teilerfolg
+PZ-CH/32	grenzfall	2	4	+1 Grund Personal; +1 offener Schritt ja; +1 Teilerfolg; +1 Kern ja
+841640	grenzfall	4	4	+2 Rechenanteil hoch; +1 offener Schritt ja; +1 Teilerfolg
+1ET310330507	grenzfall	2	3	+1 Hindernis unklar; +1 Teilerfolg; +1 Kern ja
+GA13-10527S	grenzfall	4	3	+1 Rechenanteil mittel; +1 Teilerfolg; +1 Kern ja
+TA04010165	grenzfall	2	3	+1 Hindernis unklar; +1 Teilerfolg; +1 Kern ja
+UDSKLI2016_06_01	grenzfall	2	3	+1 Hindernis unklar; +1 Teilerfolg; +1 Kern ja
+RIV/00216305:26110/22:PR36166	grenzfall	3	3	+2 Rechenanteil hoch; +1 Teilerfolg
+966654	grenzfall	5	2	+1 Hindernis unklar; +1 Teilerfolg
+712708	grenzfall	2	2	+1 offener Schritt ja; +1 Teilerfolg
+RIV/62156489:43210/24:43925736	grenzfall	3	2	+1 offener Schritt ja (RIV O); +1 Teilerfolg
+RIV/46504711:_____/21:N0000005	grenzfall	2	2	+1 offener Schritt ja (RIV O); +1 Teilerfolg
+175273	grenzfall	2	1	+1 Teilerfolg
+101069244	grenzfall	1	1	+1 Rechenanteil mittel
+GPP204/10/P331	grenzfall	3	0	+2 Rechenanteil hoch; -2 formal ohne Hindernis
+665275	grenzfall	0	0	
+666588	grenzfall	2	0	
+TA02020998	grenzfall	0	-1	+1 Kern ja; -2 formal ohne Hindernis
+FW01010098	grenzfall	0	-2	-2 formal ohne Hindernis
+FR-TI3/018	gut	6	7	+2 Hindernis ja; +2 Muster H1-H3; +1 offener Schritt ja; +1 Teilerfolg; +1 Kern ja
+101123089	gut	4	7	+2 Hindernis ja; +2 Muster H1-H3; +1 offener Schritt ja; +1 Teilerfolg; +1 Kern ja
+10.55776/I5180	gut	7	6	+2 Hindernis ja; +2 Muster H1-H3; +2 Rechenanteil hoch
+TJ01000218	gut	3	5	+1 Hindernis unklar; +1 Muster H4-H7; +1 Grund Personal; +1 Teilerfolg; +1 Kern ja
+FV10342	gut	2	2	+1 Hindernis unklar; +1 Teilerfolg
+GA106/09/0814	gut	1	2	+1 Hindernis unklar; +1 Kern ja
+GA203/99/P017	gut	3	1	+2 Rechenanteil hoch; +1 Teilerfolg; -2 formal ohne Hindernis
+101069261	gut	2	0	
+10.55776/P24116	gut (schon weitergeführt)	1	1	+1 Rechenanteil mittel
+IAA400550614	gut (schon weitergeführt)	1	-1	+1 Teilerfolg; -2 formal ohne Hindernis
+10.55776/P21555	ungeeignet	6	7	+2 Hindernis ja; +2 Muster H1-H3; +1 offener Schritt ja; +1 Teilerfolg; +1 Kern ja
+TA04011060	ungeeignet	3	3	+1 Hindernis unklar; +1 offener Schritt ja; +1 Teilerfolg
+GA105/08/1072	ungeeignet	2	3	+1 Hindernis unklar; +1 Teilerfolg; +1 Kern ja
+GP202/09/P410	ungeeignet	2	3	+1 Hindernis unklar; +1 Rechenanteil mittel; +1 Kern ja
+FR-TI3/421	ungeeignet	3	3	+2 Rechenanteil hoch; +1 Teilerfolg
+10.55776/R12	ungeeignet	2	3	+1 offener Schritt ja; +1 Teilerfolg; +1 Kern ja
+10.55776/P34177	ungeeignet	3	3	+2 Rechenanteil hoch; +1 Teilerfolg
+GA202/98/P149	ungeeignet	0	2	+1 Grund Personal; +1 Kern ja
+GP201/03/P149	ungeeignet	2	1	+1 Teilerfolg
+TC5-032	ungeeignet	1	1	+1 offener Schritt ja
+FI-IM/218	ungeeignet	1	1	+1 Teilerfolg
+FV40429	ungeeignet	1	1	+1 Teilerfolg
+FI-IM5/190	ungeeignet	1	-2	-2 formal ohne Hindernis
+TA01021058	ungeeignet	1	-2	-2 formal ohne Hindernis
+LM2018141	ungeeignet	0	-2	-2 formal ohne Hindernis

@@ -8,7 +8,8 @@ RIV-Einträge mit Nutzungscode O (druh_moznosti_vyuziti), Nachtrag A03: gehen an
   offener_schritt auf "ja". Weiter nur, wenn die Regel oben gilt UND zusätzlich rechenanteil mittel/hoch
   oder technisches_hindernis ja/unklar. (Auslegung: Die Kern-Bedingung gilt auch hier, weil "Code O setzt
   offener_schritt auf ja" sonst keine Wirkung hätte.)
-"unklar" ohne Zitat zählt als "nein" (Prompt-Regel v0.2, hier technisch durchgesetzt).
+"unklar" zählt als "nein", wenn die Antwort in keinem Feld ein Zitat hat (Prompt-Regel v0.2; seit A04
+  genügt ein Zitat in irgendeinem Feld, vorher musste es im zugehörigen Feld stehen).
 """
 import pickle
 
@@ -21,22 +22,30 @@ def riv_o_ids(pfad='data/zwischen/newpools.pkl'):
     return {r['kod_vysledku'] for r in n['riv'] if r['druh_moznosti_vyuziti'] == 'O'}
 
 
-def _wert(w, zitat):
+def hat_zitat(a):
+    """True, wenn irgendein Feld der Antwort ein nicht leeres Zitat oder einen Beleg enthält."""
+    if (a.get('offener_schritt_beleg') or '').strip():
+        return True
+    return any(isinstance(v, dict) and (v.get('zitat') or '').strip() for v in a.values())
+
+
+def _wert(w, zitat_da):
     w = (w or '').strip().lower() if isinstance(w, str) else None
-    if w == 'unklar' and not (zitat or '').strip():
+    if w == 'unklar' and not zitat_da:
         return 'nein'
     return w or 'nein'
 
 
 def felder(a):
     """Bereinigte Werte einer Haiku-Antwort (dict) für die Regel."""
+    z = hat_zitat(a)
     k = a.get('unerledigter_kern') or {}
     art = a.get('abbruchgrund_art') or {}
     return {
-        'kern': _wert(k.get('wert'), k.get('zitat')),
-        'th': _wert(a.get('technisches_hindernis'), (a.get('hindernis') or {}).get('zitat')),
-        'os': _wert(a.get('offener_schritt'), a.get('offener_schritt_beleg')),
-        'art': art.get('wert') if (art.get('wert') != 'unklar' or (art.get('zitat') or '').strip()) else None,
+        'kern': _wert(k.get('wert'), z),
+        'th': _wert(a.get('technisches_hindernis'), z),
+        'os': _wert(a.get('offener_schritt'), z),
+        'art': art.get('wert') if (art.get('wert') != 'unklar' or z) else None,
         'rechen': (a.get('rechenanteil') or '').strip().lower(),
     }
 

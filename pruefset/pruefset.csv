@@ -1,7 +1,7 @@
 id,quelle,klasse,herkunft,begruendung
 FV10342,CEP,gut,Probe 2,Plasmadüse: alle Ziele bis auf Parameter der zweiten Düse (H2)
 FR-TI3/018,CEP,gut,Rangliste,Konchoid-Hydraulikpumpe KHG: Funktionsmuster gebaut; Parameter erreichen Vorgabe noch nicht (H2)
-FW01010098,CEP,gut,Probe 1 + Rangliste,Fotogrammetrie für Schmiedeteile im automatischen Kovací-Prozess; früh beendet (H3)
+FW01010098,CEP,grenzfall,Probe 1 + Rangliste,Fotogrammetrie für Schmiedeteile im automatischen Kovací-Prozess; früh beendet (H3) [A04 10.11.2026: vorher gut; Text nennt kein Hindernis, Einstufung beruhte auf dem Titel]
 TJ01000218,CEP,gut,Probe 1,Karbid-Schneidwerkzeug per SLM-3D-Druck mit Kühlkanälen; Ziel verfehlt (H2)
 GA106/09/0814,CEP,gut,Probe 1,Wasserstoffspeicher Mg2Ni-H; Ziel verfehlt; Atom-Modelle heute (H1/H7)
 GA203/99/P017,CEP,gut,Probe 1,Monte-Carlo-Simulation von Polymeren; Elternzeit-Abbruch (H1)

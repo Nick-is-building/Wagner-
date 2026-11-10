@@ -1,0 +1,20 @@
+Eichung: 657,814 Zeichen / 312,646 Token = 2.10 Zeichen je Token (146 Haiku-Aufrufe)
+Fester Teil: Anweisung 1,494 + Schema 682 + Katalog 11,937 Zeichen = rund 6,708 Token
+Variabler Teil: im Mittel rund 1,405 Token je Eintrag; Haiku-Ausgabe zum Vergleich im Mittel 862 Token
+
+| Schwelle | Anteil Zufall | Einträge (hochgerechnet) | Ausgabe je Eintrag | ohne Cache | mit Cache | Batch mit Cache |
+|---|---|---|---|---|---|---|
+| S1 = S2 = 0 Punkte (v0.2) | 100 von 100 | 17,421 | 600 | 387 $ | 177 $ | 88 $ |
+| S1 = S2 = 0 Punkte (v0.2) | 100 von 100 | 17,421 | 1000 | 457 $ | 247 $ | 123 $ |
+| S1 = S2 = 0 Punkte (v0.2) | 100 von 100 | 17,421 | 1500 | 544 $ | 334 $ | 167 $ |
+| zum Vergleich: ab 1 Punkt | 70 von 100 | 12,195 | 600 | 271 $ | 124 $ | 62 $ |
+| zum Vergleich: ab 1 Punkt | 70 von 100 | 12,195 | 1000 | 320 $ | 173 $ | 86 $ |
+| zum Vergleich: ab 1 Punkt | 70 von 100 | 12,195 | 1500 | 381 $ | 234 $ | 117 $ |
+| ab 2 Punkten | 37 von 100 | 6,446 | 600 | 143 $ | 65 $ | 33 $ |
+| ab 2 Punkten | 37 von 100 | 6,446 | 1000 | 169 $ | 91 $ | 46 $ |
+| ab 2 Punkten | 37 von 100 | 6,446 | 1500 | 201 $ | 123 $ | 62 $ |
+| ab 3 Punkten | 13 von 100 | 2,265 | 600 | 50 $ | 23 $ | 11 $ |
+| ab 3 Punkten | 13 von 100 | 2,265 | 1000 | 59 $ | 32 $ | 16 $ |
+| ab 3 Punkten | 13 von 100 | 2,265 | 1500 | 71 $ | 43 $ | 22 $ |
+
+Vorstufe Haiku v0.2 auf alle 17,421: im Mittel 0.00065 $ je Eintrag -> rund 11.2 $ (ohne Batch)

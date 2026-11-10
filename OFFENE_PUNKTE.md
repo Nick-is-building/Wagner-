@@ -6,10 +6,14 @@ Erledigtes wird gestrichen und nach einer Woche gelöscht; was daraus folgte, st
 
 - [x] A01: erledigt 2026-11-10 (siehe Tagebuch)
 - [x] A02: erledigt 2026-11-10, nicht bestanden (Bericht `pruefset/haiku_test_2026-11-10.md`)
+- [x] A04: erledigt 2026-11-10 (Bericht `pruefset/punktzahl_test_2026-11-10.md`)
 - [x] A03 mit Nachtrag: erledigt 2026-11-10, nicht bestanden (Bericht `pruefset/haiku_test_v02_2026-11-10.md`)
 
 ## Planungs-Chat
 
+- [ ] A04: Punktzahl trennt nicht (S1 = S2 = 0). Entscheiden: Haiku-Prompt ändern (Abbruchgründe mit Beispielen, Beleg muss Zitat sein, Texte nicht kürzen, Anträge anders fragen)
+- [ ] Sonnet-Test am Prüfset vorbereiten (rund 0,7 bis 1,2 $), misst die echte Ausgabelänge; Längengrenzen für freie Felder im Sonnet-Prompt?
+- [ ] Meine Bewertung der 20 Beispiele (`pruefset/stichprobe_v02_bewertung.md`) gegenprüfen
 - [ ] A03: Stichprobe `ergebnisse/haiku_v02_stichprobe.md` bewerten; über Kern-Bedingung, Zitat-Durchsetzung und „formal“ entscheiden
 - [ ] Prüfset auf 20 gute Fälle bringen (fehlen rund 9)
 - [ ] Nach A02: Haiku-Prompt nachschärfen (sechs Vorschläge im Bericht), dann Sonnet-Test vorbereiten

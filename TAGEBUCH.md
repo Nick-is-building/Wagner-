@@ -3,9 +3,9 @@
 ## Stand (höchstens sechs Zeilen, immer aktuell halten)
 
 - Daten: auf der VM geladen (1,3 GB `data/roh`), Stufe 1 gelaufen: 17.421 Einträge, 46 Prüfset-Einträge; stimmt mit dem Chat überein (A01 erledigt).
-- Prüfset: 51 Einträge (11 gut, 20 Grenzfall, 20 ungeeignet). OpenAlex-Check v0.3 (voll) auf 31 Fällen gelaufen.
-- Prompts: Haiku v0.1 nicht bestanden (gut 8/9, Grenzfall 19/20). Haiku v0.2 (A03) **nicht bestanden** (gut 7/9, Grenzfall 13/20), Bericht `pruefset/haiku_test_v02_2026-11-10.md`. Sonnet, Opus v0.1 ungetestet.
-- Nächster Schritt: Planungs-Chat entscheidet über die Regel (Vorschläge im Bericht) und bewertet `ergebnisse/haiku_v02_stichprobe.md`. A03 erledigt.
+- Prüfset: 51 Einträge (8 gut, 2 gut schon weitergeführt, 21 Grenzfall, 20 ungeeignet; FW01010098 in A04 auf Grenzfall). OpenAlex-Check v0.3 auf 31 Fällen.
+- Prompts: Haiku v0.1 und v0.2 nicht bestanden. Punktzahl (A04) trennt nicht: S1 = S2 = 0 Punkte, alle 17.421 kämen durch. Bericht `pruefset/punktzahl_test_2026-11-10.md`.
+- Nächster Schritt: Planungs-Chat entscheidet über Haiku-Prompt (Abbruchgründe, Belege, Textlänge, Anträge) und den Sonnet-Test am Prüfset (rund 1 $).
 - Ausgegeben bisher: rund 0,23 $ API (A02 0,13 $, A03 0,10 $).
 
 ## Regeln
@@ -29,6 +29,14 @@ Format:
 ```
 
 ---
+
+### 2026-11-10 05:20 UTC · Code (Opus 5.5) · A04 · Punktzahl, Schwellen, Stichprobe, Sonnet-Kosten
+- Gebaut/geändert: `pruefset/pruefset.csv` (FW01010098 → Grenzfall, Grund in der Zeile), `scripts/weiter_regel.py` (Zitat aus beliebigem Feld), `scripts/punktzahl.py`, `scripts/sonnet_kosten.py`; Berichte `pruefset/punktzahl_test_2026-11-10.md`, `pruefset/stichprobe_v02_bewertung.md`.
+- Getestet: Skripte laufen auf den vorhandenen Antworten; Regeländerung an zwei Hand-Beispielen.
+- Beobachtet: S1 = S2 = 0 (v0.2) bzw. 1 (v0.1) → 100 von 100 Zufallseinträgen drin. Stichprobe (1 Prüfer): unter 10 Ausgesiebten 0 B, 3 G; unter 10 Durchgekommenen 4 C; Punktzahl trennt nicht besser als die v0.2-Regel. Eichung 2,10 Zeichen je Token; Sonnet auf alle 17.421 rund 250 $ mit Cache (1.000 Token Ausgabe), Prüfset rund 1 $.
+- Hat nicht geklappt: `haiku_v02_auswertung.py` hat beim ersten Lauf die A03-Stichprobe und -Tabellen überschrieben; aus Git wiederhergestellt, Skript hat jetzt eine Sperre. 33 von 85 `offener_schritt_beleg` sind keine Zitate; die Zitat-Regel greift nach der Korrektur nie (alle 146 Antworten haben ein Zitat).
+- Kosten: 0 $.
+- Nächster Vorschlag: Haiku-Prompt nachbessern, dann Sonnet am Prüfset. Keine Erlaubnis.
 
 ### 2026-11-10 04:10 UTC · Code (Opus 5.5) · A03 mit Nachtrag · Haiku v0.2, Prüfset und 100 Zufallseinträge
 - Gebaut/geändert: `prompts/haiku_extraktion.md` v0.2, `scripts/weiter_regel.py` (mit RIV-Nachtrag), `scripts/bezahlt/haiku_v02.py`, `scripts/zufall_eingabe.py`, `scripts/haiku_v02_auswertung.py`, `scripts/haiku_v02_varianten.py`; `zitat_check.py` mit optionalem Ausgabepfad. Bericht `pruefset/haiku_test_v02_2026-11-10.md`, Stichprobe `ergebnisse/haiku_v02_stichprobe.md`.
