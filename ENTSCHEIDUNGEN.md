@@ -31,7 +31,7 @@ Ein bezahltes Skript startet nur, wenn seine Freigabe-ID hier steht.
 | 2026-11-10-A05 | Haiku-Prompt v0.3: erweitertes Prüfset und 100 Zufallseinträge, Texte v2 (A05 Phase 4) | offen (Trockenlauf folgt) | 0,50 $ | 2026-11-10 | nicht genutzt, ersetzt durch A06a |
 | 2026-11-10-A06 | Sonnet-Bewertung kompakt am Prüfset (A05 Phase 5; nur wenn Phase 4 besteht) | offen (Trockenlauf folgt) | 2,00 $ | 2026-11-10 | nicht genutzt, ersetzt durch A06c |
 | 2026-11-10-A06a | Haiku-Test v0.3 am Prüfset und 100 Zufallseinträgen (A06 Phase 3) | rund 0,075 $ (Trockenlauf; ungünstigster Fall 0,12 $) | 0,50 $ | 2026-11-10 | 0,067 $ (Lauf 2026-11-10) |
-| 2026-11-10-A06b | Haiku v0.3 auf Häppchen 1, rund 2.738 Einträge (A06 Phase 4) | offen | 2,00 $ | 2026-11-10 | – |
-| 2026-11-10-A06c | Sonnet am Prüfset (A06 Phase 5) | offen | 2,00 $ | 2026-11-10 | – |
-| 2026-11-10-A06d | Sonnet auf die Auswahl aus Häppchen 1 (A06 Phase 5) | offen | 5,00 $ | 2026-11-10 | – |
-| 2026-11-10-A06e | Fable 5.2 (claude-fable-5-2): Tiefenprüfung obere 30 und freie Suche obere 100, inkl. Websuche (A06 Phase 7) | offen | 12,00 $ (erhöht von 8,00 $ am 2026-11-10) | 2026-11-10 | – |
+| 2026-11-10-A06b | Haiku v0.3 auf Häppchen 1, rund 2.738 Einträge (A06 Phase 4) | rund 1,21 $ (Trockenlauf) | 2,00 $ | 2026-11-10 | 1,07 $ (2.738 Aufrufe, 2 Ablehnungen) |
+| 2026-11-10-A06c | Sonnet am Prüfset (A06 Phase 5) | rund 1,41 $ (Trockenlauf) | 2,00 $ | 2026-11-10 | 1,31 $ (101 Aufrufe) |
+| 2026-11-10-A06d | Sonnet auf die Auswahl aus Häppchen 1 (A06 Phase 5) | rund 0,015 $ je Eintrag | 5,00 $ | 2026-11-10 | 4,59 $ (429 von 2.109 Einträgen, Rang 1–429) |
+| 2026-11-10-A06e | Fable 5.2 (claude-fable-5-2): Tiefenprüfung obere 30 und freie Suche obere 100, inkl. Websuche (A06 Phase 7) | offen | 12,00 $ (erhöht von 8,00 $ am 2026-11-10) | 2026-11-10 | 11,43 $ (freie Suche 2,52 $; 16 Tiefenprüfungen 8,91 $, je rund 0,55 $; kein Ausweichen auf ältere Modelle) |

@@ -86,6 +86,8 @@ def main():
     ap.add_argument('--suchen', type=int, default=3)
     ap.add_argument('--freigabe'); ap.add_argument('--max-usd', type=float)
     ap.add_argument('--reserve-usd', type=float, default=0.0, help='für den anderen Teil freihalten')
+    ap.add_argument('--parallel', type=int, default=10)
+    ap.add_argument('--worst-usd', type=float, help='ungünstigste Kosten je Aufruf, aus Messung (statt Schätzformel)')
     ap.add_argument('--dry-run', action='store_true')
     a = ap.parse_args()
     ks = [json.loads(l) for l in open('ergebnisse/a06_obere100.jsonl', encoding='utf-8')]
@@ -115,6 +117,8 @@ def main():
         worst = lambda x: ((L.tok(TIEFE + kat + x['params']['messages'][0]['content']) + a.suchen * 15000) * 2 * pin
                            + 12000 * pout) / 1e6 + a.suchen * L.WEBSUCHE_USD
         json_erw = True
+    if a.worst_usd:
+        worst = lambda x: a.worst_usd
     if a.dry_run:
         print(f'Trockenlauf Fable {a.teil}: {len(aufgaben)} Aufrufe, ungünstigster Fall {sum(worst(x) for x in aufgaben):.2f} $; '
               f'bisher unter A06e {bisher:.4f} $')
@@ -132,7 +136,7 @@ def main():
             z['_text'] = ''.join(b.text for b in antworten[-1].content if b.type == 'text')
 
     asyncio.run(L.lauf(aufgaben, aus, modell=MODELL, max_usd=a.max_usd - a.reserve_usd, bisher_usd=bisher,
-                       worst_usd=worst, parallel=10, beta=True, auswerten=auswerten, json_erwartet=json_erw))
+                       worst_usd=worst, parallel=a.parallel, beta=True, auswerten=auswerten, json_erwartet=json_erw))
 
 
 if __name__ == '__main__':

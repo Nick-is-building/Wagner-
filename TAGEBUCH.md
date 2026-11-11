@@ -2,11 +2,11 @@
 
 ## Stand (höchstens sechs Zeilen, immer aktuell halten)
 
-- Prüfset: 106 Einträge (15 gut, 2 gut schon weitergeführt, 46 Grenzfall, 43 ungeeignet), A05-Einträge in A06 übernommen.
-- Kriterien K11–K14 in `docs/04_pipeline.md`, Höchstwert 42, Startschwelle vorläufig 20; Sonnet-Prompt v0.2 (ungetestet).
-- Haiku v0.3 (zwei Varianten nach Texttyp) am Prüfset nicht bestanden: Ergebnis-Texte gut 12/12, Grenzfall 27/34 (79 %); Antrags-Texte 1/3 gut im oberen Viertel. Bericht `pruefset/haiku_test_v03_2026-11-10.md`.
-- Läuft: A06, Haltepunkt nach Phase 3, wartet auf Nicks Entscheidung. Häppchen 1 (2.738 Einträge) noch nicht gesendet.
-- Ausgegeben bisher: rund 0,30 $ API (A02 0,13 $, A03 0,10 $, A06a 0,07 $).
+- Häppchen 1 (poc, sme2, cep_fail, fwf_obst; 2.738) durchlaufen: Haiku v0.3 → 2.109 weiter; Sonnet v0.2 auf Rang 1–429; OpenAlex schnell für die oberen 100; Fable 5.2 Tiefenprüfung für 16 und freie Suche über 100.
+- Ergebnis: `kandidaten/RANGLISTE.md` (obere 30), 10 Karten, `kandidaten/beobachtungen.md` (Funde, Vorschlag Häppchen 2). Fable-Urteil: 0 × weiterverfolgen, 13 × mit Vorbehalt, 3 × nicht weiterverfolgen.
+- Bekannte Schwächen: Sonnet-Pflicht greift nicht (3 von 15 guten), Summe trennt schwach, bevorzugt fertige PoC-Software; Startschwelle 17 nach Summe geeicht (`pruefset/sonnet_test_v02_2026-11-10.md`).
+- Läuft: nichts. A06 am Haltepunkt Phase 8, wartet auf Nick.
+- Ausgegeben bisher: rund 18,7 $ API (A02 0,13 $, A03 0,10 $, A06 18,47 $).
 
 ## Regeln
 
@@ -29,6 +29,15 @@ Format:
 ```
 
 ---
+
+### 2026-11-11 01:30 UTC · Code (Opus 5.5) · A06 Phase 4–8 · Häppchen 1 bis Fable (Haltepunkt)
+- Gebaut: `scripts/bezahlt/sonnet_v02.py`, `fable_a06.py`; `scripts/a06_obere100.py`, `a06_ergebnis.py`; Rangfolge nach Nicks Vorgabe in `auswahl_v03.py`.
+- Getestet/gelaufen: Haiku 2.738 (237 s, `logs/haiku_v03_haeppchen1.log`); Sonnet Prüfset 101 und Häppchen 429 (139 s, `logs/sonnet_v02_haeppchen1.log`); OpenAlex schnell 100 (`logs/a06_openalex.log`); Fable frei 1 (241 s) und Tiefe 16 (`logs/fable_a06_tiefe*.log`).
+- Beobachtet: weiter je Pool poc 720/854, sme2 989/1.168, cep_fail 267/398, fwf_obst 137/318 (`ergebnisse/auswahl_v03_haeppchen1.tsv`). Sonnet kam bis Rang 429 von 2.109. Obere 100: Summe 32 bis 24, Pflicht 35 von 100. Fable-Urteile siehe `kandidaten/RANGLISTE.md`; Fable wich nie auf ältere Modelle aus.
+- Hat nicht geklappt: Sonnet-Testregel mit Pflicht nicht bestanden (3/15 gute); weitergemacht mit Summe (Nicks Vorgabe „keine Rückfragen“). 14 der oberen 30 ohne Fable-Prüfung (Budget). Haiku lehnte 2 Einträge ab. Unter den oberen 30 Fachfremdes (101138301 Prostata, 101069237 zellfrei).
+- Vermutet: Sonnet-Summe belohnt fertige Software (Fable: 36 der oberen 100 ohne offenen Kern). OpenAlex 0 Treffer bei 7 Fällen vermutlich Abfragefehler (Fable).
+- Kosten: A06b 1,07 $, A06c 1,31 $, A06d 4,59 $, A06e 11,43 $; OpenAlex rund 1.240 Credits. Sitzung Claude Code grob 7 $.
+- Nächster Vorschlag: Sonnet-Pflicht (K2 für Klasse B, Feld ausschluss) reparieren, dann Häppchen 2 nach `kandidaten/beobachtungen.md` (keine Erlaubnis).
 
 ### 2026-11-10 09:30 UTC · Code (Opus 5.5) · A06 Phase 0–3 · Kriterien, Haiku v0.3, Test (Haltepunkt)
 - Gebaut: `auftraege/A06_haeppchen1.md`; Prüfset 106; K11–K14 in `docs/04_pipeline.md`; `prompts/sonnet_bewertung.md` v0.2, `prompts/haiku_extraktion.md` v0.3; `scripts/bezahlt/api_lauf.py` (parallel, fortsetzbar), `haiku_v03.py`; `scripts/a06_eingabe.py`, `auswahl_v03.py`, `kosten.py`.
