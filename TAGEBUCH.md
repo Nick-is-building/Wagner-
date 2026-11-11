@@ -2,11 +2,11 @@
 
 ## Stand (höchstens sechs Zeilen, immer aktuell halten)
 
-- Häppchen 1 (poc, sme2, cep_fail, fwf_obst; 2.738) durchlaufen: Haiku v0.3 → 2.109 weiter; Sonnet v0.2 auf Rang 1–429; OpenAlex schnell für die oberen 100; Fable 5.2 Tiefenprüfung für 16 und freie Suche über 100.
-- Ergebnis: `kandidaten/RANGLISTE.md` (obere 30), 10 Karten, `kandidaten/beobachtungen.md` (Funde, Vorschlag Häppchen 2). Fable-Urteil: 0 × weiterverfolgen, 13 × mit Vorbehalt, 3 × nicht weiterverfolgen.
-- Bekannte Schwächen: Sonnet-Pflicht greift nicht (3 von 15 guten), Summe trennt schwach, bevorzugt fertige PoC-Software; Startschwelle 17 nach Summe geeicht (`pruefset/sonnet_test_v02_2026-11-10.md`).
-- Läuft: nichts. A06 am Haltepunkt Phase 8, wartet auf Nick.
-- Ausgegeben bisher: rund 18,7 $ API (A02 0,13 $, A03 0,10 $, A06 18,47 $).
+- A07 (Muster-Suche) am Haltepunkt 1: Sonnet v0.3 am Prüfset nicht bestanden (5 von 15 guten mit Pflicht an Schwelle 17; Regel 12). Bericht `pruefset/sonnet_test_v03_2026-11-11.md`.
+- Vorauswahl aus Häppchen 1 fertig: 103 Einträge (`ergebnisse/a07_vorauswahl.tsv`); Sonnet, OpenAlex, Fable dafür noch nicht gelaufen.
+- Häppchen 1 aus A06: `kandidaten/RANGLISTE.md` (obere 30), 10 Karten; Fable-Urteil 0 × weiterverfolgen.
+- Läuft: nichts. Wartet auf Nick.
+- Ausgegeben bisher: rund 20,3 $ API (A02 0,13 $, A03 0,10 $, A06 18,47 $, A07 1,56 $).
 
 ## Regeln
 
@@ -19,6 +19,14 @@
 Format:
 
 ```
+### 2026-11-11 02:10 UTC · Code (Opus 5.5) · A07 · Sonnet v0.3 am Prüfset (Haltepunkt)
+- Gebaut: `auftraege/A07_muster.md`; Haltepunkt-Regel in `CLAUDE.md`; Freigaben A07a/b; `prompts/sonnet_bewertung.md` v0.3; `scripts/bezahlt/sonnet_v03.py`; `scripts/a07_vorauswahl.py`.
+- Getestet: Rechnung von `sonnet_v03.rechne` an einem Handbeispiel (13, stimmt); Prüfset-Lauf 101 Aufrufe, 0 Fehler, 43 s (`logs/sonnet_v03_pruefset.log`).
+- Beobachtet: Vorauswahl poc 28/856, sme2 33/1.168, cep_fail 17/398, fwf_obst 25/318. Prüfset: gute mit Pflicht ≥ 17 nur 5/15, ohne Pflicht 10/15; Pflicht scheitert an K2 (5), K11 = 0 (5), K12 = 0 (3).
+- Hat nicht geklappt: Testregel klar verfehlt. „Teilerfolg“ hat kein Haiku-Feld; soll nach Sonnet über K5 ≥ 1 geprüft werden. Abzugshöhe (4 je Abzug) im Auftrag nicht beziffert, von mir gesetzt. Zwei Sitzungsabbrüche: VM lief durch (uptime 10 h), es brach die SSH-Verbindung ab; Claude Code lief nicht in tmux.
+- Kosten: A07a 1,557 $. Sitzung Claude Code grob 2 $.
+- Nächster Vorschlag: Wege 1–4 im Bericht (keine Erlaubnis).
+
 ### JJJJ-MM-TT HH:MM UTC · Chat | Code (Modell) · Auftrag · Kurztitel
 - Gebaut/geändert: Pfade
 - Getestet: Befehl und Ergebnis (oder „nicht getestet“)

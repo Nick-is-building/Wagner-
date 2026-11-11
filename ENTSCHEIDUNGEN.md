@@ -36,5 +36,5 @@ Ein bezahltes Skript startet nur, wenn seine Freigabe-ID hier steht.
 | 2026-11-10-A06c | Sonnet am Prüfset (A06 Phase 5) | rund 1,41 $ (Trockenlauf) | 2,00 $ | 2026-11-10 | 1,31 $ (101 Aufrufe) |
 | 2026-11-10-A06d | Sonnet auf die Auswahl aus Häppchen 1 (A06 Phase 5) | rund 0,015 $ je Eintrag | 5,00 $ | 2026-11-10 | 4,59 $ (429 von 2.109 Einträgen, Rang 1–429) |
 | 2026-11-10-A06e | Fable 5.2 (claude-fable-5-2): Tiefenprüfung obere 30 und freie Suche obere 100, inkl. Websuche (A06 Phase 7) | offen | 12,00 $ (erhöht von 8,00 $ am 2026-11-10) | 2026-11-10 | 11,43 $ (freie Suche 2,52 $; 16 Tiefenprüfungen 8,91 $, je rund 0,55 $; kein Ausweichen auf ältere Modelle) |
-| 2026-11-11-A07a | Sonnet v0.3: Prüfset und Vorauswahl aus Häppchen 1 (A07) | offen (Trockenlauf folgt) | 3,00 $ | 2026-11-11 | offen |
+| 2026-11-11-A07a | Sonnet v0.3: Prüfset und Vorauswahl aus Häppchen 1 (A07) | Prüfset 1,65 $, Vorauswahl 1,78 $ (Trockenlauf) | 3,00 $ | 2026-11-11 | 1,557 $ (Prüfset 101 Aufrufe; Vorauswahl nicht gelaufen, Haltepunkt) |
 | 2026-11-11-A07b | Fable: Tiefenprüfung obere 8 und freie Suche obere 40 (A07) | offen (Trockenlauf folgt) | 6,00 $ | 2026-11-11 | offen |

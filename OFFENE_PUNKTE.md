@@ -7,6 +7,7 @@ Erledigtes wird gestrichen und nach einer Woche gelöscht; was daraus folgte, st
 - [x] A01: erledigt 2026-11-10 (siehe Tagebuch)
 - [x] A02: erledigt 2026-11-10, nicht bestanden (Bericht `pruefset/haiku_test_2026-11-10.md`)
 - [x] A04: erledigt 2026-11-10 (Bericht `pruefset/punktzahl_test_2026-11-10.md`)
+- [ ] A07: Haltepunkt 1 (Sonnet v0.3 nicht bestanden), wartet auf Nick; Bericht `pruefset/sonnet_test_v03_2026-11-11.md`
 - [x] A06: Phasen 0–8 erledigt 2026-11-11, Haltepunkt Phase 8 (siehe Tagebuch)
 - [x] A03 mit Nachtrag: erledigt 2026-11-10, nicht bestanden (Bericht `pruefset/haiku_test_v02_2026-11-10.md`)
 
