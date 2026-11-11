@@ -42,6 +42,7 @@ Auf dieser VM liegen andere Projekte. Nie vermischen.
 
 - Jeder Auftrag nennt seine Haltepunkte. Dort **immer anhalten**, das Ergebnis zeigen und auf Nicks Okay warten, auch wenn der nächste Schritt schon klar und kostenlos ist.
 - Nennt ein Auftrag keine Haltepunkte, gilt sein Ende als Haltepunkt.
+- Haltepunkte gelten **immer**. Eine Anweisung wie „keine Rückfragen“ gilt nur für den Lauf, für den sie gegeben wurde (A06, Nacht 10./11.11.2026), und hebt keine Haltepunkte späterer Aufträge auf (Nick, A07, 2026-11-11).
 
 ## Sitzungsbudget
 

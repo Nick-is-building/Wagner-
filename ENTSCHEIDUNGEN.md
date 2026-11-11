@@ -4,6 +4,7 @@ Was Nick entschieden hat, neueste oben. Budgetfreigaben stehen hier, bevor ein b
 
 | Datum | Entscheidung | Folge |
 |---|---|---|
+| 2026-11-11 | A07 erteilt: Muster-Suche (Messdaten/Prototyp vorhanden, Modell/Auswertung/Optimierung fehlt); Sonnet v0.3 mit harter Pflicht und Merkmal M; Vorauswahl aus Haiku-Antworten Häppchen 1; Haltepunkte gelten immer, „keine Rückfragen“ galt nur für A06 | `auftraege/A07_muster.md`, `CLAUDE.md` |
 | 2026-11-10 | A06 Haltepunkt Phase 3: weiter mit Phase 4 wie gebaut (Option 1); durchgekommene Ergebnis-Texte vor Sonnet nach H1–H3, Rechenanteil, erster Schritt sortieren; Antrags-Regel erst für Häppchen 2 prüfen; Fable-Freigabe A06e auf 12 $, davon mindestens 1,50 $ für die freie Suche (Vorrang), Tiefenprüfung: 2 messen, dann so viele wie in den Rest passen, höchstens 3 Websuchen je Kandidat; keine weiteren Rückfragen bis Phase 8 | `scripts/auswahl_v03.py`, `OFFENE_PUNKTE.md` |
 | 2026-11-10 | A06 erteilt: Kriterien K11–K14, Haiku v0.3, Häppchen 1 (poc, sme2, cep_fail, fwf_obst) mit Haiku, Sonnet, OpenAlex und Fable 5.2; Sitzungsbudget Claude Code für A06 10 $; ersetzt A05 ab Phase 3; Prüfset-Übernahme der 55 A05-Einträge | `auftraege/A06_haeppchen1.md` |
 | 2026-11-10 | A05 erteilt: Claude Code übernimmt auch die Rolle des Planungs-Chats (planen, bauen, auswerten, bewerten); Haltepunkte und Freigaben bleiben; Prüfset-Erweiterung ausdrücklich beauftragt | `auftraege/A05_luecken_schliessen.md`, `CLAUDE.md` (Haltepunkte, Sitzungsbudget 5 $) |
@@ -35,3 +36,5 @@ Ein bezahltes Skript startet nur, wenn seine Freigabe-ID hier steht.
 | 2026-11-10-A06c | Sonnet am Prüfset (A06 Phase 5) | rund 1,41 $ (Trockenlauf) | 2,00 $ | 2026-11-10 | 1,31 $ (101 Aufrufe) |
 | 2026-11-10-A06d | Sonnet auf die Auswahl aus Häppchen 1 (A06 Phase 5) | rund 0,015 $ je Eintrag | 5,00 $ | 2026-11-10 | 4,59 $ (429 von 2.109 Einträgen, Rang 1–429) |
 | 2026-11-10-A06e | Fable 5.2 (claude-fable-5-2): Tiefenprüfung obere 30 und freie Suche obere 100, inkl. Websuche (A06 Phase 7) | offen | 12,00 $ (erhöht von 8,00 $ am 2026-11-10) | 2026-11-10 | 11,43 $ (freie Suche 2,52 $; 16 Tiefenprüfungen 8,91 $, je rund 0,55 $; kein Ausweichen auf ältere Modelle) |
+| 2026-11-11-A07a | Sonnet v0.3: Prüfset und Vorauswahl aus Häppchen 1 (A07) | offen (Trockenlauf folgt) | 3,00 $ | 2026-11-11 | offen |
+| 2026-11-11-A07b | Fable: Tiefenprüfung obere 8 und freie Suche obere 40 (A07) | offen (Trockenlauf folgt) | 6,00 $ | 2026-11-11 | offen |

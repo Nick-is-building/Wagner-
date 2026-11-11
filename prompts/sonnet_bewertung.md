@@ -1,8 +1,8 @@
-# Sonnet: Bewerten nach Kriterien 1–14 (v0.2, A06)
+# Sonnet: Bewerten nach Kriterien 1–14 (v0.3, A07)
 
-Status: wird in A06 Phase 5 am Prüfset getestet (Freigabe 2026-11-10-A06c). Bestanden, wenn mindestens 80 % der guten Fälle die Startschwelle erreichen.
+Status: wird in A07 am Prüfset getestet (Freigabe 2026-11-11-A07a). Bestanden, wenn mindestens 12 von 15 guten Fällen die Startschwelle erreichen, Pflichtkriterien inklusive.
 
-Änderungen gegenüber v0.1: Kriterien 11 (eigenständiger Vorteil), 12 (für Nick umsetzbar), 13 (keine Massenware) und 14 (Hindernis aus dem Ausgang); „Personal“ statt „formal“ bei Elternzeit, Mutterschaft, Weggang, Krankheit; kompakte Ausgabe; `summe` und `pflicht_erfuellt` rechnet das Skript (`scripts/bezahlt/sonnet_v02.py`), nicht das Modell. v0.1: Git-Historie.
+Änderungen gegenüber v0.2 (Auftrag A07): K2 auch erfüllt bei ausdrücklich offenem Schritt mit Zitat; Pflicht hart (K1, K2, K11 ≥ 1, K12 ≥ 1, sonst nicht in der Rangliste, bleibt aber in der Datei); neues Merkmal M „Messdaten oder Prototyp vorhanden, Modell, Auswertung oder Optimierung fehlt“ (ja +4, teilweise +2); Abzüge für fertiges Produkt, laufende Ausgründung, Kern von anderen gelöst; `ausschluss` nur aus fester Liste, Warnungen in eigenes Feld. Skript: `scripts/bezahlt/sonnet_v03.py`. v0.2 und v0.1: Git-Historie.
 
 Eingabe: Originaltext v2 des Eintrags (`data/zwischen/items_v2.pkl`) plus Haiku-v0.3-Felder. Dazu als fester, zwischengespeicherter Prompt-Teil die Abschnitte „Querschnitts-Fähigkeiten“ bis „Grenzen“ aus `docs/03_faehigkeiten_katalog.md`.
 
@@ -23,9 +23,13 @@ Belege: Zitate wörtlich aus dem Originaltext, höchstens 20 Wörter. Was nicht 
 
 Kriterien:
 K1 Unerledigter Kern (Pflicht): In einem Satz, was offen blieb.
-K2 Abbruchgrund außerhalb der Idee (Pflicht): Geld, Personal, Organisation, Technik, Aufwand.
-   Elternzeit, Mutterschaft, Weggang, Krankheit = Personal. "formal" nur: Papiere, Berichte,
-   Indikatoren, Vertrag.
+K2 Grund, warum es liegen blieb (Pflicht). Erfüllt, wenn EINES gilt:
+   (a) Abbruchgrund außerhalb der Idee: Geld, Personal, Organisation, Technik, Aufwand.
+       Elternzeit, Mutterschaft, Weggang, Krankheit = Personal. "formal" nur: Papiere, Berichte,
+       Indikatoren, Vertrag.
+   (b) Ausdrücklich offener Schritt: Der Text sagt wörtlich, dass ein nächster Schritt
+       (Weiterentwicklung, Modell, Auswertung, Optimierung, Vermarktung, Partner) aussteht.
+       Nur mit Zitat aus dem Ausgangstext; ohne Zitat nicht erfüllt.
 K14 Hindernis aus dem Ausgang: Steht das Hindernis bzw. der offene Kern in Bewertung, Endbericht oder
    Ergebnisbericht ("ausgang") oder nur in Motivation/Antrag ("motivation")? Meldet der Ausgang
    Erfolg und das Hindernis steht nur in der Motivation, ist K1 nicht erfüllt. Gibt es keinen
@@ -42,11 +46,20 @@ K12 Für Nick umsetzbar 0-3: 3 = erster Schritt ist Software, Simulation oder Da
    Speziallabor, Tierversuche, klinische Studie oder Zulassung.
 K13 Keine Massenware 0-3: Macht ein heutiges Grundmodell oder ein verbreitetes offenes Werkzeug den
    Ansatz trivial? Dann 0-1, außer K11 trägt.
+M  Muster "Messdaten oder Prototyp vorhanden, Modell, Auswertung oder Optimierung fehlt":
+   ja = der Text belegt vorhandene Messdaten, Versuchsreihen oder einen gebauten Prototyp UND
+   das Modell, die Auswertung oder die Optimierung dazu blieb offen. teilweise = nur eines davon
+   belegt oder unscharf. nein = sonst. Mit Zitat; ohne Zitat höchstens "teilweise".
+Abzüge (je ja/nein, mit kurzem Grund): fertiges_produkt = Ergebnis ist schon ein fertiges, verkauftes
+   Produkt ohne offenen technischen Kern; ausgruendung = eine Ausgründung oder Firma führt es
+   bereits fort; kern_geloest = der offene Kern ist heute von anderen gelöst (nenne wen/was).
 (K7 "noch offen" prüft später ein eigenes Skript.)
 
 Harte Ausschlüsse: Idee widerlegt; nur formaler Grund; reines Ausbau- oder Infrastrukturprojekt;
 Zoologie, Ökologie, reine Biologie, Medizin ohne Technikbezug, Landwirtschaft, Sozial- und
 Geisteswissenschaft; militärisch ohne zivile Nutzung.
+
+Feld "ausschluss" nur mit einem Wert der festen Liste oder null; Bedenken gehören in "warnung".
 
 Antworte nur mit JSON nach dem Schema. Kurz: jedes Textfeld ein Satz, höchstens 25 Wörter.
 ```
@@ -55,10 +68,13 @@ Antworte nur mit JSON nach dem Schema. Kurz: jedes Textfeld ein Satz, höchstens
 
 ```json
 {
-  "ausschluss": "null oder Grund",
+  "ausschluss": "widerlegt|formal|ausbau|fach|militaer|null",
+  "warnung": "Bedenken in einem Satz|null",
   "k1": {"erfuellt": true, "satz": "was offen blieb", "zitat": "string|null"},
-  "k2": {"erfuellt": true, "art": "Geld|Personal|Organisation|Technik|Aufwand|formal|unklar", "zitat": "string|null"},
+  "k2": {"erfuellt": true, "weg": "abbruch|offener_schritt|keiner", "art": "Geld|Personal|Organisation|Technik|Aufwand|formal|keiner|unklar", "zitat": "string|null"},
   "k14": "ausgang|motivation|nicht_anwendbar|unklar",
+  "m": {"wert": "ja|teilweise|nein", "satz": "was vorhanden ist und was fehlt|null", "zitat": "string|null"},
+  "abzug": {"fertiges_produkt": false, "ausgruendung": false, "kern_geloest": false, "grund": "string|null"},
   "punkte": {"k3": 0, "k4": 0, "k5": 0, "k6": 0, "k8": 0, "k9": 0, "k10": 0, "k11": 0, "k12": 0, "k13": 0},
   "vorteil": {"satz": "eigenständiger Vorteil (K11)|null", "zitat": "string|null"},
   "erster_schritt": {"art": "software|simulation|datenanalyse|prototyp_klein|labor|reinraum|zulassung|unklar", "satz": "was Nick zuerst tun würde"},
@@ -68,4 +84,4 @@ Antworte nur mit JSON nach dem Schema. Kurz: jedes Textfeld ein Satz, höchstens
 }
 ```
 
-Vom Skript gerechnet: `summe` = 2 × (k3 + k4 + k11 + k12) + k5 + k6 + k8 + k9 + k10 + k13 (höchstens 42). `pflicht_erfuellt` = kein Ausschluss, k1.erfuellt, k2.erfuellt, k11 ≥ 1, k12 ≥ 1. Startschwelle für Stufe 4: am Prüfset geeicht (vorläufig 20).
+Vom Skript gerechnet (`scripts/bezahlt/sonnet_v03.py`): `summe` = 2 × (k3 + k4 + k11 + k12) + k5 + k6 + k8 + k9 + k10 + k13 + M (ja 4, teilweise 2) − 4 je Abzug. Höhe des Abzugs (4) von Claude Code gesetzt, im Auftrag nicht beziffert; vom Skript nachrechenbar. `pflicht_erfuellt` = k1.erfuellt, k2.erfuellt, k11 ≥ 1, k12 ≥ 1. In die Rangliste nur mit Pflicht und ohne Ausschluss aus der festen Liste. Startschwelle 17 (geeicht an v0.2, `pruefset/sonnet_test_v02_2026-11-10.md`).
