@@ -1,0 +1,104 @@
+rang	id	pool	summe	m	pflicht_nullen	abzuege	ausschluss	k5	grund_nicht_in_liste	titel
+1	GA15-15467S	cep_fail	32	ja				2		Rozpad bublin v turbulentním proudění
+2	10.55776/P32954	fwf_obst	31	teilweise				2		Hybrid Algorithms for Redesigning MRP
+3	101112727	poc	31	teilweise				2		Impacts of Climate Extremes from Mining of Online Texts
+4	10.55776/P27738	fwf_obst	30	ja				3		High Pressure Phase Transitions: DFT and Landau Theory
+5	10.55776/P17185	fwf_obst	30	teilweise				2		Cyclone Agglomeration
+6	812960	poc	30	nein				3		User-Friendly Software For the Quantitative Analysis of Textual Data
+7	673155	sme2	29	ja				2		Development of a reliable quality control system using advanced Non-Destructive Evaluation
+8	10.55776/P21163	fwf_obst	29	teilweise				2		Safety concept for structures exposed to debris flow based on Grey numbers
+9	UDSKLI2016_06_01	cep_fail	28	ja				1		Inovace výroby čidla slunečního osvitu
+10	666644	sme2	28	ja				3		Quality determination of solid biofuels in real time
+11	TC4-043	cep_fail	28	teilweise				1		Vysokorychlostní odstředivý odlučovač prachu
+12	101069457	poc	28	teilweise		ausgruendung		2		Dynamical Recurrent Visual Perceiver
+13	101100903	poc	27	ja			fach	2		A Sonar Sensing System for Crop Yield Estimation
+14	10.55776/P31873	fwf_obst	27	teilweise				2		Bypass transition: an asymptotic approach
+15	10.55776/P15464	fwf_obst	27	teilweise				2		Structure of Liquid Sb-Zn and As-Zn Alloys
+16	101113532	poc	27	teilweise				3		Laboratory-based Imaging of Microstructure in Polymers
+17	GA15-05534S	cep_fail	27	teilweise	K2			1		Studie vztahu mezi strukturou a vlastnostmi složitých granulárních systémů a dynamiky jeji
+18	899779	poc	26	ja				2		Social wearable sensors to support engagement and learning in children with autism + learn
+19	GA13-10527S	cep_fail	26	teilweise				2		Analýza subsonického flutteru elasticky uložených profilů s využitím interferometrie a CFD
+20	713619	poc	26	teilweise				3		OCEAN in-situ Isotope and Dissolved gas sensing
+21	101123027	poc	26	teilweise				2		Stable and Clean Iron Power from ICONIC
+22	692804	poc	26	nein				2		Structure-based subwavelength imaging
+23	10.55776/P28099	fwf_obst	25	teilweise	K2		fach	2		Using snow depth data to minimize the error in winter precipitation measurements
+24	10.55776/P24248	fwf_obst	25	nein				2		Optimal quantum control of Bose-Einstein condensates
+25	10.55776/M2441	fwf_obst	24	teilweise				2		Tailoring the Properties of Novel Sintered Materials
+26	665055	poc	24	teilweise				2		Spatial super-resolution of electrophysiological measurements
+27	733209	sme2	24	teilweise				3		PREcession-based drive mechanisms for high-PREcision energy-efficient POSitionining device
+28	805689	sme2	24	teilweise				2		Waste heat recovery for industrial heat intensive processes
+29	TA02010784	cep_fail	24	nein	K2,K11			1		Optimalizace vrstevnatých systémů používaných v optickém průmyslu
+30	GA203/07/1320	cep_fail	24	nein	K2			1		Studium prostorových polí stavových veličin v chemických mikrostrukturovaných systémech
+31	101188523	poc	23	ja				2		UR4energy: Underwater Robots for efficient ocean energy harvesting
+32	FR-TI3/018	cep_fail	23	teilweise				2		*Konchoidní hydrogenerátor (KHG) - vysokotlaké hydraulické čerpadlo s valivým pístem nové 
+33	10.55776/I2760	fwf_obst	23	teilweise				2		Personalized Multiphysics Simulations for Honing Cardiac Resynchronization Therapy (PUSHCA
+34	693433	poc	23	teilweise				3		A lab-on-chip platform for blood cell counting and identification at the point-of-care
+35	101123334	poc	23	teilweise				2		A Revolution in Rotation Sensing
+36	830085	sme2	23	teilweise				3		NorrDigi revolutionary Energy Saver
+37	10.55776/P21836	fwf_obst	23	teilweise	K2		fach	2		Hydraulic effects of root-soil interactions
+38	10.55776/J4253	fwf_obst	23	nein				2		Algebraic Geometry for parallel and serial manipulators
+39	693579	poc	23	nein		kern_geloest		2		GroundForce: Grounding Natural Language Semantics in Video Games
+40	899366	poc	23	nein				3		Bidirectional flow filter: microfluidic device for separation of biomolecules
+41	10.55776/J3206	fwf_obst	23	nein	K1,K2		fach	3		Dissipative normal forms in the Lagrange problem
+42	10.55776/P37074	fwf_obst	23	nein	K1,K2,K11			2		Using Machine Learning in BPC for Vehicle Routing Problems
+43	713250	poc	23	nein	K12			3		System for the efficient and non-invasive harvesting and RElease of ADherent CELLs control
+44	733967	sme2	22	teilweise				3		Novel Compound Rotary Engine Range Extender for Electric Vehicles
+45	10.55776/P19916	fwf_obst	22	nein			fach	2		Singularization of multidim. cont. fraction algorithms
+46	10.55776/P25449	fwf_obst	22	nein		kern_geloest		2		Agent-based image analysis of remote sensing data (ABIA)
+47	101082238	poc	21	teilweise			fach	2		Reversing the advantage of cancers with Hypoxia and Homologous Recombination Defect (HRD) 
+48	697098	sme2	21	teilweise				2		Development of a new gearbox without lubricants for low OM costs, higher efficiency, and o
+49	964007	poc	21	nein				3		First principles based process concepts for complex mixtures conversion
+50	101069259	poc	21	nein				1		High-energy micro-supercapacitors based on low-cost materials
+51	10.55776/P26252	fwf_obst	21	nein	K1,K2	kern_geloest		3		Infinite elements for exterior Maxwell problems
+52	10.55776/KLI657	fwf_obst	20	teilweise			fach	1		High-Frequency Oscillations in the High-Density EEG
+53	733099	sme2	20	teilweise				2		Energy efficient and environmentally friendly multi-fuel power system with CHP capability,
+	GA17-26162S	cep_fail	20	teilweise	K2,K11			0	kein Teilerfolg (K5 = 0)	Výzkum chování magnetoreologické kapaliny ve slit-flow reometru za podmínek vysokých smyko
+54	TA04010165	cep_fail	20	nein				1		Zařízení pro nedestruktivní testování nelineární metodou
+55	101081830	poc	20	nein				3		All-acoustic Bubble Microrheology for rapid screening of formulations
+56	698606	sme2	20	nein				3		Using TUnnel Magneto Resistance Technology for MAgnetic POSition Measurement TUMAPOS
+57	10.55776/P23390	fwf_obst	20	nein	K2,K11			2		Microscopic Modeling of NBTI
+58	718922	sme2	19	teilweise		ausgruendung		2		Unique, low-cost, low-footprint, reusable hybrid carrier bag system that enables food to b
+59	666257	sme2	19	teilweise	K2,K12			3		Cost effective wind turbine of 40 kW of rated capacity
+60	693604	poc	19	nein				1		3D-Integrated single photon detector
+61	766649	sme2	19	nein				2		An Eco-Innovative Alternative to Plywood
+62	739468	sme2	19	nein				2		Sustainable Desalination System
+63	10.55776/M1729	fwf_obst	18	teilweise	K11	kern_geloest	fach	2		BMFacts: Knowledge acquisition for a biomedical fact reposito
+64	10.55776/P27380	fwf_obst	17	nein	K11		fach	2		Phases of QCD and QCD-like theories
+65	101069245	poc	17	nein	K12	ausgruendung		3		Minimally invasive endoscopes for neuronal activity monImaging-assisted single-cell specif
+66	806470	sme2	16	teilweise		ausgruendung		2		World´s first real-time solution for controlling airplane operating costs
+67	733515	sme2	16	teilweise	K12		fach	2		Portable Diagnostic Medical Device Based on Lab-on-Chip for Detection of Protein Biomarker
+68	AACBUAI	cep_fail	16	nein				1		Dlouhodobá desorbce metanu z horninových struktur
+	GPP402/12/P635	cep_fail	16	nein	K2,K11	kern_geloest		0	kein Teilerfolg (K5 = 0)	Problémy kombinatorické optimalizace v dopravních systémech
+	GAP103/12/1578	cep_fail	16	nein	K1,K2,K11	kern_geloest	formal	0	kein Teilerfolg (K5 = 0)	Strukturní a sémantické modelování architektury jako problém interpretace digitálního obra
+69	VI20172020075	cep_fail	16	nein	K2			1		Digitalizace lidské pachové signatury pro aplikace v kriminalistice a v boji s mezinárodní
+70	10.55776/P14095	fwf_obst	16	nein	K1,K2,K11	kern_geloest	widerlegt	1		First Principle Calculations for Carbon Nanotubes
+71	665456	poc	16	nein	K12		fach	2		A Streptavidin Microarray Platform for Capturing of Circulating Tumor Cells from the Blood
+72	768291	sme2	16	nein	K12			2		EcoBioMass – harvesting forest energy biomass in the 21st century
+73	10.55776/M3153	fwf_obst	15	teilweise		kern_geloest		2		Measurement of Vcb in inclusive B decays at Belle II
+	GPP108/12/P111	cep_fail	15	nein	K2,K12			0	kein Teilerfolg (K5 = 0)	Optimalizace mikrostruktury a vlastností vláken slitin s tvarovou pamětí pomocí řízení zot
+74	10.55776/P27256	fwf_obst	15	nein	K1,K2	kern_geloest	fach	3		Characterizing stellar and exoplanetary environments via Ly-alpha modeling
+75	101011217	sme2	15	nein	K12			2		Pipes.One - Technology for Onsite 3D Welding Production of Lengthy Large Diameter Polymer 
+76	10.55776/P13937	fwf_obst	14	nein	K11	kern_geloest		2		Intelligent Cooperative Multi-Agent-Systems (MAS)
+77	101113464	poc	14	nein	K2,K11	fertiges_produkt	fach	3		Streamlining structural biology: Developing a high-throughput cloud-based cryo-electron to
+78	859152	sme2	14	nein	K1,K2	ausgruendung		3		Delivering the future of urban water transportation with novel electric hydrofoil boats
+79	727722	poc	13	nein		kern_geloest		2		Printable Perovskite Solar Cells with High Efficiency and Stable Performance
+80	TA03020512	cep_fail	13	nein	K2,K11			1		Vývoj sondy pro kontinuální měření rosného bodu spalin v energetických kotlích
+81	101010259	sme2	13	nein	K2	fertiges_produkt,ausgruendung		3		Ground-breaking retractable ship bow foils for unbeatable cost-saving, emission reduction 
+82	961522	sme2	12	teilweise		kern_geloest		1		AI software for the automated detection of covid-19 infection on chest CT
+83	666810	sme2	12	teilweise	K1	ausgruendung,kern_geloest		2		Adaptive learning platform for personalized children education crossing cognitive and biom
+84	812312	sme2	12	nein	K1,K2	fertiges_produkt,ausgruendung	fach	3		The AI-based intelligent assistant for dairy farmers
+85	880750	sme2	12	nein	K12		fach	1		MCBD (MULTI-CORE BIOPSY DEVICE) INNOVATIVE BIOPSY TECHNOLOGY FOR THE NEW ERA OF TARGETED M
+86	672389	sme2	11	nein		ausgruendung		2		FREEWAY : safely and effortless commute in an urban environment
+	FA-E2/137	cep_fail	11	nein	K11		militaer	0	kein Teilerfolg (K5 = 0)	Sekundární dotazovač pro pasivní sledovací systém PSS VERA.
+87	713474	poc	11	nein	K1,K12	ausgruendung		3		THOR – Total solution for High throughput surface enhanced Raman spectroscopy
+88	963950	poc	11	nein	K12		fach	1		Breath analysis sensor for disease detection in the dairy industry
+89	873576	sme2	11	nein	K12	ausgruendung	ausbau	2		Transforming distributed energy generation through the FUTURe Gas TurBINE
+90	825159	poc	9	nein	K1,K2,K12	fertiges_produkt,ausgruendung	fach	3		Miniaturised optically accessible bioreactor for drug discovery and biological research
+91	811469	sme2	9	nein	K12	ausgruendung	fach	2		Subsurface Precision detection of Asparagus with Robot Technology for Selective harvesting
+92	880439	sme2	7	nein	K1,K2	fertiges_produkt,ausgruendung		3		OMTLAB’s Real time positioning system for smart & flexible manufacturing
+93	766742	sme2	6	nein	K1,K2,K12	fertiges_produkt,ausgruendung		3		Disruptive portable device for pre-screening of Persistent Organic Pollutants –POPs- in fo
+94	767644	sme2	5	nein	K1,K12	fertiges_produkt,kern_geloest	ausbau	3		Novel paper pallet and manufacturing technology
+95	101010486	sme2	5	nein	K1,K2,K11	fertiges_produkt,ausgruendung		2		Reducing the impact of environmental disasters: AI-based assistant for fronline emergency 
+96	685052	sme2	3	nein	K1,K2,K12	ausgruendung,kern_geloest	fach	2		PNEUMOSIP
+97	784865	sme2	2	nein	K1,K11,K12	fertiges_produkt,ausgruendung		3		Véhicule Intelligent et Propre ( Green and Smart Vehicle)
+98	873534	sme2	0	nein	K1,K12	fertiges_produkt,ausgruendung,kern_geloest	fach	3		The Coro: a revolutionary product to bring breastfeeding into the 21st century

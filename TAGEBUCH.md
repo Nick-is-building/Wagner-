@@ -2,11 +2,11 @@
 
 ## Stand (höchstens sechs Zeilen, immer aktuell halten)
 
-- A07 (Muster-Suche) am Haltepunkt 1: Sonnet v0.3 am Prüfset nicht bestanden (5 von 15 guten mit Pflicht an Schwelle 17; Regel 12). Bericht `pruefset/sonnet_test_v03_2026-11-11.md`.
-- Vorauswahl aus Häppchen 1 fertig: 103 Einträge (`ergebnisse/a07_vorauswahl.tsv`); Sonnet, OpenAlex, Fable dafür noch nicht gelaufen.
-- Häppchen 1 aus A06: `kandidaten/RANGLISTE.md` (obere 30), 10 Karten; Fable-Urteil 0 × weiterverfolgen.
+- A07 (Muster-Suche) am End-Haltepunkt: Vorauswahl 103 → Sonnet v0.3 → Rangliste 98 (mit Teilerfolg) → OpenAlex obere 40 → Fable 7 geprüft, freie Suche über 40.
+- Ergebnis: `kandidaten/RANGLISTE_A07.md` (obere 20), 4 neue und 3 ergänzte Karten, `kandidaten/beobachtungen_A07.md`. Fable: 4 × weiterverfolgen ja (P27738, P32954, 101112727, 673155), 3 × nein.
+- Bekannte Schwächen: Sonnet v0.3 am Prüfset nicht bestanden (5/15 gute mit Pflicht); Pflicht nur Markierung (Nick). K2 scheitert vor allem an Antragstexten ohne Ausgang (`pruefset/sonnet_test_v03_2026-11-11.md`).
 - Läuft: nichts. Wartet auf Nick.
-- Ausgegeben bisher: rund 20,3 $ API (A02 0,13 $, A03 0,10 $, A06 18,47 $, A07 1,56 $).
+- Ausgegeben bisher: rund 27,6 $ API (A02 0,13 $, A03 0,10 $, A06 18,47 $, A07 8,78 $).
 
 ## Regeln
 
@@ -19,6 +19,14 @@
 Format:
 
 ```
+### 2026-11-11 02:50 UTC · Code (Opus 5.5) · A07 · Vorauswahl bis Fable (End-Haltepunkt)
+- Gebaut: `scripts/a07_rangliste.py`, `scripts/a07_ergebnis.py`, `scripts/bezahlt/fable_a07.py`; `scripts/openalex_check.py` sucht bei 0 Treffern mit 4 Titelwörtern, dann mit Haikus `anwendung`, sonst Markierung „Abfrage fehlgeschlagen“.
+- Gelaufen: Sonnet v0.3 auf 103 (`logs/sonnet_v03_vorauswahl.log`, 0 Fehler); OpenAlex schnell 40 (`logs/a07_openalex.log`, rund 450 Credits, 0 fehlgeschlagen); Fable tiefe 7 (`logs/fable_a07_tiefe.log`), frei 1 (`logs/fable_a07_frei.log`).
+- Beobachtet: 98 von 103 mit K5 ≥ 1; obere 40 Summe 32 bis 23, M ja 8, teilweise 24, ohne Pflicht-Null 35 (`ergebnisse/a07_rangliste.tsv`). Fable hält Sonnets Nullen/Nicht-Nullen meist für richtig; bei GA15-15467S hält es K11 > 0 für falsch.
+- Hat nicht geklappt: Fable nur 7 statt 8 (Freigabe 6 $ reichte bei 0,61 $ je Prüfung nicht). Sonnet hielt bei 91/103 am Kostenwächter an (15 parallel); Rest einzeln nachgeholt. Haiku v0.3 hat keine englischen Fachbegriffe; `anwendung` ist oft deutsch oder tschechisch. Erste Schritte und Zahler sind fast überall Fables eigene Schätzung („Nick selbst“, Förderprogramm unbelegt).
+- Kosten: A07a 3,294 $ (von 3,50 $), A07b 5,483 $ (von 6 $). Sitzung Claude Code grob 4 $.
+- Nächster Vorschlag: Daten von P27738 (ESRF) und 673155 prüfen; Sonnet-K2 für Antragstexte klären (keine Erlaubnis).
+
 ### 2026-11-11 02:10 UTC · Code (Opus 5.5) · A07 · Sonnet v0.3 am Prüfset (Haltepunkt)
 - Gebaut: `auftraege/A07_muster.md`; Haltepunkt-Regel in `CLAUDE.md`; Freigaben A07a/b; `prompts/sonnet_bewertung.md` v0.3; `scripts/bezahlt/sonnet_v03.py`; `scripts/a07_vorauswahl.py`.
 - Getestet: Rechnung von `sonnet_v03.rechne` an einem Handbeispiel (13, stimmt); Prüfset-Lauf 101 Aufrufe, 0 Fehler, 43 s (`logs/sonnet_v03_pruefset.log`).

@@ -7,11 +7,14 @@ Erledigtes wird gestrichen und nach einer Woche gelöscht; was daraus folgte, st
 - [x] A01: erledigt 2026-11-10 (siehe Tagebuch)
 - [x] A02: erledigt 2026-11-10, nicht bestanden (Bericht `pruefset/haiku_test_2026-11-10.md`)
 - [x] A04: erledigt 2026-11-10 (Bericht `pruefset/punktzahl_test_2026-11-10.md`)
-- [ ] A07: Haltepunkt 1 (Sonnet v0.3 nicht bestanden), wartet auf Nick; Bericht `pruefset/sonnet_test_v03_2026-11-11.md`
+- [ ] A07: End-Haltepunkt, wartet auf Nick (`kandidaten/RANGLISTE_A07.md`)
 - [x] A06: Phasen 0–8 erledigt 2026-11-11, Haltepunkt Phase 8 (siehe Tagebuch)
 - [x] A03 mit Nachtrag: erledigt 2026-11-10, nicht bestanden (Bericht `pruefset/haiku_test_v02_2026-11-10.md`)
 
 ## Planungs-Chat
+
+- [ ] Sonnet v0.3: K2 scheitert bei guten Antragstexten ohne Ausgang (0839819, 174959, N17A-030-0089); Tabelle im Bericht `pruefset/sonnet_test_v03_2026-11-11.md`
+- [ ] Haiku: englische Fachbegriffe als Feld ergänzen (für OpenAlex bei tschechischen Projekten)
 
 - [ ] Sonnet v0.2: Pflicht greift nicht (3 von 15 guten). K2 für Klasse B (Erfolg mit offenem Schritt) klären; Feld `ausschluss` auf feste Liste; Bericht `pruefset/sonnet_test_v02_2026-11-10.md`
 - [ ] Rangliste A06: 14 der oberen 30 ohne Fable-Prüfung; Fachfremdes in den oberen 30 (101138301, 101069237) – Fachfilter vor Sonnet prüfen
@@ -31,6 +34,8 @@ Erledigtes wird gestrichen und nach einer Woche gelöscht; was daraus folgte, st
 - [ ] SBIR-Neuausschreibungen zählen; erloschene US-Patente als Quelle prüfen
 
 ## Nick
+
+- [ ] Claude Code künftig in tmux starten (`tmux new -A -s wagner`), damit ein SSH-Abbruch die Sitzung nicht beendet
 
 - [ ] Ordner mit dem GitHub-Repository verbinden (Befehle im Chat)
 - [ ] KAKEN-App-ID beantragen; über GEPRIS-Anfrage an die DFG entscheiden

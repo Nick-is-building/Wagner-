@@ -103,8 +103,8 @@ def einrichtung_id(name):
         _inst_cache[name] = (r[0]['id'].split('/')[-1], r[0]['display_name']) if r else None
     return _inst_cache[name]
 
-def _suche(titel, ref, flt):
-    d = get('works', {'search': suchwort(titel), 'filter': ','.join(flt), 'per-page': 25,
+def _suche(titel, ref, flt, n=7):
+    d = get('works', {'search': suchwort(titel, n), 'filter': ','.join(flt), 'per-page': 25,
                       'select': 'id,display_name,publication_year,abstract_inverted_index,authorships,cited_by_count'})
     treffer = []
     for w in d.get('results', []):
@@ -115,13 +115,21 @@ def _suche(titel, ref, flt):
     treffer.sort(key=lambda h: -h['sim'])
     return d.get('meta', {}).get('count'), treffer[:3]
 
-def weiterfuehrung(titel, ziel, ab, einrichtung=None, land=None, mit_einrichtung=True):
+def weiterfuehrung(titel, ziel, ab, einrichtung=None, land=None, mit_einrichtung=True, begriffe=None):
     """Weltweit und, wenn bekannt, zusätzlich nur in derselben Einrichtung (findet beides:
     Weiterführung durch andere, z. B. dapE in Chicago, und durch die eigene Gruppe)."""
     ref = toks(titel + ' ' + ziel)
     basis = [f'from_publication_date:{ab}-01-01']
     n_welt, welt = _suche(titel, ref, basis)
-    res = {'weltweit': {'treffer_gesamt': n_welt, 'top3': welt}}
+    grundlage = 'Titel, 7 Wörter'
+    # A07: 0 Treffer heißt meist zu viele Suchwörter (Akronyme, Landessprache), nicht "nicht weitergeführt".
+    if not n_welt:
+        n_welt, welt = _suche(titel, ref, basis, 4); grundlage = 'Titel, 4 Wörter'
+    if not n_welt and begriffe:
+        n_welt, welt = _suche(begriffe.replace(';', ' '), ref, basis, 5); grundlage = 'Begriffe'
+    res = {'weltweit': {'treffer_gesamt': n_welt, 'top3': welt, 'grundlage': grundlage}}
+    if not n_welt:
+        res['abfrage_fehlgeschlagen'] = True
     inst = einrichtung_id(einrichtung) if mit_einrichtung else None
     if inst:
         n_e, eig = _suche(titel, ref, basis + [f'authorships.institutions.id:{inst[0]}'])
@@ -153,6 +161,9 @@ def hinweis(a, b):
     teile = []
     if a and a.get('werke'):
         teile.append(f"{a['werke']} Projektarbeiten, {a.get('zitate_seit_2022', 0)} Zitate seit 2022")
+    if b.get('abfrage_fehlgeschlagen'):
+        teile.append('Abfrage fehlgeschlagen (0 Treffer), NICHT als nicht weitergeführt werten')
+        return '; '.join(teile)
     s = b['top_sim']
     teile.append('Thema vermutlich weitergeführt, prüfen' if s >= 0.35 else
                  'Weiterführung unklar, prüfen' if s >= 0.2 else 'kein Hinweis auf Weiterführung')
@@ -163,7 +174,7 @@ def check(titel, ziel, ab, kennz=None, einrichtung=None, land=None, begriffe=Non
     modus 'voll': zusätzlich gleiche Einrichtung und Wiederbelebung, rund 30 bis 45 Credits."""
     voll = modus == 'voll'
     a = projektergebnisse(kennz, ab)
-    b = weiterfuehrung(titel, ziel, ab, einrichtung, land, mit_einrichtung=voll)
+    b = weiterfuehrung(titel, ziel, ab, einrichtung, land, mit_einrichtung=voll, begriffe=begriffe)
     c = wiederbelebung(titel, begriffe) if voll else None
     return {'hinweis': hinweis(a, b), 'A_projektergebnisse': a, 'B_weiterfuehrung': b,
             'C_wiederbelebung': c, 'credits_rest': _rest['credits']}

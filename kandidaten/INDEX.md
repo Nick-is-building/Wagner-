@@ -4,6 +4,10 @@ Eine Zeile pro Kandidat ab Stufe 3 (Sonnet über der Schwelle). Neueste oben. Di
 
 | ID | Kurztitel | Pool | Punkte | Noch offen? | Status | Datei |
 |---|---|---|---|---|---|---|
+| GA15-15467S | Blasenzerfall-Kernel aus Turbulenzdaten | cep_fail | 32 (v0.3) | Fable: teilweise gelöst | A07: weiterverfolgen nein | GA15-15467S.md |
+| 10.55776/P32954 | MRP-Planung unter Unsicherheit skalieren | fwf_obst | 31 (v0.3) | Fable: teilweise gelöst | A07: weiterverfolgen ja | 10.55776-P32954.md |
+| 10.55776/P27738 | SrTiO3-Hochdruckdaten vom ESRF auswerten | fwf_obst | 30 (v0.3) | Fable: offen | A07: weiterverfolgen ja | 10.55776-P27738.md |
+| 673155 | Akustische Leckprüfung Kunststofftanks per Hydrophon | sme2 | 29 (v0.3) | Fable: teilweise gelöst | A07: weiterverfolgen ja | 673155.md |
 | 825833 | Windturbinen-Diagnose: offene Module nachbauen | poc | 32/42 | Fable: teilweise gelöst | Tiefenprüfung (mit Vorbehalt: machbar und billig, aber ohne belegten Vorspr) | 825833.md |
 | 101081171 | Tropfenmasken für Mikrofluidik-Videos | poc | 32/42 | Fable: teilweise gelöst | Tiefenprüfung (mit Vorbehalt: technisch leicht machbar, aber kein altes Hin) | 101081171.md |
 | 10.55776/P17185 | Wandkontakt-Agglomeration im Gaszyklon | fwf_obst | 31/42 | Fable: teilweise gelöst | Tiefenprüfung (mit Vorbehalt: Agglomeration im Zyklon ist weitgehend modell) | 10.55776-P17185.md |
